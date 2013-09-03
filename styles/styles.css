@@ -1032,8 +1032,9 @@
     height: 699px;
     background: url("../img/screen2.png") no-repeat;
     background-position: center;
+    overflow: hidden;
   }
-  /* line 312, ../sass/_748.scss */
+  /* line 313, ../sass/_748.scss */
   .screen2 .scr2_txt1 {
     display: block;
     position: absolute;
@@ -1045,7 +1046,7 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 34pt;
   }
-  /* line 323, ../sass/_748.scss */
+  /* line 324, ../sass/_748.scss */
   .screen2 .scr2_txt2 {
     display: block;
     position: absolute;
@@ -1057,7 +1058,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 334, ../sass/_748.scss */
+  /* line 335, ../sass/_748.scss */
   .screen2 .scr2_txt3 {
     display: block;
     position: absolute;
@@ -1068,7 +1069,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 344, ../sass/_748.scss */
+  /* line 345, ../sass/_748.scss */
   .screen2 .scr2_left_txt {
     display: block;
     position: absolute;
@@ -1076,7 +1077,7 @@
     width: 50%;
     text-align: right;
   }
-  /* line 350, ../sass/_748.scss */
+  /* line 351, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt4 {
     display: block;
     position: relative;
@@ -1086,7 +1087,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 359, ../sass/_748.scss */
+  /* line 360, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt5 {
     display: inline-block;
     position: relative;
@@ -1095,21 +1096,21 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 367, ../sass/_748.scss */
+  /* line 368, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt6 {
     margin-left: 7px;
     color: #d80101;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 373, ../sass/_748.scss */
+  /* line 374, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt7 {
     margin-right: 16%;
     color: #2b2b2b;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 379, ../sass/_748.scss */
+  /* line 380, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt8 {
     display: block;
     position: relative;
@@ -1119,7 +1120,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 389, ../sass/_748.scss */
+  /* line 390, ../sass/_748.scss */
   .screen2 .scr2_right_txt {
     display: block;
     position: absolute;
@@ -1128,7 +1129,7 @@
     margin-left: 50%;
     text-align: left;
   }
-  /* line 396, ../sass/_748.scss */
+  /* line 397, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt9 {
     display: block;
     position: relative;
@@ -1138,7 +1139,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 405, ../sass/_748.scss */
+  /* line 406, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt10 {
     display: inline-block;
     position: relative;
@@ -1148,7 +1149,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 414, ../sass/_748.scss */
+  /* line 415, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt11 {
     display: block;
     position: relative;
@@ -1158,7 +1159,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 423, ../sass/_748.scss */
+  /* line 424, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt12 {
     display: block;
     position: relative;
@@ -1168,7 +1169,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 432, ../sass/_748.scss */
+  /* line 433, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt13 {
     display: block;
     position: relative;
@@ -1177,7 +1178,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 440, ../sass/_748.scss */
+  /* line 441, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt14 {
     display: block;
     position: relative;
@@ -1189,7 +1190,7 @@
     background: url(../img/icon/scr2_timer.png) no-repeat;
     background-position: right top;
   }
-  /* line 453, ../sass/_748.scss */
+  /* line 454, ../sass/_748.scss */
   .screen2 .scr2_separ {
     display: block;
     position: absolute;
@@ -1200,7 +1201,7 @@
     background: url(../img/scr2_separ.png) no-repeat;
     z-index: 5;
   }
-  /* line 463, ../sass/_748.scss */
+  /* line 464, ../sass/_748.scss */
   .screen2 .scr2_arrow {
     display: block;
     position: absolute;
@@ -1212,7 +1213,7 @@
     background-position: center;
     z-index: 6;
   }
-  /* line 474, ../sass/_748.scss */
+  /* line 475, ../sass/_748.scss */
   .screen2 .scr2_coffe {
     display: block;
     position: absolute;
@@ -1223,7 +1224,7 @@
     background-position: center;
     z-index: 6;
   }
-  /* line 484, ../sass/_748.scss */
+  /* line 485, ../sass/_748.scss */
   .screen2 .scr2_coffe_machine2 {
     display: block;
     position: absolute;
@@ -1235,7 +1236,7 @@
     background-position: center;
     z-index: 6;
   }
-  /* line 495, ../sass/_748.scss */
+  /* line 496, ../sass/_748.scss */
   .screen2 #scr2_coffe2 {
     display: block;
     position: absolute;
@@ -1248,7 +1249,7 @@
     background-position: bottom;
     z-index: 5;
   }
-  /* line 507, ../sass/_748.scss */
+  /* line 508, ../sass/_748.scss */
   .screen2 #scr2_coffe2_shadow {
     display: block;
     position: absolute;
@@ -1261,7 +1262,7 @@
     background-position: center;
     z-index: 3;
   }
-  /* line 519, ../sass/_748.scss */
+  /* line 520, ../sass/_748.scss */
   .screen2 #scr2_coffe3 {
     display: block;
     position: absolute;
@@ -1274,7 +1275,7 @@
     background-position: bottom;
     z-index: 4;
   }
-  /* line 531, ../sass/_748.scss */
+  /* line 532, ../sass/_748.scss */
   .screen2 #scr2_coffe3_shadow {
     display: block;
     position: absolute;
@@ -1289,7 +1290,7 @@
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 549, ../sass/_748.scss */
+  /* line 550, ../sass/_748.scss */
   .screen3 {
     display: block;
     position: relative;
@@ -1299,7 +1300,7 @@
     background: url("../img/screen3.png") no-repeat;
     background-position: center;
   }
-  /* line 557, ../sass/_748.scss */
+  /* line 558, ../sass/_748.scss */
   .screen3 .scr3_separ {
     display: block;
     position: absolute;

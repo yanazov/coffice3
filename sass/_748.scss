@@ -309,6 +309,7 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	height: 699px;
 	background: url("../img/screen2.png") no-repeat;
 	background-position: center;
+	overflow: hidden;
 	.scr2_txt1	{
 		display: block;
 		position: absolute;		
