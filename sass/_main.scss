@@ -82,6 +82,15 @@ only screen  and (min-device-width: 551px) and (max-device-width: 710px){
 			display: none;
 		}
 	}
+	.screen1{	
+		#scr1_coffe{
+			display: none;
+		}
+		#scr1_coffe_shadow{
+			display: none;
+		}
+	}	
+	
 }
 
 @media only screen and (min-width: 711px) and (max-width: 879px),

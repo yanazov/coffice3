@@ -144,6 +144,7 @@ body {
 			font-size: 30pt;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
+			z-index: 10;
 		}
 		.screen1_txt1{
 			display: block;
@@ -151,6 +152,7 @@ body {
 			top: 0px;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
+			z-index: 10;
 		}
 		.screen1_txt2{
 			display: block;
@@ -159,6 +161,7 @@ body {
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
 			font-size: 30pt;
+			z-index: 10;
 		}
 		.screen1_txt3{
 			display: block;
@@ -167,6 +170,7 @@ body {
 			color: $color_green;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 22pt;
+			z-index: 10;
 		}
 		.screen1_txt4{
 			display: block;
@@ -176,6 +180,7 @@ body {
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt5{
 			display: block;
@@ -185,6 +190,7 @@ body {
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt6{
 			display: block;
@@ -194,6 +200,7 @@ body {
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt7{
 			display: block;
@@ -203,14 +210,54 @@ body {
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt8{			
 			font-family: 'Conv_Helvetica_Bold';
-			font-size: 13pt;			
+			font-size: 13pt;
+			z-index: 10;			
 		}
-	}
-	
-	
+		#scr1_property{
+			display: block;
+			position: absolute;
+			top: 455px;
+			left: 5px;
+			padding: 0px;
+			li{
+				display: inline-block;
+				position: relative;
+				width: 68px;
+				height: 68px;
+				margin-left: 9px;
+				background: url(../img/icon/pro.png) no-repeat;
+				
+			}
+			li:first-child{
+				background: url(../img/icon/20bar.png) no-repeat;
+			}
+			li:last-child{
+				background: url(../img/icon/italy.png) no-repeat;
+			}
+		}
+		#scr1_table{
+			display: block;
+			position: absolute;
+			bottom: 285px;
+			right: 0px;
+			max-width: 964px;
+			width: 100%;
+			height: 74px;
+			background: url(../img/scr1_table.png) no-repeat;
+		}
+		#scr1_coffe{
+			display: none;
+		}
+		#scr1_coffe_shadow{
+			display: none;
+		}
+		
+		
+	}	
 /*   END SCREEN1   */
 /*   BEGIN SCREEN2  */
 .screen2{
@@ -360,10 +407,13 @@ body {
 			background-position: right top;
 		}
 	
-	}
-	
-	
+	}	
 /*  END text */	
+	.scr2_separ{
+		display:none;
+	}
+
+
 	.scr2_grey{
 		display: block;
 		position: absolute;	
@@ -372,6 +422,7 @@ body {
 		height: 170px;
 		background-color: #f3f6f7;
 	}
+	
 }		
 /*   END SCREEN2   */
 

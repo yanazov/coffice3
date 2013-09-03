@@ -166,6 +166,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 394px;
 			height: 626px;
 			background: url("../img/coffe_machine.png") no-repeat;
+			z-index: 4;
 		}
 		.screen1_txt{
 			display: block;
@@ -177,6 +178,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			font-size: 42pt;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
+			z-index: 10;
 		}
 		.screen1_txt1{
 			display: block;
@@ -184,6 +186,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			top: 0px;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
+			z-index: 10;
 		}
 		.screen1_txt2{
 			display: block;
@@ -192,6 +195,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
 			font-size: 42pt;
+			z-index: 10;
 		}
 		.screen1_txt3{
 			display: block;
@@ -200,6 +204,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: $color_green;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 30pt;
+			z-index: 10;
 		}
 		.screen1_txt4{
 			display: block;
@@ -208,6 +213,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt5{
 			display: block;
@@ -217,6 +223,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt6{
 			display: block;
@@ -225,6 +232,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt7{
 			display: block;
@@ -234,17 +242,105 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
 			font-size: 13pt;
+			z-index: 10;
 		}
 		.screen1_txt8{
 			font-family: 'Conv_Helvetica_Bold';
-			font-size: 13pt;			
+			font-size: 13pt;
+			z-index: 10;			
 		}
+		#scr1_property{
+			display: block;
+			position: absolute;
+			top: 536px;
+			left: 35px;
+			padding: 0px;
+			z-index: 5;
+			li{
+				display: inline-block;
+				position: relative;
+				width: 68px;
+				height: 68px;
+				margin-left: 9px;
+				background: url(../img/icon/pro.png) no-repeat;
+				
+			}
+			li:first-child{
+				background: url(../img/icon/20bar.png) no-repeat;
+			}
+			li:last-child{
+				background: url(../img/icon/italy.png) no-repeat;
+			}
+		}
+		#scr1_table{
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			max-width: 964px;
+			width: 100%;
+			height: 74px;
+			background: url(../img/scr1_table.png) no-repeat;
+		}
+		#scr1_coffe{
+			display: block;
+			position: absolute;
+			left: 377px;
+			top: 492px;
+			width: 201px;
+			height: 130px;
+			background: url(../img/scr1_coffe.png) no-repeat;
+			z-index: 3;
+		}
+		#scr1_coffe_shadow{
+			display: block;
+			position: absolute;
+			left: 327px;
+			top: 557px;
+			width: 236px;
+			height: 69px;
+			background: url(../img/scr1_coffe_shadow.png) no-repeat;
+			z-index: 2;
+		}
+		#scr1_btn_office{
+			display: block;
+			position: absolute;
+			top: 540px;
+			right: 110px;
+			border: 1px solid #000;
+			width: 84px;
+			height: 64px;
+			background: url(../img/scr1_office.png) no-repeat;
+			color: #000;
+			font-size: 12pt;
+			text-align: center;
+			font-family: 'Conv_Futuris_Bold';
+			line-height: 64px;
+			vertical-align: center;
+			cursor: pointer;
+		}
+		#scr1_btn_home{
+			display: block;
+			position: absolute;
+			top: 540px;
+			right: 25px;
+			border: 1px solid #000;
+			width: 84px;
+			height: 64px;
+			background: none;
+			color: #000;
+			font-size: 12pt;
+			text-align: center;
+			font-family: 'Conv_Futuris_Bold';
+			line-height: 64px;
+			vertical-align: center;
+			cursor: pointer;
+		}
+		
 		
 		
 		
 	}
-	
-	
 /*   END SCREEN1   */
 /*   BEGIN SCREEN2  */
 .screen2{
@@ -256,6 +352,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	background: url("../img/screen2.png") no-repeat;
 	background-position: center;
 	border-top: 1px solid #d8dee0;
+	overflow: hidden;
 	.scr2_txt1	{
 		display: block;
 		position: absolute;		
@@ -393,9 +490,99 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			font-size: 26pt;
 			background: url(../img/icon/scr2_timer.png) no-repeat;
 			background-position: right top;
-		}
-	
+		}	
 	}
+	.scr2_separ{
+		display: block;
+		position: absolute;
+		top: 200px;
+		right: 50%;
+		height: 452px;
+		width: 6px;
+		background: url(../img/scr2_separ.png) no-repeat;
+		z-index: 5;
+	}
+	.scr2_arrow{
+		display: block;
+		position: absolute;
+		top: 425px;
+		left: 43%;
+		height: 57px;
+		width: 14%;		
+		background: url(../img/icon/scr2_arrow.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
+	.scr2_coffe{
+		display: block;
+		position: absolute;
+		top: 0px;
+		height: 268px;
+		width: 100%;		
+		background: url(../img/scr2_coffe.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
+	.scr2_coffe_machine2{
+		display: block;
+		position: absolute;
+		top: 252px;
+		height: 368px;
+		width: 233px;
+		left: 80%;
+		background: url(../img/coffe_machine2.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
+	#scr2_coffe2{
+		display: block;
+		position: absolute;
+		top: 513px;
+		left: 14.5%;
+		width: 26%;
+		height: 114px;
+		background: url(../img/scr2_coffe2.png) no-repeat;
+		background-size: contain;
+		background-position: bottom;
+		z-index: 5;
+	}
+	#scr2_coffe2_shadow{
+		display: block;
+		position: absolute;
+		top: 569px;
+		left: 16%;
+		width: 23%;
+		height: 18%;
+		background: url(../img/scr2_coffe2_shadow.png) no-repeat;
+		background-size: contain;
+		background-position: center ;
+		z-index: 3;
+	}
+	#scr2_coffe3{
+		display: block;
+		position: absolute;
+		top: 445px;
+		left: 10%;
+		width: 33%;
+		height: 132px;
+		background: url(../img/scr2_coffe3.png) no-repeat;
+		background-size: contain;
+		background-position: bottom;
+		z-index: 4;
+	}
+	#scr2_coffe3_shadow{
+		display: block;
+		position: absolute;
+		top: 573px;
+		left: 10.7%;
+		width: 32%;
+		height: 132px;
+		background: url(../img/scr2_coffe3_shadow.png) no-repeat;
+		background-size: contain;
+		background-position: top;
+	}
+	
+	
 }		
 /*   END SCREEN2   */
 
@@ -408,7 +595,29 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	height: 701px;
 	background: url("../img/screen3.png") no-repeat;
 	background-position: center;
+	.scr3_separ{
+		display: block;
+		position: absolute;
+		top: 200px;
+		right: 50%;
+		height: 452px;
+		width: 6px;
+		background: url(../img/scr2_separ.png) no-repeat;
+		z-index: 5;
+	}
 		
 }		
 /*   END SCREEN3   */
+/*   BEGIN SCREEN4  */
+.screen4{
+	display: block;
+	position: relative;	
+	max-width: 1002px;
+	width: 100%;
+	height: 701px;
+	background: url("../img/screen4.png") no-repeat;
+	background-position: center;
+		
+}		
+/*   END SCREEN4   */
 }
