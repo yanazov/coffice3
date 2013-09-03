@@ -597,6 +597,16 @@
     background-position: center;
   }
   /* line 147, ../sass/_748.scss */
+  .screen1 .screen1_coffe_machine {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 394px;
+    height: 626px;
+    background: url("../img/coffe_machine.png") no-repeat;
+  }
+  /* line 156, ../sass/_748.scss */
   .screen1 .screen1_txt {
     display: block;
     position: absolute;
@@ -608,7 +618,7 @@
     color: #000;
     font-family: 'Conv_Futuris_Bold';
   }
-  /* line 158, ../sass/_748.scss */
+  /* line 167, ../sass/_748.scss */
   .screen1 .screen1_txt1 {
     display: block;
     position: absolute;
@@ -616,7 +626,7 @@
     color: #000;
     font-family: 'Conv_Futuris_Bold';
   }
-  /* line 165, ../sass/_748.scss */
+  /* line 174, ../sass/_748.scss */
   .screen1 .screen1_txt2 {
     display: block;
     position: absolute;
@@ -625,7 +635,7 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 30pt;
   }
-  /* line 173, ../sass/_748.scss */
+  /* line 182, ../sass/_748.scss */
   .screen1 .screen1_txt3 {
     display: block;
     position: absolute;
@@ -634,7 +644,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 181, ../sass/_748.scss */
+  /* line 190, ../sass/_748.scss */
   .screen1 .screen1_txt4 {
     display: block;
     position: absolute;
@@ -644,7 +654,7 @@
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
   }
-  /* line 190, ../sass/_748.scss */
+  /* line 199, ../sass/_748.scss */
   .screen1 .screen1_txt5 {
     display: block;
     position: absolute;
@@ -654,7 +664,7 @@
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
   }
-  /* line 199, ../sass/_748.scss */
+  /* line 208, ../sass/_748.scss */
   .screen1 .screen1_txt6 {
     display: block;
     position: absolute;
@@ -664,7 +674,7 @@
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
   }
-  /* line 208, ../sass/_748.scss */
+  /* line 217, ../sass/_748.scss */
   .screen1 .screen1_txt7 {
     display: block;
     position: absolute;
@@ -674,7 +684,7 @@
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
   }
-  /* line 217, ../sass/_748.scss */
+  /* line 226, ../sass/_748.scss */
   .screen1 .screen1_txt8 {
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
@@ -682,7 +692,7 @@
 
   /*   END SCREEN1   */
   /*   BEGIN SCREEN2  */
-  /* line 227, ../sass/_748.scss */
+  /* line 236, ../sass/_748.scss */
   .screen2 {
     display: block;
     position: relative;
@@ -692,7 +702,7 @@
     background: url("../img/screen2.png") no-repeat;
     background-position: center;
   }
-  /* line 235, ../sass/_748.scss */
+  /* line 244, ../sass/_748.scss */
   .screen2 .scr2_txt1 {
     display: block;
     position: absolute;
@@ -704,7 +714,7 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 34pt;
   }
-  /* line 246, ../sass/_748.scss */
+  /* line 255, ../sass/_748.scss */
   .screen2 .scr2_txt2 {
     display: block;
     position: absolute;
@@ -716,7 +726,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 257, ../sass/_748.scss */
+  /* line 266, ../sass/_748.scss */
   .screen2 .scr2_txt3 {
     display: block;
     position: absolute;
@@ -727,7 +737,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 267, ../sass/_748.scss */
+  /* line 276, ../sass/_748.scss */
   .screen2 .scr2_left_txt {
     display: block;
     position: absolute;
@@ -735,7 +745,7 @@
     width: 50%;
     text-align: right;
   }
-  /* line 273, ../sass/_748.scss */
+  /* line 282, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt4 {
     display: block;
     position: relative;
@@ -745,7 +755,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 282, ../sass/_748.scss */
+  /* line 291, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt5 {
     display: inline-block;
     position: relative;
@@ -754,21 +764,21 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 290, ../sass/_748.scss */
+  /* line 299, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt6 {
     margin-left: 7px;
     color: #d80101;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 296, ../sass/_748.scss */
+  /* line 305, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt7 {
     margin-right: 16%;
     color: #2b2b2b;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 302, ../sass/_748.scss */
+  /* line 311, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt8 {
     display: block;
     position: relative;
@@ -778,7 +788,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 312, ../sass/_748.scss */
+  /* line 321, ../sass/_748.scss */
   .screen2 .scr2_right_txt {
     display: block;
     position: absolute;
@@ -787,7 +797,7 @@
     margin-left: 50%;
     text-align: left;
   }
-  /* line 319, ../sass/_748.scss */
+  /* line 328, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt9 {
     display: block;
     position: relative;
@@ -797,7 +807,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 328, ../sass/_748.scss */
+  /* line 337, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt10 {
     display: inline-block;
     position: relative;
@@ -807,7 +817,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 337, ../sass/_748.scss */
+  /* line 346, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt11 {
     display: block;
     position: relative;
@@ -817,7 +827,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 346, ../sass/_748.scss */
+  /* line 355, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt12 {
     display: block;
     position: relative;
@@ -827,7 +837,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 355, ../sass/_748.scss */
+  /* line 364, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt13 {
     display: block;
     position: relative;
@@ -836,7 +846,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 363, ../sass/_748.scss */
+  /* line 372, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt14 {
     display: block;
     position: relative;
@@ -851,7 +861,7 @@
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 383, ../sass/_748.scss */
+  /* line 392, ../sass/_748.scss */
   .screen3 {
     display: block;
     position: relative;
