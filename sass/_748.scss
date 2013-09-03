@@ -15,11 +15,11 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	display: block;
 	position: fixed;
 	width: 100%;
-	height: 115px;
-	
+	height: 115px;	
 	background-color: #f2f5f6;
 	text-align: left;
 	padding: 0;	
+	z-index: 20;
 	.header_top{
 		display: block;
 		height: 49px;
@@ -142,8 +142,18 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 		max-width: 1002px;
 		width: 100%;
 		height: 626px;
-		background: url("../img/screen1.png") no-repeat;
-		background-position: center;		
+		/*background: url("../img/screen1.png") no-repeat;*/
+		background-position: center;
+		.screen1_coffe_machine{
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 394px;
+			height: 626px;
+			background: url("../img/coffe_machine.png") no-repeat;
+			z-index: 4;
+		}
 		.screen1_txt{
 			display: block;
 			position: absolute;
