@@ -158,6 +158,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		height: 626px;
 		background: url("../img/screen1.png") no-repeat;
 		background-position: center;
+		overflow: hidden;
 		.screen1_coffe_machine{
 			display: block;
 			position: absolute;
