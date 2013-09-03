@@ -142,7 +142,7 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 		max-width: 1002px;
 		width: 100%;
 		height: 626px;
-		/*background: url("../img/screen1.png") no-repeat;*/
+		background: url("../img/screen1.png") no-repeat;
 		background-position: center;
 		.screen1_coffe_machine{
 			display: block;
@@ -450,6 +450,48 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 		}
 	
 	}
+	.scr2_separ{
+		display: block;
+		position: absolute;
+		top: 200px;
+		right: 50%;
+		height: 452px;
+		width: 6px;
+		background: url(../img/scr2_separ.png) no-repeat;
+		z-index: 5;
+	}
+	.scr2_arrow{
+		display: block;
+		position: absolute;
+		top: 425px;
+		left: 43%;
+		height: 57px;
+		width: 14%;		
+		background: url(../img/icon/scr2_arrow.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
+	.scr2_coffe{
+		display: block;
+		position: absolute;
+		top: 0px;
+		height: 268px;
+		width: 100%;		
+		background: url(../img/scr2_coffe.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
+	.scr2_coffe_machine2{
+		display: block;
+		position: absolute;
+		top: 252px;
+		height: 368px;
+		width: 233px;
+		left: 80%;
+		background: url(../img/coffe_machine2.png) no-repeat;
+		background-position: center;
+		z-index: 6;
+	}
 	#scr2_coffe2{
 		display: block;
 		position: absolute;
@@ -512,7 +554,19 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	height: 701px;
 	background: url("../img/screen3.png") no-repeat;
 	background-position: center;
-		
+	.scr3_separ{
+		display: block;
+		position: absolute;
+		top: 200px;
+		right: 50%;
+		height: 452px;
+		width: 6px;
+		background: url(../img/scr2_separ.png) no-repeat;
+		z-index: 5;
+	}
+
+
+	
 }		
 /*   END SCREEN3   */
 

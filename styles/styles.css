@@ -168,7 +168,7 @@
     max-width: 1002px;
     width: 100%;
     height: 626px;
-    /*background: url("../img/screen1.png") no-repeat;*/
+    background: url("../img/screen1.png") no-repeat;
     background-position: center;
   }
   /* line 161, ../sass/_960.scss */
@@ -821,7 +821,7 @@
     max-width: 1002px;
     width: 100%;
     height: 626px;
-    /*background: url("../img/screen1.png") no-repeat;*/
+    background: url("../img/screen1.png") no-repeat;
     background-position: center;
   }
   /* line 147, ../sass/_748.scss */
@@ -1164,6 +1164,52 @@
     background-position: right top;
   }
   /* line 453, ../sass/_748.scss */
+  .screen2 .scr2_separ {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    height: 452px;
+    width: 6px;
+    background: url(../img/scr2_separ.png) no-repeat;
+    z-index: 5;
+  }
+  /* line 463, ../sass/_748.scss */
+  .screen2 .scr2_arrow {
+    display: block;
+    position: absolute;
+    top: 425px;
+    left: 43%;
+    height: 57px;
+    width: 14%;
+    background: url(../img/icon/scr2_arrow.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 474, ../sass/_748.scss */
+  .screen2 .scr2_coffe {
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: 268px;
+    width: 100%;
+    background: url(../img/scr2_coffe.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 484, ../sass/_748.scss */
+  .screen2 .scr2_coffe_machine2 {
+    display: block;
+    position: absolute;
+    top: 252px;
+    height: 368px;
+    width: 233px;
+    left: 80%;
+    background: url(../img/coffe_machine2.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 495, ../sass/_748.scss */
   .screen2 #scr2_coffe2 {
     display: block;
     position: absolute;
@@ -1176,7 +1222,7 @@
     background-position: bottom;
     z-index: 5;
   }
-  /* line 465, ../sass/_748.scss */
+  /* line 507, ../sass/_748.scss */
   .screen2 #scr2_coffe2_shadow {
     display: block;
     position: absolute;
@@ -1189,7 +1235,7 @@
     background-position: center;
     z-index: 3;
   }
-  /* line 477, ../sass/_748.scss */
+  /* line 519, ../sass/_748.scss */
   .screen2 #scr2_coffe3 {
     display: block;
     position: absolute;
@@ -1202,7 +1248,7 @@
     background-position: bottom;
     z-index: 4;
   }
-  /* line 489, ../sass/_748.scss */
+  /* line 531, ../sass/_748.scss */
   .screen2 #scr2_coffe3_shadow {
     display: block;
     position: absolute;
@@ -1217,7 +1263,7 @@
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 507, ../sass/_748.scss */
+  /* line 549, ../sass/_748.scss */
   .screen3 {
     display: block;
     position: relative;
@@ -1226,6 +1272,17 @@
     height: 701px;
     background: url("../img/screen3.png") no-repeat;
     background-position: center;
+  }
+  /* line 557, ../sass/_748.scss */
+  .screen3 .scr3_separ {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    height: 452px;
+    width: 6px;
+    background: url(../img/scr2_separ.png) no-repeat;
+    z-index: 5;
   }
 
   /*   END SCREEN3   */
