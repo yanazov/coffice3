@@ -15,10 +15,10 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	display: block;
 	position: fixed;
 	width: 100%;
-	height: 115px;
-	
+	height: 115px;	
 	background-color: #f2f5f6;
 	text-align: left;
+	z-index: 50;
 	padding: 0;	
 	.header_top{
 		display: block;
@@ -152,6 +152,7 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 			width: 394px;
 			height: 626px;
 			background: url("../img/coffe_machine.png") no-repeat;
+			z-index: 7;
 		}
 		.screen1_txt{
 			display: block;
