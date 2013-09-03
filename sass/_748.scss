@@ -15,11 +15,11 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	display: block;
 	position: fixed;
 	width: 100%;
-	height: 115px;
-	
+	height: 115px;	
 	background-color: #f2f5f6;
 	text-align: left;
 	padding: 0;	
+	z-index: 20;
 	.header_top{
 		display: block;
 		height: 49px;
