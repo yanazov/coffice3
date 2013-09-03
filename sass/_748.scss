@@ -594,5 +594,28 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	
 }		
 /*   END SCREEN3   */
-
+.screen4{
+	display: block;
+	position: relative;	
+	max-width: 1002px;
+	width: 100%;
+	height: 703px;
+	background: url("../img/screen4.png") no-repeat;
+	
+	
+}		
+/*   END SCREEN4   */
+/*   BEGIN SCREEN5  */
+.screen5{
+	display: block;
+	position: relative;	
+	max-width: 1000px;
+	width: 100%;
+	height: 700px;
+	background-color: #fff;
+	border: 1px solid #d8dee0;
+	background-position: center;
+		
+}		
+/*   END SCREEN5   */
 }
