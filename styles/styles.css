@@ -1301,6 +1301,32 @@
     background-position: center;
   }
   /* line 558, ../sass/_748.scss */
+  .screen3 .scr3_txt1 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Conv_Futuris_Bold';
+    color: #393939;
+    font-size: 32pt;
+    margin-right: 10px;
+    margin-top: 45px;
+  }
+  /* line 567, ../sass/_748.scss */
+  .screen3 .scr3_txt2 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Conv_Futuris_Bold';
+    color: #393939;
+    font-size: 32pt;
+  }
+  /* line 574, ../sass/_748.scss */
+  .screen3 .scr3_txt3 {
+    display: block;
+    position: relative;
+    font-family: 'Conv_Futuris_Bold';
+    color: #393939;
+    font-size: 32pt;
+  }
+  /* line 582, ../sass/_748.scss */
   .screen3 .scr3_separ {
     display: block;
     position: absolute;

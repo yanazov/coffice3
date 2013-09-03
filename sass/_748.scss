@@ -555,6 +555,30 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 	height: 701px;
 	background: url("../img/screen3.png") no-repeat;
 	background-position: center;
+	.scr3_txt1{
+		display: inline-block;
+		position: relative;
+		font-family: 'Conv_Futuris_Bold';
+		color: #393939;
+		font-size: 32pt;
+		margin-right: 10px;
+		margin-top: 45px;
+	}
+	.scr3_txt2{
+		display: inline-block;
+		position: relative;
+		font-family: 'Conv_Futuris_Bold';
+		color: #393939;
+		font-size: 32pt;
+	}
+	.scr3_txt3{
+		display: block;
+		position: relative;
+		font-family: 'Conv_Futuris_Bold';
+		color: #393939;
+		font-size: 32pt;
+	}
+	
 	.scr3_separ{
 		display: block;
 		position: absolute;
