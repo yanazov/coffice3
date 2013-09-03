@@ -168,7 +168,7 @@
     max-width: 1002px;
     width: 100%;
     height: 626px;
-    background: url("../img/screen1.png") no-repeat;
+    /*background: url("../img/screen1.png") no-repeat;*/
     background-position: center;
     overflow: hidden;
   }
@@ -822,7 +822,7 @@
     max-width: 1002px;
     width: 100%;
     height: 626px;
-    background: url("../img/screen1.png") no-repeat;
+    /*background: url("../img/screen1.png") no-repeat;*/
     background-position: center;
   }
   /* line 147, ../sass/_748.scss */
