@@ -180,8 +180,9 @@
     width: 394px;
     height: 626px;
     background: url("../img/coffe_machine.png") no-repeat;
+    z-index: 4;
   }
-  /* line 170, ../sass/_960.scss */
+  /* line 171, ../sass/_960.scss */
   .screen1 .screen1_txt {
     display: block;
     position: absolute;
@@ -192,16 +193,18 @@
     font-size: 42pt;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 181, ../sass/_960.scss */
+  /* line 183, ../sass/_960.scss */
   .screen1 .screen1_txt1 {
     display: block;
     position: absolute;
     top: 0px;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 188, ../sass/_960.scss */
+  /* line 191, ../sass/_960.scss */
   .screen1 .screen1_txt2 {
     display: block;
     position: absolute;
@@ -209,8 +212,9 @@
     color: #000;
     font-family: 'Conv_Futuris_Bold';
     font-size: 42pt;
+    z-index: 10;
   }
-  /* line 196, ../sass/_960.scss */
+  /* line 200, ../sass/_960.scss */
   .screen1 .screen1_txt3 {
     display: block;
     position: absolute;
@@ -218,8 +222,9 @@
     color: #167543;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 30pt;
+    z-index: 10;
   }
-  /* line 204, ../sass/_960.scss */
+  /* line 209, ../sass/_960.scss */
   .screen1 .screen1_txt4 {
     display: block;
     position: absolute;
@@ -227,8 +232,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 212, ../sass/_960.scss */
+  /* line 218, ../sass/_960.scss */
   .screen1 .screen1_txt5 {
     display: block;
     position: absolute;
@@ -237,8 +243,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 221, ../sass/_960.scss */
+  /* line 228, ../sass/_960.scss */
   .screen1 .screen1_txt6 {
     display: block;
     position: absolute;
@@ -246,8 +253,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 229, ../sass/_960.scss */
+  /* line 237, ../sass/_960.scss */
   .screen1 .screen1_txt7 {
     display: block;
     position: absolute;
@@ -256,16 +264,113 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 238, ../sass/_960.scss */
+  /* line 247, ../sass/_960.scss */
   .screen1 .screen1_txt8 {
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
+    z-index: 10;
+  }
+  /* line 252, ../sass/_960.scss */
+  .screen1 #scr1_property {
+    display: block;
+    position: absolute;
+    top: 536px;
+    left: 35px;
+    padding: 0px;
+    z-index: 5;
+  }
+  /* line 259, ../sass/_960.scss */
+  .screen1 #scr1_property li {
+    display: inline-block;
+    position: relative;
+    width: 68px;
+    height: 68px;
+    margin-left: 9px;
+    background: url(../img/icon/pro.png) no-repeat;
+  }
+  /* line 268, ../sass/_960.scss */
+  .screen1 #scr1_property li:first-child {
+    background: url(../img/icon/20bar.png) no-repeat;
+  }
+  /* line 271, ../sass/_960.scss */
+  .screen1 #scr1_property li:last-child {
+    background: url(../img/icon/italy.png) no-repeat;
+  }
+  /* line 275, ../sass/_960.scss */
+  .screen1 #scr1_table {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    max-width: 964px;
+    width: 100%;
+    height: 74px;
+    background: url(../img/scr1_table.png) no-repeat;
+  }
+  /* line 285, ../sass/_960.scss */
+  .screen1 #scr1_coffe {
+    display: block;
+    position: absolute;
+    left: 377px;
+    top: 492px;
+    width: 201px;
+    height: 130px;
+    background: url(../img/scr1_coffe.png) no-repeat;
+    z-index: 3;
+  }
+  /* line 295, ../sass/_960.scss */
+  .screen1 #scr1_coffe_shadow {
+    display: block;
+    position: absolute;
+    left: 327px;
+    top: 557px;
+    width: 236px;
+    height: 69px;
+    background: url(../img/scr1_coffe_shadow.png) no-repeat;
+    z-index: 2;
+  }
+  /* line 305, ../sass/_960.scss */
+  .screen1 #scr1_btn_office {
+    display: block;
+    position: absolute;
+    top: 540px;
+    right: 110px;
+    border: 1px solid #000;
+    width: 84px;
+    height: 64px;
+    background: url(../img/scr1_office.png) no-repeat;
+    color: #000;
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Conv_Futuris_Bold';
+    line-height: 64px;
+    vertical-align: center;
+    cursor: pointer;
+  }
+  /* line 322, ../sass/_960.scss */
+  .screen1 #scr1_btn_home {
+    display: block;
+    position: absolute;
+    top: 540px;
+    right: 25px;
+    border: 1px solid #000;
+    width: 84px;
+    height: 64px;
+    background: none;
+    color: #000;
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Conv_Futuris_Bold';
+    line-height: 64px;
+    vertical-align: center;
+    cursor: pointer;
   }
 
   /*   END SCREEN1   */
   /*   BEGIN SCREEN2  */
-  /* line 250, ../sass/_960.scss */
+  /* line 346, ../sass/_960.scss */
   .screen2 {
     display: block;
     position: relative;
@@ -275,8 +380,9 @@
     background: url("../img/screen2.png") no-repeat;
     background-position: center;
     border-top: 1px solid #d8dee0;
+    overflow: hidden;
   }
-  /* line 259, ../sass/_960.scss */
+  /* line 356, ../sass/_960.scss */
   .screen2 .scr2_txt1 {
     display: block;
     position: absolute;
@@ -287,7 +393,7 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 34pt;
   }
-  /* line 269, ../sass/_960.scss */
+  /* line 366, ../sass/_960.scss */
   .screen2 .scr2_txt2 {
     display: block;
     position: absolute;
@@ -299,7 +405,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 280, ../sass/_960.scss */
+  /* line 377, ../sass/_960.scss */
   .screen2 .scr2_txt3 {
     display: block;
     position: absolute;
@@ -310,7 +416,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 290, ../sass/_960.scss */
+  /* line 387, ../sass/_960.scss */
   .screen2 .scr2_left_txt {
     display: block;
     position: absolute;
@@ -318,7 +424,7 @@
     width: 50%;
     text-align: right;
   }
-  /* line 296, ../sass/_960.scss */
+  /* line 393, ../sass/_960.scss */
   .screen2 .scr2_left_txt .scr2_txt4 {
     display: block;
     position: relative;
@@ -328,7 +434,7 @@
     font-family: 'helvetica_neue';
     font-size: 22pt;
   }
-  /* line 305, ../sass/_960.scss */
+  /* line 402, ../sass/_960.scss */
   .screen2 .scr2_left_txt .scr2_txt5 {
     display: inline-block;
     position: relative;
@@ -337,21 +443,21 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 313, ../sass/_960.scss */
+  /* line 410, ../sass/_960.scss */
   .screen2 .scr2_left_txt .scr2_txt6 {
     margin-left: 7px;
     color: #d80101;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 319, ../sass/_960.scss */
+  /* line 416, ../sass/_960.scss */
   .screen2 .scr2_left_txt .scr2_txt7 {
     margin-right: 12%;
     color: #2b2b2b;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 325, ../sass/_960.scss */
+  /* line 422, ../sass/_960.scss */
   .screen2 .scr2_left_txt .scr2_txt8 {
     display: block;
     position: relative;
@@ -361,7 +467,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 335, ../sass/_960.scss */
+  /* line 432, ../sass/_960.scss */
   .screen2 .scr2_right_txt {
     display: block;
     position: absolute;
@@ -370,7 +476,7 @@
     margin-left: 50%;
     text-align: left;
   }
-  /* line 342, ../sass/_960.scss */
+  /* line 439, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt9 {
     display: block;
     position: relative;
@@ -380,7 +486,7 @@
     font-family: 'helvetica_neue';
     font-size: 22pt;
   }
-  /* line 351, ../sass/_960.scss */
+  /* line 448, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt10 {
     display: inline-block;
     position: relative;
@@ -390,7 +496,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 360, ../sass/_960.scss */
+  /* line 457, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt11 {
     display: block;
     position: relative;
@@ -400,7 +506,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
   }
-  /* line 369, ../sass/_960.scss */
+  /* line 466, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt12 {
     display: block;
     position: relative;
@@ -410,7 +516,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 17pt;
   }
-  /* line 378, ../sass/_960.scss */
+  /* line 475, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt13 {
     display: block;
     position: relative;
@@ -419,7 +525,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 17pt;
   }
-  /* line 386, ../sass/_960.scss */
+  /* line 483, ../sass/_960.scss */
   .screen2 .scr2_right_txt .scr2_txt14 {
     display: block;
     position: relative;
@@ -431,10 +537,107 @@
     background: url(../img/icon/scr2_timer.png) no-repeat;
     background-position: right top;
   }
+  /* line 495, ../sass/_960.scss */
+  .screen2 .scr2_separ {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    height: 452px;
+    width: 6px;
+    background: url(../img/scr2_separ.png) no-repeat;
+    z-index: 5;
+  }
+  /* line 505, ../sass/_960.scss */
+  .screen2 .scr2_arrow {
+    display: block;
+    position: absolute;
+    top: 425px;
+    left: 43%;
+    height: 57px;
+    width: 14%;
+    background: url(../img/icon/scr2_arrow.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 516, ../sass/_960.scss */
+  .screen2 .scr2_coffe {
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: 268px;
+    width: 100%;
+    background: url(../img/scr2_coffe.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 526, ../sass/_960.scss */
+  .screen2 .scr2_coffe_machine2 {
+    display: block;
+    position: absolute;
+    top: 252px;
+    height: 368px;
+    width: 233px;
+    left: 80%;
+    background: url(../img/coffe_machine2.png) no-repeat;
+    background-position: center;
+    z-index: 6;
+  }
+  /* line 537, ../sass/_960.scss */
+  .screen2 #scr2_coffe2 {
+    display: block;
+    position: absolute;
+    top: 513px;
+    left: 14.5%;
+    width: 26%;
+    height: 114px;
+    background: url(../img/scr2_coffe2.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 5;
+  }
+  /* line 549, ../sass/_960.scss */
+  .screen2 #scr2_coffe2_shadow {
+    display: block;
+    position: absolute;
+    top: 569px;
+    left: 16%;
+    width: 23%;
+    height: 18%;
+    background: url(../img/scr2_coffe2_shadow.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 3;
+  }
+  /* line 561, ../sass/_960.scss */
+  .screen2 #scr2_coffe3 {
+    display: block;
+    position: absolute;
+    top: 445px;
+    left: 10%;
+    width: 33%;
+    height: 132px;
+    background: url(../img/scr2_coffe3.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 4;
+  }
+  /* line 573, ../sass/_960.scss */
+  .screen2 #scr2_coffe3_shadow {
+    display: block;
+    position: absolute;
+    top: 573px;
+    left: 10.7%;
+    width: 32%;
+    height: 132px;
+    background: url(../img/scr2_coffe3_shadow.png) no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 403, ../sass/_960.scss */
+  /* line 590, ../sass/_960.scss */
   .screen3 {
     display: block;
     position: relative;
@@ -444,8 +647,32 @@
     background: url("../img/screen3.png") no-repeat;
     background-position: center;
   }
+  /* line 598, ../sass/_960.scss */
+  .screen3 .scr3_separ {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    height: 452px;
+    width: 6px;
+    background: url(../img/scr2_separ.png) no-repeat;
+    z-index: 5;
+  }
 
   /*   END SCREEN3   */
+  /*   BEGIN SCREEN4  */
+  /* line 612, ../sass/_960.scss */
+  .screen4 {
+    display: block;
+    position: relative;
+    max-width: 1002px;
+    width: 100%;
+    height: 701px;
+    background: url("../img/screen4.png") no-repeat;
+    background-position: center;
+  }
+
+  /*   END SCREEN4   */
 }
 @media only screen and (min-width: 551px) and (max-width: 879px), only screen and (min-device-width: 551px) and (max-device-width: 879px) {
   /* line 7, ../sass/_748.scss */
@@ -607,16 +834,18 @@
     font-size: 30pt;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 158, ../sass/_748.scss */
+  /* line 159, ../sass/_748.scss */
   .screen1 .screen1_txt1 {
     display: block;
     position: absolute;
     top: 0px;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 165, ../sass/_748.scss */
+  /* line 167, ../sass/_748.scss */
   .screen1 .screen1_txt2 {
     display: block;
     position: absolute;
@@ -624,8 +853,9 @@
     color: #000;
     font-family: 'Conv_Futuris_Bold';
     font-size: 30pt;
+    z-index: 10;
   }
-  /* line 173, ../sass/_748.scss */
+  /* line 176, ../sass/_748.scss */
   .screen1 .screen1_txt3 {
     display: block;
     position: absolute;
@@ -633,8 +863,9 @@
     color: #167543;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
+    z-index: 10;
   }
-  /* line 181, ../sass/_748.scss */
+  /* line 185, ../sass/_748.scss */
   .screen1 .screen1_txt4 {
     display: block;
     position: absolute;
@@ -643,8 +874,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 190, ../sass/_748.scss */
+  /* line 195, ../sass/_748.scss */
   .screen1 .screen1_txt5 {
     display: block;
     position: absolute;
@@ -653,8 +885,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 199, ../sass/_748.scss */
+  /* line 205, ../sass/_748.scss */
   .screen1 .screen1_txt6 {
     display: block;
     position: absolute;
@@ -663,8 +896,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 208, ../sass/_748.scss */
+  /* line 215, ../sass/_748.scss */
   .screen1 .screen1_txt7 {
     display: block;
     position: absolute;
@@ -673,16 +907,26 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 217, ../sass/_748.scss */
+  /* line 225, ../sass/_748.scss */
   .screen1 .screen1_txt8 {
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
+    z-index: 10;
+  }
+  /* line 230, ../sass/_748.scss */
+  .screen1 #scr1_btn_office {
+    display: none;
+  }
+  /* line 233, ../sass/_748.scss */
+  .screen1 #scr1_btn_home {
+    display: none;
   }
 
   /*   END SCREEN1   */
   /*   BEGIN SCREEN2  */
-  /* line 227, ../sass/_748.scss */
+  /* line 241, ../sass/_748.scss */
   .screen2 {
     display: block;
     position: relative;
@@ -692,7 +936,7 @@
     background: url("../img/screen2.png") no-repeat;
     background-position: center;
   }
-  /* line 235, ../sass/_748.scss */
+  /* line 249, ../sass/_748.scss */
   .screen2 .scr2_txt1 {
     display: block;
     position: absolute;
@@ -704,7 +948,7 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 34pt;
   }
-  /* line 246, ../sass/_748.scss */
+  /* line 260, ../sass/_748.scss */
   .screen2 .scr2_txt2 {
     display: block;
     position: absolute;
@@ -716,7 +960,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 257, ../sass/_748.scss */
+  /* line 271, ../sass/_748.scss */
   .screen2 .scr2_txt3 {
     display: block;
     position: absolute;
@@ -727,7 +971,7 @@
     font-family: 'helvetica_neue';
     font-size: 14pt;
   }
-  /* line 267, ../sass/_748.scss */
+  /* line 281, ../sass/_748.scss */
   .screen2 .scr2_left_txt {
     display: block;
     position: absolute;
@@ -735,7 +979,7 @@
     width: 50%;
     text-align: right;
   }
-  /* line 273, ../sass/_748.scss */
+  /* line 287, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt4 {
     display: block;
     position: relative;
@@ -745,7 +989,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 282, ../sass/_748.scss */
+  /* line 296, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt5 {
     display: inline-block;
     position: relative;
@@ -754,21 +998,21 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 290, ../sass/_748.scss */
+  /* line 304, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt6 {
     margin-left: 7px;
     color: #d80101;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 296, ../sass/_748.scss */
+  /* line 310, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt7 {
     margin-right: 16%;
     color: #2b2b2b;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 302, ../sass/_748.scss */
+  /* line 316, ../sass/_748.scss */
   .screen2 .scr2_left_txt .scr2_txt8 {
     display: block;
     position: relative;
@@ -778,7 +1022,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 312, ../sass/_748.scss */
+  /* line 326, ../sass/_748.scss */
   .screen2 .scr2_right_txt {
     display: block;
     position: absolute;
@@ -787,7 +1031,7 @@
     margin-left: 50%;
     text-align: left;
   }
-  /* line 319, ../sass/_748.scss */
+  /* line 333, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt9 {
     display: block;
     position: relative;
@@ -797,7 +1041,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 328, ../sass/_748.scss */
+  /* line 342, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt10 {
     display: inline-block;
     position: relative;
@@ -807,7 +1051,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 337, ../sass/_748.scss */
+  /* line 351, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt11 {
     display: block;
     position: relative;
@@ -817,7 +1061,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 346, ../sass/_748.scss */
+  /* line 360, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt12 {
     display: block;
     position: relative;
@@ -827,7 +1071,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 355, ../sass/_748.scss */
+  /* line 369, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt13 {
     display: block;
     position: relative;
@@ -836,7 +1080,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 363, ../sass/_748.scss */
+  /* line 377, ../sass/_748.scss */
   .screen2 .scr2_right_txt .scr2_txt14 {
     display: block;
     position: relative;
@@ -851,7 +1095,7 @@
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 383, ../sass/_748.scss */
+  /* line 397, ../sass/_748.scss */
   .screen3 {
     display: block;
     position: relative;
@@ -1021,16 +1265,18 @@
     font-size: 30pt;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 148, ../sass/_385.scss */
+  /* line 149, ../sass/_385.scss */
   .screen1 .screen1_txt1 {
     display: block;
     position: absolute;
     top: 0px;
     color: #000;
     font-family: 'Conv_Futuris_Bold';
+    z-index: 10;
   }
-  /* line 155, ../sass/_385.scss */
+  /* line 157, ../sass/_385.scss */
   .screen1 .screen1_txt2 {
     display: block;
     position: absolute;
@@ -1038,8 +1284,9 @@
     color: #000;
     font-family: 'Conv_Futuris_Bold';
     font-size: 30pt;
+    z-index: 10;
   }
-  /* line 163, ../sass/_385.scss */
+  /* line 166, ../sass/_385.scss */
   .screen1 .screen1_txt3 {
     display: block;
     position: absolute;
@@ -1047,8 +1294,9 @@
     color: #167543;
     font-family: 'Conv_Helvetica_Bold';
     font-size: 22pt;
+    z-index: 10;
   }
-  /* line 171, ../sass/_385.scss */
+  /* line 175, ../sass/_385.scss */
   .screen1 .screen1_txt4 {
     display: block;
     position: absolute;
@@ -1057,8 +1305,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 180, ../sass/_385.scss */
+  /* line 185, ../sass/_385.scss */
   .screen1 .screen1_txt5 {
     display: block;
     position: absolute;
@@ -1067,8 +1316,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 189, ../sass/_385.scss */
+  /* line 195, ../sass/_385.scss */
   .screen1 .screen1_txt6 {
     display: block;
     position: absolute;
@@ -1077,8 +1327,9 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 198, ../sass/_385.scss */
+  /* line 205, ../sass/_385.scss */
   .screen1 .screen1_txt7 {
     display: block;
     position: absolute;
@@ -1087,16 +1338,62 @@
     color: #000;
     font-family: 'helvetica-2-ultraligh2ultraLt';
     font-size: 13pt;
+    z-index: 10;
   }
-  /* line 207, ../sass/_385.scss */
+  /* line 215, ../sass/_385.scss */
   .screen1 .screen1_txt8 {
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
+    z-index: 10;
+  }
+  /* line 220, ../sass/_385.scss */
+  .screen1 #scr1_property {
+    display: block;
+    position: absolute;
+    top: 455px;
+    left: 5px;
+    padding: 0px;
+  }
+  /* line 226, ../sass/_385.scss */
+  .screen1 #scr1_property li {
+    display: inline-block;
+    position: relative;
+    width: 68px;
+    height: 68px;
+    margin-left: 9px;
+    background: url(../img/icon/pro.png) no-repeat;
+  }
+  /* line 235, ../sass/_385.scss */
+  .screen1 #scr1_property li:first-child {
+    background: url(../img/icon/20bar.png) no-repeat;
+  }
+  /* line 238, ../sass/_385.scss */
+  .screen1 #scr1_property li:last-child {
+    background: url(../img/icon/italy.png) no-repeat;
+  }
+  /* line 242, ../sass/_385.scss */
+  .screen1 #scr1_table {
+    display: block;
+    position: absolute;
+    bottom: 285px;
+    right: 0px;
+    max-width: 964px;
+    width: 100%;
+    height: 74px;
+    background: url(../img/scr1_table.png) no-repeat;
+  }
+  /* line 252, ../sass/_385.scss */
+  .screen1 #scr1_coffe {
+    display: none;
+  }
+  /* line 255, ../sass/_385.scss */
+  .screen1 #scr1_coffe_shadow {
+    display: none;
   }
 
   /*   END SCREEN1   */
   /*   BEGIN SCREEN2  */
-  /* line 216, ../sass/_385.scss */
+  /* line 263, ../sass/_385.scss */
   .screen2 {
     display: block;
     position: relative;
@@ -1108,7 +1405,7 @@
     /*  BEGIN text */
     /*  END text */
   }
-  /* line 224, ../sass/_385.scss */
+  /* line 271, ../sass/_385.scss */
   .screen2 .scr2_wite {
     display: block;
     position: relative;
@@ -1117,7 +1414,7 @@
     background-color: #fefefe;
     text-align: left;
   }
-  /* line 233, ../sass/_385.scss */
+  /* line 280, ../sass/_385.scss */
   .screen2 .scr2_txt1 {
     display: block;
     position: absolute;
@@ -1129,15 +1426,15 @@
     font-family: 'Conv_Futuris_Bold';
     font-size: 38pt;
   }
-  /* line 244, ../sass/_385.scss */
+  /* line 291, ../sass/_385.scss */
   .screen2 .scr2_txt2 {
     display: none;
   }
-  /* line 247, ../sass/_385.scss */
+  /* line 294, ../sass/_385.scss */
   .screen2 .scr2_txt3 {
     display: none;
   }
-  /* line 250, ../sass/_385.scss */
+  /* line 297, ../sass/_385.scss */
   .screen2 .scr2_left_txt {
     display: block;
     position: absolute;
@@ -1145,7 +1442,7 @@
     width: 100%;
     text-align: left;
   }
-  /* line 256, ../sass/_385.scss */
+  /* line 303, ../sass/_385.scss */
   .screen2 .scr2_left_txt .scr2_txt4 {
     display: inline-block;
     position: relative;
@@ -1156,7 +1453,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 266, ../sass/_385.scss */
+  /* line 313, ../sass/_385.scss */
   .screen2 .scr2_left_txt .scr2_txt5 {
     display: inline-block;
     position: relative;
@@ -1166,7 +1463,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 275, ../sass/_385.scss */
+  /* line 322, ../sass/_385.scss */
   .screen2 .scr2_left_txt .scr2_txt6 {
     display: inline-block;
     margin-left: 7px;
@@ -1174,7 +1471,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 282, ../sass/_385.scss */
+  /* line 329, ../sass/_385.scss */
   .screen2 .scr2_left_txt .scr2_txt7 {
     display: inline-block;
     margin-left: 3%;
@@ -1183,7 +1480,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 290, ../sass/_385.scss */
+  /* line 337, ../sass/_385.scss */
   .screen2 .scr2_left_txt .scr2_txt8 {
     display: inline-block;
     position: relative;
@@ -1193,7 +1490,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 300, ../sass/_385.scss */
+  /* line 347, ../sass/_385.scss */
   .screen2 .scr2_right_txt {
     display: block;
     position: absolute;
@@ -1202,7 +1499,7 @@
     margin-left: 0px;
     text-align: left;
   }
-  /* line 307, ../sass/_385.scss */
+  /* line 354, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt9 {
     display: inline-block;
     position: relative;
@@ -1212,7 +1509,7 @@
     font-family: 'helvetica_neue';
     font-size: 18pt;
   }
-  /* line 316, ../sass/_385.scss */
+  /* line 363, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt10 {
     display: inline-block;
     position: relative;
@@ -1222,7 +1519,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 325, ../sass/_385.scss */
+  /* line 372, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt11 {
     display: block;
     position: relative;
@@ -1232,7 +1529,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 18pt;
   }
-  /* line 334, ../sass/_385.scss */
+  /* line 381, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt12 {
     display: block;
     position: relative;
@@ -1242,7 +1539,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 343, ../sass/_385.scss */
+  /* line 390, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt13 {
     display: block;
     position: relative;
@@ -1251,7 +1548,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 16pt;
   }
-  /* line 351, ../sass/_385.scss */
+  /* line 398, ../sass/_385.scss */
   .screen2 .scr2_right_txt .scr2_txt14 {
     display: block;
     position: relative;
@@ -1263,7 +1560,11 @@
     background: url(../img/icon/scr2_timer.png) no-repeat;
     background-position: right top;
   }
-  /* line 367, ../sass/_385.scss */
+  /* line 412, ../sass/_385.scss */
+  .screen2 .scr2_separ {
+    display: none;
+  }
+  /* line 417, ../sass/_385.scss */
   .screen2 .scr2_grey {
     display: block;
     position: absolute;
@@ -1275,7 +1576,7 @@
 
   /*   END SCREEN2   */
   /*   BEGIN SCREEN3  */
-  /* line 379, ../sass/_385.scss */
+  /* line 430, ../sass/_385.scss */
   .screen3 {
     display: block;
     position: relative;
@@ -1360,9 +1661,18 @@ body {
   .header .header_menu {
     display: none;
   }
+
+  /* line 86, ../sass/_main.scss */
+  .screen1 #scr1_coffe {
+    display: none;
+  }
+  /* line 89, ../sass/_main.scss */
+  .screen1 #scr1_coffe_shadow {
+    display: none;
+  }
 }
 @media only screen and (min-width: 711px) and (max-width: 879px), only screen and (min-device-width: 711px) and (max-device-width: 879px) {
-  /* line 90, ../sass/_main.scss */
+  /* line 99, ../sass/_main.scss */
   .header .header_chat {
     display: block;
     position: absolute;
@@ -1380,7 +1690,7 @@ body {
     padding-top: 3px;
     cursor: pointer;
   }
-  /* line 107, ../sass/_main.scss */
+  /* line 116, ../sass/_main.scss */
   .header .header_menu {
     display: block;
     position: absolute;
@@ -1388,7 +1698,7 @@ body {
     left: 135px;
     top: 60px;
   }
-  /* line 113, ../sass/_main.scss */
+  /* line 122, ../sass/_main.scss */
   .header .header_menu a {
     font-size: 9pt;
     font-family: 'futuriscyrillic';
@@ -1396,7 +1706,7 @@ body {
     color: #777;
     text-decoration: none;
   }
-  /* line 120, ../sass/_main.scss */
+  /* line 129, ../sass/_main.scss */
   .header .header_menu li {
     display: block;
     margin-left: 15px;
