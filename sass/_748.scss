@@ -237,6 +237,59 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 			font-size: 13pt;	
 			z-index: 10;		
 		}
+		#scr1_property{
+			display: block;
+			position: absolute;
+			top: 536px;
+			left: 35px;
+			padding: 0px;
+			z-index: 5;
+			li{
+				display: inline-block;
+				position: relative;
+				width: 68px;
+				height: 68px;
+				margin-left: 9px;
+				background: url(../img/icon/pro.png) no-repeat;
+				
+			}
+			li:first-child{
+				background: url(../img/icon/20bar.png) no-repeat;
+			}
+			li:last-child{
+				background: url(../img/icon/italy.png) no-repeat;
+			}
+		}
+		#scr1_table{
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			max-width: 964px;
+			width: 100%;
+			height: 74px;
+			background: url(../img/scr1_table.png) no-repeat;
+		}
+		#scr1_coffe{
+			display: block;
+			position: absolute;
+			left: 377px;
+			top: 492px;
+			width: 201px;
+			height: 130px;
+			background: url(../img/scr1_coffe.png) no-repeat;
+			z-index: 3;
+		}
+		#scr1_coffe_shadow{
+			display: block;
+			position: absolute;
+			left: 327px;
+			top: 557px;
+			width: 236px;
+			height: 69px;
+			background: url(../img/scr1_coffe_shadow.png) no-repeat;
+			z-index: 2;
+		}
 		#scr1_btn_office{
 			display: none;
 		}
@@ -396,6 +449,53 @@ only screen  and (min-device-width: 551px) and (max-device-width: 879px){
 			background-position: right top;
 		}
 	
+	}
+	#scr2_coffe2{
+		display: block;
+		position: absolute;
+		top: 513px;
+		left: 14.5%;
+		width: 26%;
+		height: 114px;
+		background: url(../img/scr2_coffe2.png) no-repeat;
+		background-size: contain;
+		background-position: bottom;
+		z-index: 5;
+	}
+	#scr2_coffe2_shadow{
+		display: block;
+		position: absolute;
+		top: 569px;
+		left: 16%;
+		width: 23%;
+		height: 18%;
+		background: url(../img/scr2_coffe2_shadow.png) no-repeat;
+		background-size: contain;
+		background-position: center ;
+		z-index: 3;
+	}
+	#scr2_coffe3{
+		display: block;
+		position: absolute; 
+		top: 445px;
+		left: 10%;
+		width: 33%;
+		height: 132px;
+		background: url(../img/scr2_coffe3.png) no-repeat;
+		background-size: contain;
+		background-position: bottom;
+		z-index: 4;
+	}
+	#scr2_coffe3_shadow{
+		display: block;
+		position: absolute;
+		top: 573px;
+		left: 10.7%;
+		width: 32%;
+		height: 132px;
+		background: url(../img/scr2_coffe3_shadow.png) no-repeat;
+		background-size: contain;
+		background-position: top;
 	}
 	
 
