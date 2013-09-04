@@ -114,7 +114,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute;
 		top: 44px;
-		left: 20px;
+		left: 0px;
 	}
 	.header_slogan{
 		display: block;
@@ -295,10 +295,10 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		#scr1_coffe_shadow{
 			display: block;
 			position: absolute;
-			left: 327px;
-			top: 557px;
+			left: 323px;
+			top: 552px;
 			width: 236px;
-			height: 69px;
+			height: 75px;
 			background: url(../img/scr1_coffe_shadow.png) no-repeat;
 			z-index: 2;
 		}
@@ -699,6 +699,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		font-size: 13pt;
 		background: url(../img/icon/scr3_i.png) no-repeat;
 		padding: 3px 0px 0px 35px;
+		a{
+			color: #393939;
+			text-decoration: none;
+			border-bottom: 1px dashed #c0c0c0;
+		}
 	}
 	
 	
@@ -805,7 +810,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			li{
 				display: block;
 				margin-top: 17px;
-				padding-left: 45px;
+				padding-left: 48px;
 			}
 			.green1{
 				background: url(../img/icon/scr4_point1.png) no-repeat;
@@ -828,6 +833,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 				padding-top: 11px;
 				padding-left: 58px;
 				left: -11px;
+				background-position: 2%;
 			}
 			span{
 				display: block;
@@ -869,7 +875,10 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #393939;
 			font-family: 'Conv_Futuris_Bold';
 		}
-		img{
+		.img_white_m{		
+			display: none;
+		}
+		.img_white_1000{
 			display: inline-block;
 			position: relative;
 			width: 208px;			
@@ -889,7 +898,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			li{
 				display: block;
 				margin-top: 17px;
-				padding-left: 45px;
+				padding-left: 48px;
+				height: 34px;
 			}
 			.green1{
 				background: url(../img/icon/scr4_piont_1_2.png) no-repeat;
@@ -912,6 +922,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 				padding-top: 11px;
 				padding-left: 58px;
 				left: -11px;
+				background-position: 2%;
 			}
 			span{
 				display: block;
@@ -950,10 +961,13 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 40%;
 			left: 30%;
 			top: 30px;
-			color: #393939;
+			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 		}
-		img{
+		.img_red_m{
+			display: none;
+		}
+		.img_red_1000{
 			display: inline-block;
 			position: relative;
 			width: 208px;			
@@ -964,7 +978,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		ul{
 			display: block;
 			position: absolute;
-			color: #393939;
+			color: #fff;
 			font-size: 11pt;
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
@@ -973,10 +987,10 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			li{
 				display: block;
 				margin-top: 17px;
-				padding-left: 45px;
+				padding-left: 48px;				
 			}
 			.green1{
-				background: url(../img/icon/scr4_piont_1_2.png) no-repeat;
+				background: url(../img/icon/scr4_point1.png) no-repeat;				
 			}
 			.green2{
 				background: url(../img/icon/scr4_point_2.png) no-repeat;
@@ -996,6 +1010,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 				padding-top: 11px;
 				padding-left: 58px;
 				left: -11px;
+				background-position: 2%;
 			}
 			span{
 				display: block;
@@ -1148,4 +1163,16 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	}
 }		
 /*   END SCREEN5   */
+/*   BEGIN FOOTER  */
+	.footer{
+		display: block;
+		position: relative;	
+		max-width: 1002px;
+		width: 100%;
+		height: 200px;
+		background-position: center;
+	}
+/*   END FOOTER    */
+
+
 }
