@@ -768,7 +768,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 		}
-		img{
+		.img_1000{
 			display: inline-block;
 			position: relative;
 			width: 40%;
@@ -777,10 +777,13 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			/*left: 30%;*/
 			top: 110px;		
 		}
+		.img_m{
+			display: none;
+		}
 		.scr4_new{
 			display: block;
 			position: absolute;
-			left: 65%;
+			right: 20%;
 			top: 95px;
 			width: 50px;
 			height: 50px;
