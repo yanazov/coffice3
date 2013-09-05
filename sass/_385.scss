@@ -645,10 +645,11 @@ body {
 		.img_1000{
 			display: inline-block;
 			position: relative;
-			width: 40%;
+			width: 140px;
 			min-width: 140px;
 			height: 250px;
-			top: 118px;		
+			top: 118px;	
+					
 		}
 		.img_m{
 			display: none;
@@ -656,8 +657,8 @@ body {
 		.scr4_new{
 			display: block;
 			position: absolute;
-			right: 20%;
-			top: 95px;
+			right: 28%;
+			top: 110px;
 			width: 50px;
 			height: 50px;
 			background: url(../img/icon/scr4_new.png) no-repeat;
@@ -674,7 +675,8 @@ body {
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
 			top: 375px;
-			left: 8%;
+			left: 28%;
+			padding: 0px;
 			li{
 				display: block;
 				margin-top: 17px;
@@ -737,8 +739,9 @@ body {
 			display: block;
 			position: absolute;
 			font-size: 36pt;
-			width: 40%;
-			left: 30%;
+			text-align: center;
+			width: 60%;
+			left: 20%;
 			top: 23px;
 			color: #393939;
 			font-family: 'Conv_Futuris_Bold';
@@ -762,7 +765,8 @@ body {
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
 			top: 375px;
-			left: 16%;
+			left: 25.5%;
+			padding: 0px;
 			li{
 				display: block;
 				margin-top: 17px;
@@ -825,12 +829,13 @@ body {
 		.scr4_name{
 			display: block;
 			position: absolute;
-			font-size: 36pt;
-			width: 40%;
-			left: 30%;
+			font-size: 34pt;
+			width: 60%;
+			left: 20%;
 			top: 30px;
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
+			text-align: center;
 		}
 		.img_red_m{
 			display: none;
@@ -838,7 +843,7 @@ body {
 		.img_red_1000{
 			display: inline-block;
 			position: relative;
-			width: 208px;			
+			width: 181px;			
 			height: 245px;
 			top: 130px;		
 			background-position: center;
@@ -851,7 +856,8 @@ body {
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
 			top: 373px;
-			left: 8%;
+			left: 23%;
+			padding: 0px;
 			li{
 				display: block;
 				margin-top: 17px;
@@ -1026,7 +1032,16 @@ body {
 	}
 }		
 /*   END SCREEN5   */
-
+/*   BEGIN FOOTER  */
+	.footer{
+		display: block;
+		position: relative;	
+		max-width: 1002px;
+		width: 100%;
+		height: 185px;
+		background-position: center;
+	}
+/*   END FOOTER    */
 
 
 }
