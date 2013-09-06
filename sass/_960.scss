@@ -10,7 +10,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	text-align:  center;
 	.header_chat2{
 		display: block;
-		position: absolute;
+		position: fixed;
 		left: 0%;
 		top: 520px;
 		width: 37px;
@@ -397,7 +397,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		margin-left: 10%;
 		color: #000;
 		font-family: 'Conv_Futuris_Bold';
-		font-size: 34pt;		
+		font-size: 34pt;
+		z-index: 10;		
 	}
 	.scr2_txt2	{
 		display: block;
@@ -409,6 +410,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		font-family: 'helvetica-2-ultraligh2ultraLt';
 		font-family: 'helvetica_neue';
 		font-size: 14pt;
+		z-index: 10;		
 	}
 	.scr2_txt3{
 		display: block;
@@ -419,6 +421,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		color: $color_green;		
 		font-family: 'helvetica_neue';
 		font-size: 14pt;
+		z-index: 10;		
 	}
 	.scr2_left_txt{
 		display: block;
@@ -1152,17 +1155,18 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 5;
 	}
 	.scr5_txt6{
-		display: none;
+		display: block;
 		position: absolute; 
 		top: 446px;
 		height: 60px;
-		left: -50%;    /*   DEF  42%   */
+		left: 42%;    /*   DEF  42%   */
 		font-family: 'helvetica_neue';
 		color: #393939;
 		font-size: 17pt;
 		background: url(../img/scr5_p10.png) no-repeat;
 		padding: 16px 0px 0px 70px;
 		z-index: 5;
+		opacity: 0;
 	}
 	.scr5_btn{
 		display: none;
@@ -1208,14 +1212,15 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 1;
 	}
 	.scr5_caps{
-		display: none;
+		display: block;
 		position: absolute; 
 		top: 463px;
-		left: -50%;    /*  DEF  9%  */
+		left: 9%;    /*  DEF  9%  */
 		width: 303px;
 		height: 31px;
 		background: url(../img/scr5_caps.png) no-repeat;
 		z-index: 3;
+		opacity: 0;
 	}
 }		
 /*   END SCREEN5   */
