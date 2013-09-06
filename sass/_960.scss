@@ -45,7 +45,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background-color: #fff;
 	}
 	.tmp{
-		display: none;
+		display: block;
 		position: absolute;
 		font-size: 30pt;
 	}
@@ -69,9 +69,9 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		top: 16px;
 		a{
 			font-size: 9pt;
-			font-family: 'futuriscyrillic';
+			font-family: 'Conv_Helvetica_Bold';
 			font-weight: 900;
-			color: #777;
+			color: #737373;
 			text-decoration: none;
 		}
 		li{
@@ -146,9 +146,9 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		top: 67px;
 		left: 165px;
 		font-size: 10pt;
-		font-family: 'futuriscyrillic';
+		font-family: 'Conv_Futuris_Bold';
 		font-weight: 900;
-		color: #777;
+		color: #909090;
 	}
 	
 	.header_button{
@@ -240,6 +240,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			top: 240px;
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -247,9 +249,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			display: block;
 			position: absolute;
 			top: 240px;
-			left: 260px;
+			left: 245px;
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -259,6 +263,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			top: 265px;
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -266,9 +272,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			display: block;
 			position: absolute;
 			top: 265px;
-			left: 170px;
+			left: 160px;
 			color: #000;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -801,6 +809,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background: url("../img/screen4_green.png") no-repeat;
 		background-position: right;
 		text-align: center;
+		overflow: hidden;
 		.scr4_name{
 			display: block;
 			position: absolute;
@@ -903,6 +912,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background: #fff;
 		background-position: right;
 		border-top: 1px solid #d8dee0;
+		overflow: hidden;
 		.scr4_name{
 			display: block;
 			position: absolute;
@@ -992,6 +1002,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		height: 703px;
 		background: url("../img/screen4_red.png") no-repeat;
 		background-position: right;
+		overflow: hidden;
 		.scr4_name{
 			display: block;
 			position: absolute;
@@ -1083,6 +1094,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	background-color: #fff;
 	border: 1px solid #d8dee0;
 	background-position: center;
+	overflow: hidden;
 	.scr5_txt1{
 		display: block;
 		position: absolute; 
@@ -1091,40 +1103,46 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
 		font-size: 40pt;
-		z-index: 5;
+		background-color: #fff;
+		z-index: 15;
 	}
 	.scr5_txt2{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 185px;
 		left: 9%;
 		font-family: 'helvetica-2-ultraligh2ultraLt';
 		color: #393939;
 		font-size: 32pt;
-		z-index: 5;
+		background-color: #fff;
+		z-index: 14;
 	}
 	.scr5_txt3{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 235px;
 		left: 9%;
 		font-family: 'helvetica-2-ultraligh2ultraLt';
 		color: #393939;
 		font-size: 32pt;
-		z-index: 5;
+		background-color: #fff;
+		z-index: 13;
 	}
 	.scr5_txt4{
-		display: block;
-		position: absolute; 
+		display: none;
+		position: absolute;
+		width: 300px;
 		top: 290px;
 		left: 9%;
 		font-family: 'Conv_Futuris_Bold';
 		color: $color_red;
 		font-size: 36pt;
-		z-index: 5;
+		text-align: left;
+		background-color: #fff;
+		z-index: 12;
 	}
 	.scr5_txt5{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 355px;
 		left: 9%;
@@ -1134,11 +1152,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 5;
 	}
 	.scr5_txt6{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 446px;
 		height: 60px;
-		left: 42%;
+		left: -50%;    /*   DEF  42%   */
 		font-family: 'helvetica_neue';
 		color: #393939;
 		font-size: 17pt;
@@ -1147,7 +1165,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 5;
 	}
 	.scr5_btn{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 575px;
 		width: 149px;
@@ -1163,7 +1181,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	.scr5_coffes{
 		display: block;
 		position: absolute; 
-		top: 10px;
+		top: -70px;
 		width: 478px;
 		height: 597px;
 		left: 39%;
@@ -1171,7 +1189,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 4;
 	}
 	.scr5_coffe_cap{
-		display: block;
+		display: none;
 		position: absolute; 
 		bottom: 0px;
 		width: 468px;
@@ -1190,10 +1208,10 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 1;
 	}
 	.scr5_caps{
-		display: block;
+		display: none;
 		position: absolute; 
 		top: 463px;
-		left: 9%;
+		left: -50%;    /*  DEF  9%  */
 		width: 303px;
 		height: 31px;
 		background: url(../img/scr5_caps.png) no-repeat;
