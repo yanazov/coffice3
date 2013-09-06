@@ -2,22 +2,11 @@ $color_fon: #f2f5f6;
 $color_green: #167543;
 $color_red: #d80101;
 
-@media only screen and (min-width: 880px) and (max-width: 3960px),
-only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
+ 
 
  body{
 	background-color: #f2f5f6;	
 	text-align:  center;
-	.header_chat2{
-		display: block;
-		position: absolute;
-		left: 0%;
-		top: 520px;
-		width: 37px;
-		height: 156px;
-		background: url(../img/icon/chat_main.png) no-repeat;
-		z-index: 100;
-	}
  }
  .container_center{
 	display: inline-block;
@@ -30,7 +19,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	display: block;
 	position: fixed;
 	margin-left: 0px;
-	top: 0px;
 	width: 98%;
 	height: 95px;
 	max-width: 1002px;
@@ -44,22 +32,9 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		width: 100%;
 		background-color: #fff;
 	}
-	.tmp{
-		display: none;
-		position: absolute;
-		font-size: 30pt;
-	}
 	.header_chat{
-		display: none;		
-	}
-	.header_chat2{
-		display: block;
-		position: relative;
-		left: -10%;
-		top: 300px;
-		width: 37px;
-		height: 156px;
-		background: url(../img/icon/chat_main.png) no-repeat;
+		display: none;
+		
 	}
 	.header_menu{
 		display: block;
@@ -153,15 +128,12 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	
 	.header_button{
 		display: none;
-	}	
-	.header_button2{
-		display: block;
 		position: absolute;
-		top: 130px;
-		right: -1.5%;
-		width: 102px;
-		height: 102px; 
-		background: url("../img/icon/order_main.png") no-repeat;
+		top: 7px;
+		right: 15px;
+		width: 170px;
+		height: 34px; 
+		background-image: url("../img/order2.png") no-repeat;
 		font-size: 14pt;
 		color: #fff;
 	}	
@@ -185,7 +157,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		height: 626px;
 		background: url("../img/screen1.png") no-repeat;
 		background-position: center;
-		overflow: hidden;
 		.screen1_coffe_machine{
 			display: block;
 			position: absolute;
@@ -418,7 +389,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		top: 275px;
 		width: 50%;
 		text-align: right;
-		left: -60%;  /* default = )%  */
 		.scr2_txt4{
 			display: block;
 			position: relative;		
@@ -465,7 +435,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		width: 50%;
 		margin-left: 50%;
 		text-align: left;
-		left: 70%;
 		.scr2_txt9{
 			display: block;
 			position: relative;		
@@ -501,7 +470,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 17pt;
-			opacity: 0; 
 		}
 		.scr2_txt13{
 			display: block;
@@ -510,7 +478,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 17pt;
-			opacity: 0; 
 		}
 		.scr2_txt14{
 			display: block;
@@ -522,7 +489,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			font-size: 26pt;
 			background: url(../img/icon/scr2_timer.png) no-repeat;
 			background-position: right top;
-			opacity: 0; 
 		}	
 	}
 	.scr2_separ{
@@ -545,12 +511,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background: url(../img/icon/scr2_arrow.png) no-repeat;
 		background-position: center;
 		z-index: 6;
-		opacity: 0; 
 	}
 	.scr2_coffe{
 		display: block;
 		position: absolute;
-		top: -130px;
+		top: 0px;
 		height: 268px;
 		width: 100%;		
 		background: url(../img/scr2_coffe.png) no-repeat;
@@ -563,7 +528,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		top: 252px;
 		height: 368px;
 		width: 233px;
-		left: 140%;   /* def 80%   */
+		left: 80%;
 		background: url(../img/coffe_machine2.png) no-repeat;
 		background-position: center;
 		z-index: 6;
@@ -629,7 +594,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	height: 701px;
 	background: url("../img/screen3.png") no-repeat;
 	background-position: center;
-	overflow: hidden;
 	.scr3_txt1{
 		display: inline-block;
 		position: relative;
@@ -677,9 +641,6 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		}
 		li:last-child{
 			background: url(../img/icon/scr3_o3.png) no-repeat;
-		}
-		.scr3_property_li{
-			left: -400px;
 		}
 	
 	}
@@ -768,7 +729,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	.scr3_coffe1{
 		display: block;
 		position: absolute;
-		top: 262px;   /*  DEF 244  */
+		top: 244px;
 		right: 50%;
 		width: 148px;
 		height: 301px;
@@ -777,7 +738,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	.scr3_coffe2{
 		display: block;
 		position: absolute;
-		top: 262px;     /*     DEF 280          */
+		top: 281px;
 		left: 50%;
 		width: 149px;
 		height: 301px;
@@ -1216,7 +1177,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #393939;
 			font-family: 'helvetica_neue';
 			padding: 0px;
-			top: 30px;
+			
 			li{
 				display: inline-block;
 				position: relative;
@@ -1246,30 +1207,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 				background: url(../img/icon/footer_point4.png) no-repeat;
 			}
 		}
-		.footer_social{
-			display: inline-block;
-			position: relative; 
-			background: url(../img/social.png) no-repeat;
-			top: 80px;
-			width: 493px;
-			height: 22px;
-		}
-		.footer_copyrite{
-			display: block;
-			position: relative; 
-			font-family: 'helvetica_neue';
-			color: #7c7c7c;
-			top: 95px;
-			font-size: 10pt;
-		}
-		.footer_menu{
-			display: none;
-		}
-		.footer_phone{
-			display: none;
-		}
 	}
 /*   END FOOTER    */
 
 
-}

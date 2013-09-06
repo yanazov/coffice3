@@ -1,0 +1,1341 @@
+/* line 7, ../sass/styles_ie.scss */
+body {
+  background-color: #f2f5f6;
+  text-align: center;
+}
+
+/* line 11, ../sass/styles_ie.scss */
+.container_center {
+  display: inline-block;
+  width: 98%;
+  max-width: 1002px;
+}
+
+/* line 18, ../sass/styles_ie.scss */
+.header {
+  display: block;
+  position: fixed;
+  margin-left: 0px;
+  width: 98%;
+  height: 95px;
+  max-width: 1002px;
+  background-color: #f2f5f6;
+  text-align: center;
+  padding: 0px;
+  z-index: 20;
+}
+/* line 29, ../sass/styles_ie.scss */
+.header .header_top {
+  display: none;
+  height: 49px;
+  width: 100%;
+  background-color: #fff;
+}
+/* line 35, ../sass/styles_ie.scss */
+.header .header_chat {
+  display: none;
+}
+/* line 39, ../sass/styles_ie.scss */
+.header .header_menu {
+  display: block;
+  position: absolute;
+  text-align: left;
+  right: 365px;
+  top: 16px;
+}
+/* line 45, ../sass/styles_ie.scss */
+.header .header_menu a {
+  font-size: 9pt;
+  font-family: 'futuriscyrillic';
+  font-weight: 900;
+  color: #777;
+  text-decoration: none;
+}
+/* line 52, ../sass/styles_ie.scss */
+.header .header_menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+/* line 58, ../sass/styles_ie.scss */
+.header .header_phone {
+  display: block;
+  position: absolute;
+  right: 0px;
+  color: #177343;
+  font-size: 10pt;
+  font-family: 'Conv_Helvetica_Bold';
+}
+/* line 65, ../sass/styles_ie.scss */
+.header .header_phone li {
+  display: inline-block;
+  position: relative;
+  height: 21px;
+  background: url("../img/header_separ.png") no-repeat;
+  padding: 3px 0px 0px 15px;
+  margin-left: 7px;
+}
+/* line 73, ../sass/styles_ie.scss */
+.header .header_phone .header_phone1 {
+  padding-left: 15px;
+  background: url("../img/icon/tel1.png") no-repeat;
+}
+/* line 77, ../sass/styles_ie.scss */
+.header .header_phone .header_phone2 {
+  display: inline-block;
+  padding-left: 17px;
+  background: url("../img/icon/tel2.png") no-repeat;
+  height: 21px;
+}
+/* line 85, ../sass/styles_ie.scss */
+.header .header_order {
+  display: block;
+  position: absolute;
+  top: 62px;
+  right: 0px;
+  width: 370px;
+  margin: 0;
+  font-size: 14;
+  height: 42px;
+}
+/* line 95, ../sass/styles_ie.scss */
+.header .header_order li {
+  display: inline-block;
+  position: relative;
+  top: 12 px;
+  font-size: 12pt;
+  margin-left: 40px;
+  padding-left: 15px;
+  background: url("../img/icon/header_separ2.png") no-repeat;
+}
+/* line 104, ../sass/styles_ie.scss */
+.header .header_order li:first-child {
+  margin-left: 0;
+}
+/* line 107, ../sass/styles_ie.scss */
+.header .header_order a {
+  color: #000;
+  font-family: 'Conv_Helvetica_Bold';
+}
+/* line 112, ../sass/styles_ie.scss */
+.header img {
+  display: block;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+}
+/* line 118, ../sass/styles_ie.scss */
+.header .header_slogan {
+  display: block;
+  position: absolute;
+  top: 67px;
+  left: 165px;
+  font-size: 10pt;
+  font-family: 'futuriscyrillic';
+  font-weight: 900;
+  color: #777;
+}
+/* line 129, ../sass/styles_ie.scss */
+.header .header_button {
+  display: none;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  width: 170px;
+  height: 34px;
+  background-image: url("../img/order2.png") no-repeat;
+  font-size: 14pt;
+  color: #fff;
+}
+/* line 140, ../sass/styles_ie.scss */
+.header .header_shadow {
+  display: block;
+  position: absolute;
+  top: 95px;
+  height: 5px;
+  width: 100%;
+  background-image: url("../img/header_shadow.png");
+  z-index: 20;
+}
+
+/*   BEGIN SCREEN1 */
+/* line 151, ../sass/styles_ie.scss */
+.screen1 {
+  display: block;
+  position: relative;
+  margin-top: 95px;
+  max-width: 1002px;
+  width: 100%;
+  height: 626px;
+  background: url("../img/screen1.png") no-repeat;
+  background-position: center;
+}
+/* line 160, ../sass/styles_ie.scss */
+.screen1 .screen1_coffe_machine {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 394px;
+  height: 626px;
+  background: url("../img/coffe_machine.png") no-repeat;
+  z-index: 4;
+}
+/* line 170, ../sass/styles_ie.scss */
+.screen1 .screen1_txt {
+  display: block;
+  position: absolute;
+  text-align: left;
+  top: 130px;
+  width: 520px;
+  right: 3%;
+  font-size: 42pt;
+  color: #000;
+  font-family: 'Conv_Futuris_Bold';
+  z-index: 10;
+}
+/* line 182, ../sass/styles_ie.scss */
+.screen1 .screen1_txt1 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  color: #000;
+  font-family: 'Conv_Futuris_Bold';
+  z-index: 10;
+}
+/* line 190, ../sass/styles_ie.scss */
+.screen1 .screen1_txt2 {
+  display: block;
+  position: absolute;
+  top: 70px;
+  color: #000;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 42pt;
+  z-index: 10;
+}
+/* line 199, ../sass/styles_ie.scss */
+.screen1 .screen1_txt3 {
+  display: block;
+  position: absolute;
+  top: 140px;
+  color: #167543;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 30pt;
+  z-index: 10;
+}
+/* line 208, ../sass/styles_ie.scss */
+.screen1 .screen1_txt4 {
+  display: block;
+  position: absolute;
+  top: 240px;
+  color: #000;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 13pt;
+  z-index: 10;
+}
+/* line 217, ../sass/styles_ie.scss */
+.screen1 .screen1_txt5 {
+  display: block;
+  position: absolute;
+  top: 240px;
+  left: 260px;
+  color: #000;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 13pt;
+  z-index: 10;
+}
+/* line 227, ../sass/styles_ie.scss */
+.screen1 .screen1_txt6 {
+  display: block;
+  position: absolute;
+  top: 265px;
+  color: #000;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 13pt;
+  z-index: 10;
+}
+/* line 236, ../sass/styles_ie.scss */
+.screen1 .screen1_txt7 {
+  display: block;
+  position: absolute;
+  top: 265px;
+  left: 170px;
+  color: #000;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 13pt;
+  z-index: 10;
+}
+/* line 246, ../sass/styles_ie.scss */
+.screen1 .screen1_txt8 {
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 13pt;
+  z-index: 10;
+}
+/* line 251, ../sass/styles_ie.scss */
+.screen1 #scr1_property {
+  display: block;
+  position: absolute;
+  top: 536px;
+  left: 35px;
+  padding: 0px;
+  z-index: 5;
+}
+/* line 258, ../sass/styles_ie.scss */
+.screen1 #scr1_property li {
+  display: inline-block;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  margin-left: 9px;
+  background: url(../img/icon/pro.png) no-repeat;
+}
+/* line 267, ../sass/styles_ie.scss */
+.screen1 #scr1_property li:first-child {
+  background: url(../img/icon/20bar.png) no-repeat;
+}
+/* line 270, ../sass/styles_ie.scss */
+.screen1 #scr1_property li:last-child {
+  background: url(../img/icon/italy.png) no-repeat;
+}
+/* line 274, ../sass/styles_ie.scss */
+.screen1 #scr1_table {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  max-width: 964px;
+  width: 100%;
+  height: 74px;
+  background: url(../img/scr1_table.png) no-repeat;
+}
+/* line 284, ../sass/styles_ie.scss */
+.screen1 #scr1_coffe {
+  display: block;
+  position: absolute;
+  left: 377px;
+  top: 492px;
+  width: 201px;
+  height: 130px;
+  background: url(../img/scr1_coffe.png) no-repeat;
+  z-index: 3;
+}
+/* line 294, ../sass/styles_ie.scss */
+.screen1 #scr1_coffe_shadow {
+  display: block;
+  position: absolute;
+  left: 323px;
+  top: 552px;
+  width: 236px;
+  height: 75px;
+  background: url(../img/scr1_coffe_shadow.png) no-repeat;
+  z-index: 2;
+}
+/* line 304, ../sass/styles_ie.scss */
+.screen1 #scr1_btn_office {
+  display: block;
+  position: absolute;
+  top: 540px;
+  right: 110px;
+  border: 1px solid #000;
+  width: 84px;
+  height: 64px;
+  background: url(../img/scr1_office.png) no-repeat;
+  color: #000;
+  font-size: 12pt;
+  text-align: center;
+  font-family: 'Conv_Futuris_Bold';
+  line-height: 64px;
+  vertical-align: center;
+  cursor: pointer;
+}
+/* line 321, ../sass/styles_ie.scss */
+.screen1 #scr1_btn_home {
+  display: block;
+  position: absolute;
+  top: 540px;
+  right: 25px;
+  border: 1px solid #000;
+  width: 84px;
+  height: 64px;
+  background: none;
+  color: #000;
+  font-size: 12pt;
+  text-align: center;
+  font-family: 'Conv_Futuris_Bold';
+  line-height: 64px;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+/*   END SCREEN1   */
+/*   BEGIN SCREEN2  */
+/* line 345, ../sass/styles_ie.scss */
+.screen2 {
+  display: block;
+  position: relative;
+  max-width: 1002px;
+  width: 100%;
+  height: 699px;
+  background: url("../img/screen2.png") no-repeat;
+  background-position: center;
+  border-top: 1px solid #d8dee0;
+  overflow: hidden;
+}
+/* line 355, ../sass/styles_ie.scss */
+.screen2 .scr2_txt1 {
+  display: block;
+  position: absolute;
+  top: 65px;
+  width: 80%;
+  margin-left: 10%;
+  color: #000;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 34pt;
+}
+/* line 365, ../sass/styles_ie.scss */
+.screen2 .scr2_txt2 {
+  display: block;
+  position: absolute;
+  top: 133px;
+  width: 70%;
+  margin-left: 15%;
+  color: #167543;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-family: 'helvetica_neue';
+  font-size: 14pt;
+}
+/* line 376, ../sass/styles_ie.scss */
+.screen2 .scr2_txt3 {
+  display: block;
+  position: absolute;
+  top: 158px;
+  width: 70%;
+  margin-left: 15%;
+  color: #167543;
+  font-family: 'helvetica_neue';
+  font-size: 14pt;
+}
+/* line 386, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt {
+  display: block;
+  position: absolute;
+  top: 275px;
+  width: 50%;
+  text-align: right;
+}
+/* line 392, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt .scr2_txt4 {
+  display: block;
+  position: relative;
+  top: 0px;
+  margin-right: 12%;
+  color: #2b2b2b;
+  font-family: 'helvetica_neue';
+  font-size: 22pt;
+}
+/* line 401, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt .scr2_txt5 {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  color: #2b2b2b;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 409, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt .scr2_txt6 {
+  margin-left: 7px;
+  color: #d80101;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 415, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt .scr2_txt7 {
+  margin-right: 12%;
+  color: #2b2b2b;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 421, ../sass/styles_ie.scss */
+.screen2 .scr2_left_txt .scr2_txt8 {
+  display: block;
+  position: relative;
+  top: 0px;
+  margin-right: 12%;
+  color: #2b2b2b;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 431, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt {
+  display: block;
+  position: absolute;
+  top: 275px;
+  width: 50%;
+  margin-left: 50%;
+  text-align: left;
+}
+/* line 438, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt9 {
+  display: block;
+  position: relative;
+  top: 0px;
+  margin-left: 12%;
+  color: #2b2b2b;
+  font-family: 'helvetica_neue';
+  font-size: 22pt;
+}
+/* line 447, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt10 {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-left: 12%;
+  color: #2b2b2b;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 456, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt11 {
+  display: block;
+  position: relative;
+  top: 0px;
+  margin-left: 12%;
+  color: #167543;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 22pt;
+}
+/* line 465, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt12 {
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 12%;
+  color: #000;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 17pt;
+}
+/* line 474, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt13 {
+  display: block;
+  position: relative;
+  margin-left: 12%;
+  color: #000;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 17pt;
+}
+/* line 482, ../sass/styles_ie.scss */
+.screen2 .scr2_right_txt .scr2_txt14 {
+  display: block;
+  position: relative;
+  width: 160px;
+  margin-left: 12%;
+  color: #d80101;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 26pt;
+  background: url(../img/icon/scr2_timer.png) no-repeat;
+  background-position: right top;
+}
+/* line 494, ../sass/styles_ie.scss */
+.screen2 .scr2_separ {
+  display: block;
+  position: absolute;
+  top: 200px;
+  right: 50%;
+  height: 452px;
+  width: 6px;
+  background: url(../img/scr2_separ.png) no-repeat;
+  z-index: 5;
+}
+/* line 504, ../sass/styles_ie.scss */
+.screen2 .scr2_arrow {
+  display: block;
+  position: absolute;
+  top: 425px;
+  left: 43%;
+  height: 57px;
+  width: 14%;
+  background: url(../img/icon/scr2_arrow.png) no-repeat;
+  background-position: center;
+  z-index: 6;
+}
+/* line 515, ../sass/styles_ie.scss */
+.screen2 .scr2_coffe {
+  display: block;
+  position: absolute;
+  top: 0px;
+  height: 268px;
+  width: 100%;
+  background: url(../img/scr2_coffe.png) no-repeat;
+  background-position: center;
+  z-index: 6;
+}
+/* line 525, ../sass/styles_ie.scss */
+.screen2 .scr2_coffe_machine2 {
+  display: block;
+  position: absolute;
+  top: 252px;
+  height: 368px;
+  width: 233px;
+  left: 80%;
+  background: url(../img/coffe_machine2.png) no-repeat;
+  background-position: center;
+  z-index: 6;
+}
+/* line 536, ../sass/styles_ie.scss */
+.screen2 #scr2_coffe2 {
+  display: block;
+  position: absolute;
+  top: 513px;
+  left: 14.5%;
+  width: 26%;
+  height: 114px;
+  background: url(../img/scr2_coffe2.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 5;
+}
+/* line 548, ../sass/styles_ie.scss */
+.screen2 #scr2_coffe2_shadow {
+  display: block;
+  position: absolute;
+  top: 569px;
+  left: 16%;
+  width: 23%;
+  height: 18%;
+  background: url(../img/scr2_coffe2_shadow.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 3;
+}
+/* line 560, ../sass/styles_ie.scss */
+.screen2 #scr2_coffe3 {
+  display: block;
+  position: absolute;
+  top: 445px;
+  left: 10%;
+  width: 33%;
+  height: 132px;
+  background: url(../img/scr2_coffe3.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 4;
+}
+/* line 572, ../sass/styles_ie.scss */
+.screen2 #scr2_coffe3_shadow {
+  display: block;
+  position: absolute;
+  top: 573px;
+  left: 10.7%;
+  width: 32%;
+  height: 132px;
+  background: url(../img/scr2_coffe3_shadow.png) no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+/*   END SCREEN2   */
+/*   BEGIN SCREEN3  */
+/* line 589, ../sass/styles_ie.scss */
+.screen3 {
+  display: block;
+  position: relative;
+  max-width: 1002px;
+  width: 100%;
+  height: 701px;
+  background: url("../img/screen3.png") no-repeat;
+  background-position: center;
+}
+/* line 597, ../sass/styles_ie.scss */
+.screen3 .scr3_txt1 {
+  display: inline-block;
+  position: relative;
+  font-family: 'Conv_Futuris_Bold';
+  color: #393939;
+  font-size: 32pt;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+/* line 606, ../sass/styles_ie.scss */
+.screen3 .scr3_txt2 {
+  display: inline-block;
+  position: relative;
+  font-family: 'Conv_Futuris_Bold';
+  color: #393939;
+  font-size: 32pt;
+}
+/* line 613, ../sass/styles_ie.scss */
+.screen3 .scr3_txt3 {
+  display: block;
+  position: relative;
+  font-family: 'Conv_Futuris_Bold';
+  color: #393939;
+  font-size: 32pt;
+}
+/* line 620, ../sass/styles_ie.scss */
+.screen3 .scr3_property {
+  display: block;
+  position: absolute;
+  top: 215px;
+  left: 40px;
+  text-align: left;
+}
+/* line 626, ../sass/styles_ie.scss */
+.screen3 .scr3_property li {
+  display: block;
+  position: relative;
+  margin-top: 60px;
+  font-size: 14pt;
+  font-family: 'Conv_Helvetica_Bold';
+  color: #393939;
+  background: url(../img/icon/scr3_o2.png) no-repeat;
+  padding: 3px 0px 0px 60px;
+}
+/* line 636, ../sass/styles_ie.scss */
+.screen3 .scr3_property span {
+  display: block;
+}
+/* line 639, ../sass/styles_ie.scss */
+.screen3 .scr3_property li:first-child {
+  background: url(../img/icon/scr3_o1.png) no-repeat;
+}
+/* line 642, ../sass/styles_ie.scss */
+.screen3 .scr3_property li:last-child {
+  background: url(../img/icon/scr3_o3.png) no-repeat;
+}
+/* line 647, ../sass/styles_ie.scss */
+.screen3 .scr3_673 {
+  display: block;
+  position: absolute;
+  top: 460px;
+  width: 275px;
+  right: 5%;
+  text-align: left;
+}
+/* line 654, ../sass/styles_ie.scss */
+.screen3 .scr3_673 .scr3_txt4 {
+  display: inline-block;
+  position: relative;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 32pt;
+  color: #d80101;
+}
+/* line 661, ../sass/styles_ie.scss */
+.screen3 .scr3_673 .scr3_txt5 {
+  display: inline-block;
+  position: relative;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 32pt;
+  color: #167543;
+}
+/* line 668, ../sass/styles_ie.scss */
+.screen3 .scr3_673 .scr3_txt6 {
+  display: inline-block;
+  position: relative;
+  margin-left: 7px;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 15pt;
+  color: #393939;
+}
+/* line 676, ../sass/styles_ie.scss */
+.screen3 .scr3_673 .scr3_txt7 {
+  display: inline-block;
+  position: relative;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 15pt;
+  color: #393939;
+}
+/* line 683, ../sass/styles_ie.scss */
+.screen3 .scr3_673 .scr3_txt8 {
+  display: inline-block;
+  position: relative;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  font-size: 15pt;
+  color: #393939;
+}
+/* line 691, ../sass/styles_ie.scss */
+.screen3 .scr3_txt9 {
+  display: block;
+  position: absolute;
+  top: 655px;
+  height: 21px;
+  right: 4%;
+  font-family: 'Conv_Helvetica_Bold';
+  font-size: 13pt;
+  background: url(../img/icon/scr3_i.png) no-repeat;
+  padding: 3px 0px 0px 35px;
+}
+/* line 701, ../sass/styles_ie.scss */
+.screen3 .scr3_txt9 a {
+  color: #393939;
+  text-decoration: none;
+  border-bottom: 1px dashed #c0c0c0;
+}
+/* line 710, ../sass/styles_ie.scss */
+.screen3 .scr3_separ {
+  display: block;
+  position: absolute;
+  top: 200px;
+  right: 50%;
+  height: 452px;
+  width: 6px;
+  background: url(../img/scr2_separ.png) no-repeat;
+  z-index: 5;
+}
+/* line 720, ../sass/styles_ie.scss */
+.screen3 .scr3_italy {
+  display: block;
+  position: absolute;
+  top: 185px;
+  right: 8%;
+  width: 216px;
+  height: 256px;
+  background: url(../img/scr3_italy.png) no-repeat;
+}
+/* line 729, ../sass/styles_ie.scss */
+.screen3 .scr3_coffe1 {
+  display: block;
+  position: absolute;
+  top: 244px;
+  right: 50%;
+  width: 148px;
+  height: 301px;
+  background: url(../img/scr3_coffe1.png) no-repeat;
+}
+/* line 738, ../sass/styles_ie.scss */
+.screen3 .scr3_coffe2 {
+  display: block;
+  position: absolute;
+  top: 281px;
+  left: 50%;
+  width: 149px;
+  height: 301px;
+  background: url(../img/scr3_coffe2.png) no-repeat;
+}
+
+/*   END SCREEN3   */
+/*   BEGIN SCREEN4  */
+/* line 751, ../sass/styles_ie.scss */
+.screen4 {
+  display: block;
+  position: relative;
+  max-width: 1002px;
+  width: 100%;
+  height: 703px;
+  /*  BEGIN WHITE BLOCK */
+  /*  END WHITE BLOCK */
+  /*  BEGIN RED BLOCK */
+  /*  END RED BLOCK */
+}
+/* line 757, ../sass/styles_ie.scss */
+.screen4 .scr4_green {
+  display: block;
+  position: relative;
+  width: 33%;
+  height: 703px;
+  background: url("../img/screen4_green.png") no-repeat;
+  background-position: right;
+  text-align: center;
+}
+/* line 765, ../sass/styles_ie.scss */
+.screen4 .scr4_green .scr4_name {
+  display: block;
+  position: absolute;
+  font-size: 22pt;
+  width: 40%;
+  left: 30%;
+  top: 30px;
+  color: #fff;
+  font-family: 'Conv_Futuris_Bold';
+}
+/* line 775, ../sass/styles_ie.scss */
+.screen4 .scr4_green .img_1000 {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  min-width: 140px;
+  height: 250px;
+  /*left: 30%;*/
+  top: 110px;
+}
+/* line 784, ../sass/styles_ie.scss */
+.screen4 .scr4_green .img_m {
+  display: none;
+}
+/* line 787, ../sass/styles_ie.scss */
+.screen4 .scr4_green .scr4_new {
+  display: block;
+  position: absolute;
+  right: 20%;
+  top: 95px;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icon/scr4_new.png) no-repeat;
+  font-family: 'Conv_Futuris_Bold';
+  padding-top: 17px;
+  color: #fff;
+  font-size: 10pt;
+}
+/* line 800, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul {
+  display: block;
+  position: absolute;
+  color: #fff;
+  font-size: 11pt;
+  text-align: left;
+  font-family: 'Conv_Helvetica_Bold';
+  top: 365px;
+  left: 8%;
+}
+/* line 809, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul li {
+  display: block;
+  margin-top: 17px;
+  padding-left: 48px;
+}
+/* line 814, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul .green1 {
+  background: url(../img/icon/scr4_point1.png) no-repeat;
+}
+/* line 817, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul .green2 {
+  background: url(../img/icon/scr4_point_2.png) no-repeat;
+}
+/* line 820, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul .green3 {
+  background: url(../img/icon/scr4_point_3.png) no-repeat;
+}
+/* line 823, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul .green4 {
+  background: url(../img/icon/scr4_point_4.png) no-repeat;
+}
+/* line 826, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul li:last-child {
+  display: block;
+  position: relative;
+  margin-top: 17px;
+  font-family: 'helvetica_neue';
+  font-size: 9pt;
+  padding-top: 11px;
+  padding-left: 58px;
+  left: -11px;
+  background-position: 2%;
+}
+/* line 837, ../sass/styles_ie.scss */
+.screen4 .scr4_green ul span {
+  display: block;
+}
+/* line 841, ../sass/styles_ie.scss */
+.screen4 .scr4_green .scr4_green_btn {
+  display: block;
+  position: absolute;
+  top: 635px;
+  width: 60%;
+  left: 20%;
+  height: 28px;
+  background: url(../img/scr4_btn.png) no-repeat;
+  background-position: center;
+  color: #fff;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 9pt;
+  padding-top: 10px;
+}
+/* line 857, ../sass/styles_ie.scss */
+.screen4 .scr4_white {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 33%;
+  width: 35%;
+  height: 703px;
+  background: #fff;
+  background-position: right;
+  border-top: 1px solid #d8dee0;
+}
+/* line 867, ../sass/styles_ie.scss */
+.screen4 .scr4_white .scr4_name {
+  display: block;
+  position: absolute;
+  font-size: 22pt;
+  width: 40%;
+  left: 30%;
+  top: 30px;
+  color: #393939;
+  font-family: 'Conv_Futuris_Bold';
+}
+/* line 877, ../sass/styles_ie.scss */
+.screen4 .scr4_white .img_white_m {
+  display: none;
+}
+/* line 880, ../sass/styles_ie.scss */
+.screen4 .scr4_white .img_white_1000 {
+  display: inline-block;
+  position: relative;
+  width: 208px;
+  height: 245px;
+  top: 110px;
+  background-position: center;
+}
+/* line 888, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul {
+  display: block;
+  position: absolute;
+  color: #393939;
+  font-size: 11pt;
+  text-align: left;
+  font-family: 'Conv_Helvetica_Bold';
+  top: 365px;
+  left: 8%;
+}
+/* line 897, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul li {
+  display: block;
+  margin-top: 17px;
+  padding-left: 48px;
+  height: 34px;
+}
+/* line 903, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul .green1 {
+  background: url(../img/icon/scr4_piont_1_2.png) no-repeat;
+}
+/* line 906, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul .green2 {
+  background: url(../img/icon/scr4_point_2.png) no-repeat;
+}
+/* line 909, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul .green3 {
+  background: url(../img/icon/scr4_point_3.png) no-repeat;
+}
+/* line 912, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul .green4 {
+  background: url(../img/icon/scr4_point_4.png) no-repeat;
+}
+/* line 915, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul li:last-child {
+  display: block;
+  position: relative;
+  margin-top: 17px;
+  font-family: 'helvetica_neue';
+  font-size: 9pt;
+  padding-top: 11px;
+  padding-left: 58px;
+  left: -11px;
+  background-position: 2%;
+}
+/* line 926, ../sass/styles_ie.scss */
+.screen4 .scr4_white ul span {
+  display: block;
+}
+/* line 930, ../sass/styles_ie.scss */
+.screen4 .scr4_white .scr4_green_btn {
+  display: block;
+  position: absolute;
+  top: 635px;
+  width: 60%;
+  left: 20%;
+  height: 28px;
+  background: url(../img/scr4_btn.png) no-repeat;
+  background-position: center;
+  color: #fff;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 9pt;
+  padding-top: 10px;
+}
+/* line 947, ../sass/styles_ie.scss */
+.screen4 .scr4_red {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 67%;
+  width: 33%;
+  height: 703px;
+  background: url("../img/screen4_red.png") no-repeat;
+  background-position: right;
+}
+/* line 956, ../sass/styles_ie.scss */
+.screen4 .scr4_red .scr4_name {
+  display: block;
+  position: absolute;
+  font-size: 22pt;
+  width: 40%;
+  left: 30%;
+  top: 30px;
+  color: #fff;
+  font-family: 'Conv_Futuris_Bold';
+}
+/* line 966, ../sass/styles_ie.scss */
+.screen4 .scr4_red .img_red_m {
+  display: none;
+}
+/* line 969, ../sass/styles_ie.scss */
+.screen4 .scr4_red .img_red_1000 {
+  display: inline-block;
+  position: relative;
+  width: 208px;
+  height: 245px;
+  top: 110px;
+  background-position: center;
+}
+/* line 977, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul {
+  display: block;
+  position: absolute;
+  color: #fff;
+  font-size: 11pt;
+  text-align: left;
+  font-family: 'Conv_Helvetica_Bold';
+  top: 365px;
+  left: 8%;
+}
+/* line 986, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul li {
+  display: block;
+  margin-top: 17px;
+  padding-left: 48px;
+}
+/* line 991, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul .green1 {
+  background: url(../img/icon/scr4_point1.png) no-repeat;
+}
+/* line 994, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul .green2 {
+  background: url(../img/icon/scr4_point_2.png) no-repeat;
+}
+/* line 997, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul .green3 {
+  background: url(../img/icon/scr4_point_3.png) no-repeat;
+}
+/* line 1000, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul .green4 {
+  background: url(../img/icon/scr4_point_4.png) no-repeat;
+}
+/* line 1003, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul li:last-child {
+  display: block;
+  position: relative;
+  margin-top: 17px;
+  font-family: 'helvetica_neue';
+  font-size: 9pt;
+  padding-top: 11px;
+  padding-left: 58px;
+  left: -11px;
+  background-position: 2%;
+}
+/* line 1014, ../sass/styles_ie.scss */
+.screen4 .scr4_red ul span {
+  display: block;
+}
+/* line 1018, ../sass/styles_ie.scss */
+.screen4 .scr4_red .scr4_green_btn {
+  display: block;
+  position: absolute;
+  top: 635px;
+  width: 60%;
+  left: 20%;
+  height: 28px;
+  background: url(../img/scr4_btn.png) no-repeat;
+  background-position: center;
+  color: #fff;
+  font-family: 'Conv_Futuris_Bold';
+  font-size: 9pt;
+  padding-top: 10px;
+}
+
+/*   END SCREEN4   */
+/*   BEGIN SCREEN5  */
+/* line 1038, ../sass/styles_ie.scss */
+.screen5 {
+  display: block;
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  border: 1px solid #d8dee0;
+  background-position: center;
+}
+/* line 1047, ../sass/styles_ie.scss */
+.screen5 .scr5_txt1 {
+  display: block;
+  position: absolute;
+  top: 85px;
+  left: 9%;
+  font-family: 'Conv_Futuris_Bold';
+  color: #393939;
+  font-size: 40pt;
+  z-index: 5;
+}
+/* line 1057, ../sass/styles_ie.scss */
+.screen5 .scr5_txt2 {
+  display: block;
+  position: absolute;
+  top: 185px;
+  left: 9%;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  color: #393939;
+  font-size: 32pt;
+  z-index: 5;
+}
+/* line 1067, ../sass/styles_ie.scss */
+.screen5 .scr5_txt3 {
+  display: block;
+  position: absolute;
+  top: 235px;
+  left: 9%;
+  font-family: 'helvetica-2-ultraligh2ultraLt';
+  color: #393939;
+  font-size: 32pt;
+  z-index: 5;
+}
+/* line 1077, ../sass/styles_ie.scss */
+.screen5 .scr5_txt4 {
+  display: block;
+  position: absolute;
+  top: 290px;
+  left: 9%;
+  font-family: 'Conv_Futuris_Bold';
+  color: #d80101;
+  font-size: 36pt;
+  z-index: 5;
+}
+/* line 1087, ../sass/styles_ie.scss */
+.screen5 .scr5_txt5 {
+  display: block;
+  position: absolute;
+  top: 355px;
+  left: 9%;
+  font-family: 'Conv_Futuris_Bold';
+  color: #167543;
+  font-size: 36pt;
+  z-index: 5;
+}
+/* line 1097, ../sass/styles_ie.scss */
+.screen5 .scr5_txt6 {
+  display: block;
+  position: absolute;
+  top: 446px;
+  height: 60px;
+  left: 42%;
+  font-family: 'helvetica_neue';
+  color: #393939;
+  font-size: 17pt;
+  background: url(../img/scr5_p10.png) no-repeat;
+  padding: 16px 0px 0px 70px;
+  z-index: 5;
+}
+/* line 1110, ../sass/styles_ie.scss */
+.screen5 .scr5_btn {
+  display: block;
+  position: absolute;
+  top: 575px;
+  width: 149px;
+  height: 39px;
+  left: 9%;
+  font-family: 'Conv_Futuris_Bold';
+  color: #fff;
+  font-size: 12pt;
+  background: url(../img/scr5_btn.png) no-repeat;
+  padding-top: 10px;
+  z-index: 5;
+}
+/* line 1124, ../sass/styles_ie.scss */
+.screen5 .scr5_coffes {
+  display: block;
+  position: absolute;
+  top: 10px;
+  width: 478px;
+  height: 597px;
+  left: 39%;
+  background: url(../img/scr5_coffes.png) no-repeat;
+  z-index: 4;
+}
+/* line 1134, ../sass/styles_ie.scss */
+.screen5 .scr5_coffe_cap {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 468px;
+  height: 393px;
+  left: 49%;
+  background: url(../img/scr5_coffe_cap.png) no-repeat;
+  z-index: 2;
+}
+/* line 1144, ../sass/styles_ie.scss */
+.screen5 .scr5_table {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 35px;
+  background: url(../img/scr5_table.png) no-repeat;
+  z-index: 1;
+}
+/* line 1153, ../sass/styles_ie.scss */
+.screen5 .scr5_caps {
+  display: block;
+  position: absolute;
+  top: 463px;
+  left: 9%;
+  width: 303px;
+  height: 31px;
+  background: url(../img/scr5_caps.png) no-repeat;
+  z-index: 3;
+}
+
+/*   END SCREEN5   */
+/*   BEGIN FOOTER  */
+/* line 1166, ../sass/styles_ie.scss */
+.footer {
+  display: block;
+  position: relative;
+  max-width: 1002px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+/* line 1173, ../sass/styles_ie.scss */
+.footer .footer_order {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  color: #393939;
+  font-family: 'helvetica_neue';
+  padding: 0px;
+}
+/* line 1181, ../sass/styles_ie.scss */
+.footer .footer_order li {
+  display: inline-block;
+  position: relative;
+  font-size: 10pt;
+  padding: 3px 0px 0px 45px;
+  margin-left: 53px;
+}
+/* line 1188, ../sass/styles_ie.scss */
+.footer .footer_order li:first-child {
+  margin-left: 0px;
+}
+/* line 1191, ../sass/styles_ie.scss */
+.footer .footer_order span {
+  display: block;
+}
+/* line 1194, ../sass/styles_ie.scss */
+.footer .footer_order a {
+  color: #167543;
+}
+/* line 1197, ../sass/styles_ie.scss */
+.footer .footer_order .footer_order_1 {
+  background: url(../img/icon/footer_point1.png) no-repeat;
+}
+/* line 1200, ../sass/styles_ie.scss */
+.footer .footer_order .footer_order_2 {
+  background: url(../img/icon/footer_point2.png) no-repeat;
+}
+/* line 1203, ../sass/styles_ie.scss */
+.footer .footer_order .footer_order_3 {
+  background: url(../img/icon/footer_point3.png) no-repeat;
+}
+/* line 1206, ../sass/styles_ie.scss */
+.footer .footer_order .footer_order_4 {
+  background: url(../img/icon/footer_point4.png) no-repeat;
+}
+
+/*   END FOOTER    */

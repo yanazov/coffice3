@@ -5,11 +5,12 @@ $color_green: #167543;
 only screen  and (max-device-width: 550px) {
 
 body {	
-	/*text-align:  center;*/
 	width: 100%;
 	min-width: 385px;	
+	.header_chat2{
+		display: none;
+	}
 }
-
 .container_center{
 	display: inline-block;	
 	width: 100%;
@@ -99,6 +100,9 @@ body {
 		font-family: 'Conv_Futuris_Bold';
 		cursor: pointer;
 		letter-spacing: 0.1em;
+	}
+	.header_button2{
+		display: none;
 	}
 	.header_shadow{
 		display: block;
@@ -1040,6 +1044,81 @@ body {
 		width: 100%;
 		height: 185px;
 		background-position: center;
+		.footer_order{
+			display: none;			
+		}
+		.footer_phone{
+			display: block;
+			position: absolute;
+			top: 7px;
+			width: 96%;			
+			left: 2%;
+			color: #177343;
+			font-size: 10pt;
+			font-family: 'Conv_Helvetica_Bold';
+			padding: 0;
+			li{
+				display: inline-block;
+				position: relative;
+				height: 21px;
+				background: url("../img/footer_separ.png") no-repeat;
+				padding: 3px 0px 0px 15px;
+				margin-left: 7px;
+			}
+			.footer_phone1{
+				padding-left: 15px;
+				background: url("../img/icon/tel1.png") no-repeat;
+			}
+			.footer_phone2{
+				display: inline-block;
+				padding-left: 17px;
+				background: url("../img/icon/tel2.png") no-repeat;
+				height: 21px;
+			}
+			li:first-child{
+				background: none;
+				margin-left: 0px;
+			}
+		}
+		.footer_social{
+			display: inline-block;
+			position: relative; 
+			background: url(../img/social_smal.png) no-repeat;
+			top: 65px;
+			width: 305px;
+			height: 22px;
+		}
+		.footer_copyrite{
+			display: block;
+			position: relative; 
+			font-family: 'helvetica_neue';
+			color: #7c7c7c;
+			top: 75px;
+			font-size: 10pt;
+		}
+		.footer_menu{
+			display: block;
+			position: absolute;
+			text-align: center;
+			width: 70%;
+			right: 15%;
+			top: 153px;
+			padding: 0px;
+			a{
+				font-size: 8pt;
+				font-family: 'futuriscyrillic';
+				font-weight: 900;
+				color: #777;
+				text-decoration: none;
+			}
+			li{
+				display: inline-block;
+				margin-left: 15px;
+			}
+			li:first-child{
+				margin-left: 0px;
+			}
+		}
 	}
 /*   END FOOTER    */
 
