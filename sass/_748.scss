@@ -298,6 +298,21 @@ body{
 		#scr1_btn_home{
 			display: none;
 		}
+		#scr1_btn_m{
+			display: block;
+			position: absolute;
+			top: 570px;
+			right: 4%;
+			height: 28px;
+			width: 50px;
+			text-align: left;
+			padding: 13px 45px 0px 0px;
+			background: url(../img/icon/scr1_btn_m.png) no-repeat;
+			background-position: right;
+			font-family: 'Conv_Futuris_Bold';
+			font-size: 12pt;
+			cursor: pointer;
+		}
 		
 		
 	}	
