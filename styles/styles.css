@@ -2911,7 +2911,7 @@
     max-width: 1002px;
     width: 100%;
     height: 540px;
-    /*background: url("../img/screen1.png") no-repeat;*/
+    background: url("../img/screen1.png") no-repeat;
     background-position: 36% 100%;
     z-index: 2;
   }
@@ -2925,8 +2925,8 @@
     left: 0px;
     background-position: 50% 100%;
     top: 0px;
+    background: url("../img/coffe_machine.png") no-repeat;
     z-index: 12;
-    background-color: #f04;
   }
   /* line 152, ../sass/_385.scss */
   .screen1 .screen1_txt {
