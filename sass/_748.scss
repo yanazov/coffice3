@@ -15,6 +15,7 @@ body{
 	
 	width: 100%;
 	max-width: 1002px;
+	overflow: hidden;
  }
 
 .header{
@@ -142,6 +143,7 @@ body{
 		height: 626px;
 		background: url("../img/screen1.png") no-repeat;
 		background-position: center;
+		overflow: hidden;
 		.screen1_coffe_machine{
 			display: block;
 			position: absolute;
@@ -763,17 +765,6 @@ body{
 		background-position: left;
 		background-size: cover;
 		/*text-align: center;*/
-		.scr4_name{
-			display: block;
-			position: absolute;
-			font-size: 36pt;
-			width: 30%;
-			left: 13%;
-			top: 70px;
-			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			text-align: left;
-		}
 		.img_1000{
 			display: none;
 		}
@@ -786,73 +777,94 @@ body{
 			top: 0px;		
 		}
 		.scr4_new{
-			display: block;
-			position: absolute;			
-			right: 255px;
-			top: 95px;
-			width: 50px;
-			height: 50px;
-			background: url(../img/icon/scr4_new.png) no-repeat;
-			font-family: 'Conv_Futuris_Bold';
-			padding-top: 17px;
-			color: #fff;
-			font-size: 10pt;
-		}
-		ul{
-			display: block;
-			position: absolute;
-			color: #fff;
-			font-size: 11pt;
-			text-align: left;
-			font-family: 'Conv_Helvetica_Bold';
-			top: 150px;
-			left: 8%;
-			li{
 				display: block;
-				margin-top: 17px;
-				padding-left: 48px;
+				position: absolute;			
+				right: 255px;
+				top: 95px;
+				width: 50px;
+				height: 50px;
+				background: url(../img/icon/scr4_new.png) no-repeat;
+				font-family: 'Conv_Futuris_Bold';
+				padding-top: 17px;
+				color: #fff;
+				font-size: 10pt;
 			}
-			.green1{
-				background: url(../img/icon/scr4_point1.png) no-repeat;
-			}
-			.green2{
-				background: url(../img/icon/scr4_point_2.png) no-repeat;
-			}
-			.green3{
-				background: url(../img/icon/scr4_point_3.png) no-repeat;
-			}
-			.green4{
-				background: url(../img/icon/scr4_point_4.png) no-repeat;
-			}
-			li:last-child{
+		.scr4_green_txt{
+			display: block;
+			position: relative;
+			top: 0px;
+			left: 13%;
+			width: 50%;
+			height: 550px;
+			
+			.scr4_name{
 				display: block;
-				position: relative;
-				margin-top: 17px;
-				font-family: 'helvetica_neue';
+				position: absolute;
+				font-size: 36pt;
+				width: 30%;
+				left: 0%;
+				top: 70px;
+				color: #fff;
+				font-family: 'Conv_Futuris_Bold';
+				text-align: left;
+			}
+			ul{
+				display: block;
+				position: absolute;
+				color: #fff;
+				font-size: 11pt;
+				text-align: left;
+				font-family: 'Conv_Helvetica_Bold';
+				top: 150px;
+				left: 0%;
+				padding: 0px;
+				li{
+					display: block;
+					margin-top: 17px;
+					padding-left: 48px;
+				}
+				.green1{
+					background: url(../img/icon/scr4_point1.png) no-repeat;
+				}
+				.green2{
+					background: url(../img/icon/scr4_point_2.png) no-repeat;
+				}
+				.green3{
+					background: url(../img/icon/scr4_point_3.png) no-repeat;
+				}
+				.green4{
+					background: url(../img/icon/scr4_point_4.png) no-repeat;
+				}
+				li:last-child{
+					display: block;
+					position: relative;
+					margin-top: 17px;
+					font-family: 'helvetica_neue';
+					font-size: 9pt;
+					padding-top: 11px;
+					padding-left: 58px;
+					left: -11px;
+					background-position: 2%;
+				}
+				span{
+					display: block;
+				}			
+			}
+			.scr4_green_btn{
+				display: block;
+				position: absolute;
+				top: 435px;
+				width: 200px;
+				left: 45px;
+				height: 28px;
+				background: url(../img/scr4_btn.png) no-repeat;
+				background-position: left;
+				color: #fff;
+				font-family: 'Conv_Futuris_Bold';
 				font-size: 9pt;
-				padding-top: 11px;
-				padding-left: 58px;
-				left: -11px;
-				background-position: 2%;
-			}
-			span{
-				display: block;
-			}			
+				padding-top: 10px;
+			}		
 		}
-		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 435px;
-			width: 30%;
-			left: 60px;
-			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
-			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
-		}		
 	}
 /*  BEGIN WHITE BLOCK */	
 	.scr4_white{
@@ -864,16 +876,6 @@ body{
 		background-position: right;
 		border-top: 1px solid #d8dee0;
 		left: 0px;
-		.scr4_name{
-			display: block;
-			position: absolute;
-			font-size: 36pt;
-			width: 40%;
-			left: 52%;
-			top: 85px;
-			color: #393939;
-			font-family: 'Conv_Futuris_Bold';
-		}
 		.img_white_1000{
 			display: none;
 		}
@@ -885,63 +887,84 @@ body{
 			top: 45px;
 			left: 0;
 			background-position: left;
-		}		
-		ul{
+		}				
+		.scr4_white_txt{
 			display: block;
 			position: absolute;
-			color: #393939;
-			font-size: 11pt;
-			text-align: left;
-			font-family: 'Conv_Helvetica_Bold';
-			top: 160px;
-			left: 55%;
-			li{
+			top: 0px;
+			right: 10%;
+			width: 220px;
+			height: 550px;
+			color: #0f4;
+			.scr4_name{
 				display: block;
-				margin-top: 17px;
-				padding-left: 48px;
-				height: 34px;
+				position: absolute;
+				font-size: 36pt;
+				width: 40%;
+				left: 0%;
+				top: 85px;
+				color: #393939;
+				font-family: 'Conv_Futuris_Bold';				
 			}
-			.green1{
-				background: url(../img/icon/scr4_piont_1_2.png) no-repeat;
-			}
-			.green2{
-				background: url(../img/icon/scr4_point_2.png) no-repeat;
-			}
-			.green3{
-				background: url(../img/icon/scr4_point_3.png) no-repeat;
-			}
-			.green4{
-				background: url(../img/icon/scr4_point_4.png) no-repeat;
-			}
-			li:last-child{
+			
+			ul{
 				display: block;
-				position: relative;
-				margin-top: 17px;
-				font-family: 'helvetica_neue';
+				position: absolute;
+				color: #393939;
+				font-size: 11pt;
+				text-align: left;
+				font-family: 'Conv_Helvetica_Bold';
+				top: 160px;
+				left: 0%;
+				padding: 0px;
+				li{
+					display: block;
+					margin-top: 17px;
+					padding-left: 48px;
+					height: 34px;
+				}
+				.green1{
+					background: url(../img/icon/scr4_piont_1_2.png) no-repeat;
+				}
+				.green2{
+					background: url(../img/icon/scr4_point_2.png) no-repeat;
+				}
+				.green3{
+					background: url(../img/icon/scr4_point_3.png) no-repeat;
+				}
+				.green4{
+					background: url(../img/icon/scr4_point_4.png) no-repeat;
+				}
+				li:last-child{
+					display: block;
+					position: relative;
+					margin-top: 17px;
+					font-family: 'helvetica_neue';
+					font-size: 9pt;
+					padding-top: 11px;
+					padding-left: 58px;
+					left: -11px;
+					background-position: 2%;
+				}
+				span{
+					display: block;
+				}			
+			}
+			.scr4_green_btn{
+				display: block;
+				position: absolute;
+				top: 435px;
+				width: 200px;;
+				left: 45px;
+				height: 28px;
+				background: url(../img/scr4_btn.png) no-repeat;
+				background-position: left;
+				color: #fff;
+				font-family: 'Conv_Futuris_Bold';
 				font-size: 9pt;
-				padding-top: 11px;
-				padding-left: 58px;
-				left: -11px;
-				background-position: 2%;
-			}
-			span{
-				display: block;
-			}			
+				padding-top: 10px;
+			}	
 		}
-		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 435px;
-			width: 30%;
-			left: 55%;
-			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
-			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
-		}	
 	}
 /*  END WHITE BLOCK */
 /*  BEGIN RED BLOCK */
@@ -954,16 +977,6 @@ body{
 		background-position: left;
 		left: 0px;
 		background-size: cover;
-		.scr4_name{
-			display: block;
-			position: absolute;
-			font-size: 35pt;
-			width: 40%;
-			left: 7%;
-			top: 80px;
-			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-		}
 		.img_red_1000{
 			display: none;
 		}
@@ -976,61 +989,82 @@ body{
 			right: 0px;
 			background-position: center;
 		}		
-		ul{
+		.scr4_red_txt{
 			display: block;
 			position: absolute;
-			color: #fff;
-			font-size: 11pt;
-			text-align: left;
-			font-family: 'Conv_Helvetica_Bold';
-			top: 157px;
-			left: 8.3%;
-			li{
+			top: 0px;
+			left: 13.5%;
+			width: 220px;
+			height: 550px;
+			color: #0f4;
+			.scr4_name{
 				display: block;
-				margin-top: 17px;
-				padding-left: 48px;
+				position: absolute;
+				font-size: 35pt;
+				width: 40%;
+				left: 0%;
+				top: 80px;
+				color: #fff;
+				font-family: 'Conv_Futuris_Bold';
 			}
-			.green1{
-				background: url(../img/icon/scr4_point1.png) no-repeat;
-			}
-			.green2{
-				background: url(../img/icon/scr4_point_2.png) no-repeat;
-			}
-			.green3{
-				background: url(../img/icon/scr4_point_3.png) no-repeat;
-			}
-			.green4{
-				background: url(../img/icon/scr4_point_4.png) no-repeat;
-			}
-			li:last-child{
+			
+			ul{
 				display: block;
-				position: relative;
-				margin-top: 17px;
-				font-family: 'helvetica_neue';
+				position: absolute;
+				color: #fff;
+				font-size: 11pt;
+				text-align: left;
+				font-family: 'Conv_Helvetica_Bold';
+				top: 157px;
+				left: 0%;
+				padding: 0px;
+				li{
+					display: block;
+					margin-top: 17px;
+					padding-left: 48px;
+				}
+				.green1{
+					background: url(../img/icon/scr4_point1.png) no-repeat;
+				}
+				.green2{
+					background: url(../img/icon/scr4_point_2.png) no-repeat;
+				}
+				.green3{
+					background: url(../img/icon/scr4_point_3.png) no-repeat;
+				}
+				.green4{
+					background: url(../img/icon/scr4_point_4.png) no-repeat;
+				}
+				li:last-child{
+					display: block;
+					position: relative;
+					margin-top: 17px;
+					font-family: 'helvetica_neue';
+					font-size: 9pt;
+					padding-top: 11px;
+					padding-left: 58px;
+					left: -11px;
+					background-position: 2%;
+				}
+				span{
+					display: block;
+				}			
+			}
+			.scr4_green_btn{
+				display: block;
+				position: absolute;
+				top: 435px;
+				width: 150px;
+				left: 45px;
+				height: 28px;
+				background: url(../img/scr4_btn.png) no-repeat;
+				background-position: left;
+				color: #fff;
+				font-family: 'Conv_Futuris_Bold';
 				font-size: 9pt;
-				padding-top: 11px;
-				padding-left: 58px;
-				left: -11px;
-				background-position: 2%;
-			}
-			span{
-				display: block;
-			}			
+				padding-top: 10px;
+			}	
 		}
-		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 435px;
-			width: 25%;
-			left: 10.4%;
-			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
-			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
-		}	
 	}
 /*  END RED BLOCK */	
 	

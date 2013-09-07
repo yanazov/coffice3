@@ -25,7 +25,7 @@ var mouse_wheel = function(event) {
 	tmp -= direction/2;
 	if (tmp < 0)
 		tmp=0;
-	if (tmp > 96)
+	if (tmp > 96 && document.getElementsByClassName("container_center")[0].offsetWidth > 880)
 		tmp=96;  	
 /*	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
 	/*window.scrollBy(0, -direction*40);*/
@@ -78,12 +78,20 @@ window.onscroll = function fixed_menu(elem) {
 					
 					document.getElementsByClassName("scr2_coffe_machine2")[0].style.left=136+(br.top+430)/3+"%";
 					document.getElementsByClassName("scr2_coffe_machine2_shadow")[0].style.left=136+(br.top+430)/3+"%";
+					document.getElementById("scr2_coffe2").style.left=-42-(br.top+430)/3+"%";
+					document.getElementById("scr2_coffe3").style.left=-74.5-(br.top+430)/2+"%";
+					document.getElementById("scr2_coffe2_shadow").style.left=-40-(br.top+430)/3+"%";
+					document.getElementById("scr2_coffe3_shadow").style.left=-74-(br.top+430)/2+"%";
+					
 					
 				}			
 			}	
-			/* SCREEN 3 UL*/
+			/* SCREEN 3 UL*/			
 				if(-br.top > 950){
-					document.getElementsByClassName("scr3_property_li")[0].style.left=-300+(-br.top-950)*3+"px";			
+					document.getElementsByClassName("scr3_property_li")[0].style.left=-300+(-br.top-950)*3+"px";
+					document.getElementsByClassName("scr3_italy")[0].style.right=-300+(-br.top-950)*3+"px";
+					if(-300+(-br.top-950)*3 > 80)
+						document.getElementsByClassName("scr3_italy")[0].style.right=8+"%";
 					if(-300+(-br.top-950)*3 > 0)
 						document.getElementsByClassName("scr3_property_li")[0].style.left=0+"px";					
 				}
@@ -92,16 +100,23 @@ window.onscroll = function fixed_menu(elem) {
 					if(-300+(-br.top-1020)*3 > 0)
 						document.getElementsByClassName("scr3_property_li")[1].style.left=0+"px";					
 				}
-				if(-br.top > 1090){						
+				if(-br.top < 1090){	
+					document.getElementsByClassName("scr3_property_li")[2].style.display="none";						
+				}
+				if(-br.top > 1090){		
+					document.getElementsByClassName("scr3_property_li")[2].style.display="block";	
 					document.getElementsByClassName("scr3_property_li")[2].style.left=-300+(-br.top-1090)*3+"px";	
-					document.getElementsByClassName("scr3_coffe1")[0].style.top=262-(-br.top-1090)*0.09+"px";	
-					document.getElementsByClassName("scr3_coffe2")[0].style.top=262+(-br.top-1090)*0.09+"px";	
+					document.getElementsByClassName("scr3_673")[0].style.right=-300+(-br.top-1090)*3.3+"px";
+					
+					document.getElementsByClassName("scr3_coffe1")[0].style.top=262-(-br.top-1090)*0.17+"px";	
+					document.getElementsByClassName("scr3_coffe2")[0].style.top=262+(-br.top-1090)*0.17+"px";	
 					if(-br.top > 1190){	
 						document.getElementsByClassName("scr3_property_li")[2].style.left=0+"px";	
+						document.getElementsByClassName("scr3_673")[0].style.right=5+"%";
 					}
 					if(-br.top > 1290){	
-						document.getElementsByClassName("scr3_coffe1")[0].style.top=244+"px";	
-						document.getElementsByClassName("scr3_coffe2")[0].style.top=280+"px";
+						document.getElementsByClassName("scr3_coffe1")[0].style.top=224+"px";	
+						document.getElementsByClassName("scr3_coffe2")[0].style.top=300+"px";
 					}
 				}
 				/*   SCREEN 4  */

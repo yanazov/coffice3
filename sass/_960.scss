@@ -12,7 +12,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: fixed;
 		left: 0%;
-		top: 520px;
+		bottom: 10%;
 		width: 37px;
 		height: 156px;
 		background: url(../img/icon/chat_main.png) no-repeat;
@@ -143,8 +143,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	.header_slogan{
 		display: block;
 		position: absolute;
-		top: 67px;
-		left: 165px;
+		top: 66px;
+		left: 145px;
 		font-size: 10pt;
 		font-family: 'Conv_Futuris_Bold';
 		font-weight: 900;
@@ -595,7 +595,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute;
 		top: 513px;
-		left: 14.5%;
+		left: -70%;    /* DEF   14.5%   */ 
 		width: 26%;
 		height: 114px;
 		background: url(../img/scr2_coffe2.png) no-repeat;
@@ -607,7 +607,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute;
 		top: 569px;
-		left: 16%;
+		left: -70%;    /* DEF  16%   */
 		width: 23%;
 		height: 18%;
 		background: url(../img/scr2_coffe2_shadow.png) no-repeat;
@@ -619,7 +619,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute;
 		top: 445px;
-		left: 10%;
+		left: -70%;    /*   DEF  10%   */
 		width: 33%;
 		height: 132px;
 		background: url(../img/scr2_coffe3.png) no-repeat;
@@ -631,7 +631,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute; 
 		top: 573px;
-		left: 10.7%;
+		left: -70%;    /*  DEF  10.7%   */
 		width: 32%;
 		height: 132px;
 		background: url(../img/scr2_coffe3_shadow.png) no-repeat;
@@ -702,7 +702,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			background: url(../img/icon/scr3_o3.png) no-repeat;
 		}
 		.scr3_property_li{
-			left: -400px;
+			left: -600px;
 		}
 	
 	}
@@ -711,7 +711,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: absolute;
 		top: 460px;
 		width: 275px;
-		right: 5%;
+		right: -80%;     /*   DEF    5%    */
 		text-align: left;
 		
 		.scr3_txt4{
@@ -796,7 +796,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		display: block;
 		position: absolute;
 		top: 185px;
-		right: 8%;
+		right: -80%;                    /*   DEF   8%   */
 		width: 216px;
 		height: 256px;
 		background: url(../img/scr3_italy.png) no-repeat;
