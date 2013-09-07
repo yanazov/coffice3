@@ -25,13 +25,10 @@ var mouse_wheel = function(event) {
 	if (tmp < 0)
 		tmp=0;
 	if (tmp > 96)
-		tmp=96;  
-	
+		tmp=96;  	
 /*	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
 	/*window.scrollBy(0, -direction*40);*/
 	$('html,body').animate ({scrollTop: tmp*30}, 30);
-	
-	
 	
 	event.returnValue = false;
 			if(direction < 0)
@@ -114,8 +111,7 @@ window.onscroll = function fixed_menu(elem) {
 						document.getElementsByClassName("img_1000")[0].style.left=0+"px";	
 						document.getElementsByClassName("img_white_1000")[0].style.left=0+"px";	
 						document.getElementsByClassName("img_red_1000")[0].style.left=0+"px";	
-						document.getElementsByClassName("scr4_new")[0].style.display="block";	
-						
+						document.getElementsByClassName("scr4_new")[0].style.display="block";							
 					}
 				}
 				/*    SCREEN 5  */
@@ -189,5 +185,21 @@ function scr5_animation(){
 		clearInterval(scr5_timet);
 		return 0; 
 	}
+}
+
+function office_slide(){	
+	document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1.png)";
+	document.getElementById("scr1_btn_home").style.backgroundImage= "url(img/scr1_home.png)";
+	document.getElementById("scr1_btn_office").style.backgroundImage= "none";
+	document.getElementsByClassName("screen1_txt3")[0].innerHTML = "в Вашем офисе!";
+}
+
+function home_slide(){
+	document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1_1.png)";	
+	document.getElementById("scr1_btn_office").style.backgroundImage= "url(img/scr1_office.png)";
+	document.getElementById("scr1_btn_home").style.backgroundImage= "none";
+	document.getElementsByClassName("screen1_txt3")[0].innerHTML = "у Вас дома!";
+	
+		
 }
 

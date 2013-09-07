@@ -345,8 +345,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			right: 110px;
 			border: 1px solid #000;
 			width: 84px;
-			height: 64px;
-			background: url(../img/scr1_office.png) no-repeat;
+			height: 64px;			
 			color: #000;
 			font-size: 12pt;
 			text-align: center;
@@ -371,6 +370,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			line-height: 64px;
 			vertical-align: center;
 			cursor: pointer;
+			background: url(../img/scr1_home.png) no-repeat;
 		}
 		
 		
@@ -701,10 +701,13 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		width: 275px;
 		right: 5%;
 		text-align: left;
+		
 		.scr3_txt4{
 			display: inline-block;
 			position: relative;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 32pt;
 			color: $color_red;			
 		}
@@ -712,6 +715,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			display: inline-block;
 			position: relative;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 32pt;
 			color: $color_green;			
 		}
@@ -720,6 +725,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			position: relative;
 			margin-left: 7px;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 15pt;
 			color: #393939;			
 		}
@@ -727,15 +734,21 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			display: inline-block;
 			position: relative;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;
 			font-size: 15pt;
 			color: #393939;			
 		}
 		.scr3_txt8{
 			display: inline-block;
 			position: relative;
+			margin-left: 7px;
 			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;			
 			font-size: 15pt;
-			color: #393939;			
+			color: #393939;	
+			
 		}
 	}
 	.scr3_txt9{
@@ -829,14 +842,14 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 40%;
 			min-width: 140px;
 			height: 250px;
-			/*left: 30%;*/
+			left: 130%;
 			top: 110px;		
 		}
 		.img_m{
 			display: none;
 		}
 		.scr4_new{
-			display: block;
+			display: none;
 			position: absolute;
 			right: 20%;
 			top: 95px;
@@ -936,6 +949,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			height: 245px;
 			top: 110px;		
 			background-position: center;
+			left: 130%;
 		}		
 		ul{
 			display: block;
@@ -1026,6 +1040,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			height: 245px;
 			top: 110px;		
 			background-position: center;
+			left: 130%;
 		}		
 		ul{
 			display: block;
@@ -1114,7 +1129,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: absolute; 
 		top: 185px;
 		left: 9%;
-		font-family: 'helvetica-2-ultraligh2ultraLt';
+		font-family: 'helvetica-4-light4-light';
+		font-weight: 100;	
 		color: #393939;
 		font-size: 32pt;
 		background-color: #fff;
@@ -1125,7 +1141,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: absolute; 
 		top: 235px;
 		left: 9%;
-		font-family: 'helvetica-2-ultraligh2ultraLt';
+		font-family: 'helvetica-4-light4-light';
+		font-weight: 100;	
 		color: #393939;
 		font-size: 32pt;
 		background-color: #fff;

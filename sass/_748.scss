@@ -196,7 +196,8 @@ body{
 			top: 190px;
 			left: 50px;
 			color: #000;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -206,7 +207,8 @@ body{
 			top: 210px;
 			left: 50px;
 			color: #000;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -216,7 +218,8 @@ body{
 			top: 210px;
 			left: 67px;
 			color: #000;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -226,7 +229,8 @@ body{
 			top: 230px;
 			left: 50px;
 			color: #000;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 13pt;
 			z-index: 10;
 		}
@@ -626,14 +630,16 @@ body{
 		.scr3_txt4{
 			display: inline-block;
 			position: relative;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 30pt;
 			color: $color_red;			
 		}
 		.scr3_txt5{
 			display: inline-block;
 			position: relative;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 30pt;
 			color: $color_green;			
 		}
@@ -641,7 +647,8 @@ body{
 			display: inline-block;
 			position: relative;
 			margin-left: 0px;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 14pt;
 			color: #393939;			
 		}
@@ -649,16 +656,19 @@ body{
 			display: inline-block;
 			position: relative;
 			margin-left: 7px;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 14pt;
 			color: #393939;			
 		}
 		.scr3_txt8{
 			display: inline-block;
 			position: relative;
-			font-family: 'helvetica-2-ultraligh2ultraLt';
+			font-family: 'helvetica-4-light4-light';
+			font-weight: 100;	
 			font-size: 14pt;
-			color: #393939;			
+			color: #393939;		
+			margin-left: 0px;
 		}
 	}
 	.scr3_txt9{
