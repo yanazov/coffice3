@@ -2967,7 +2967,8 @@
     top: 110px;
     color: #167543;
     font-family: 'Conv_Helvetica_Bold';
-    font-size: 22pt;
+    font-size: 12pt;
+    /*   */
     z-index: 10;
   }
   /* line 190, ../sass/_385.scss */
