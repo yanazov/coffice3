@@ -198,7 +198,9 @@ function office_slide(){
 }
 
 function home_slide(){
-	document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1.png)";
+	document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1_1.png)";
+	document.getElementById("scr1_btn_office").style.backgroundImage= "url(img/scr1_office.png)";
+	document.getElementById("scr1_btn_home").style.backgroundImage= "none";
 	document.getElementsByClassName("screen1_txt3")[0].innerHTML = "у Вас дома!";
 }
 
