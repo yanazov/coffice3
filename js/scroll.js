@@ -76,7 +76,9 @@ window.onscroll = function fixed_menu(elem) {
 					document.getElementsByClassName("scr2_txt14")[0].style.opacity= 0+(-br.top-430)/150;
 					document.getElementsByClassName("scr2_arrow")[0].style.opacity= 0+(-br.top-430)/150;
 					
-					document.getElementsByClassName("scr2_coffe_machine2")[0].style.left=136+(br.top+430)/3+"%";	
+					document.getElementsByClassName("scr2_coffe_machine2")[0].style.left=136+(br.top+430)/3+"%";
+					document.getElementsByClassName("scr2_coffe_machine2_shadow")[0].style.left=136+(br.top+430)/3+"%";
+					
 				}			
 			}	
 			/* SCREEN 3 UL*/
