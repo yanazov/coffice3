@@ -513,7 +513,7 @@ body{
 		top: 252px;
 		height: 368px;
 		width: 233px;
-		left: 80%;
+		right: -90px;
 		background: url(../img/coffe_machine2.png) no-repeat;
 		background-position: center;
 		z-index: 6;
@@ -1103,6 +1103,7 @@ body{
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
 		font-size: 40pt;
+		line-height: 0.9em;
 		z-index: 5;
 	}
 	.scr5_txt2{
@@ -1163,7 +1164,7 @@ body{
 		z-index: 5;
 		opacity: 1;
 	}
-	.scr5_btn{
+	.btn_order{
 		display: block;
 		position: absolute; 
 		top: 575px;
@@ -1177,10 +1178,10 @@ body{
 		padding: 0px;
 		z-index: 5;
 	}
-	.scr5_btn:hover{
+	.btn_order:hover{
 		background-position: 0px -68px;
 	}
-	.scr5_btn:active{
+	.btn_order:active{
 		background-position: 0px -136px;
 	}
 	.scr5_coffes{
@@ -1252,5 +1253,188 @@ body{
 		}
 	}
 /*   END FOOTER    */
+/*   BEGIN accessories  page   */
+	h1{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 30pt;
+		margin: 0px;
+	}
+	h2{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 18pt;
+		margin: 0px;
+	}
+	h3{
+		font-family: 'Conv_Helvetica_Bold';
+		font-size: 13pt;
+		margin: 0px;
+	}
+	
+	.access_menu{
+		display: block;
+		position: relative;
+		margin-top: 130px;
+		height: 64px;
+		width: 100%;
+		padding: 0px;
+		text-align: center;
+		z-index: 3;
+		li{
+			display: inline-block;
+			position: relative;
+			border: 1px solid #d8dee0;
+			border-bottom: 0px;
+			width: 19.5%;
+			height: 52px;
+			color: #919a9d;
+			cursor: pointer;
+			padding-top: 12px;
+		}
+		li:first-child{
+			border-right: 0;
+			border-bottom: 0;
+			background-color: #fff;
+			height: 52px;
+			color: #393939;
+			cursor: default;
+		}
+		li:last-child{
+			border-left: 0;
+		}		
+		span{
+			display: block;
+		}
+	}
+	.caption{
+		display: block;
+		position: relative;
+		top: -1px;
+		border: 1px solid #d8dee0;
+		width: 100%;
+		height: 65px;
+		background-color: #fff;
+		margin: 0px;
+		padding-top: 13px;
+	}
+	.access_container_item{
+		display: block;
+		position: relative;
+		top: -2px;
+		width: 100%;
+		height: 1526px;
+		border: 1px solid #d8dee0;
+		color: #a02;
+		.access_item{
+			display: block;
+			position: absolute;
+			border: 1px solid #d8dee0;
+			border-top: 0px;
+			height: 508px;
+			width: 50%;
+			margin: 0;
+			background-color: #fff;
+			text-align: center;
+			.access_name_item{
+				display: block;
+				position: relative;
+				margin-top: 21px;
+				width: 80%;
+				left: 10%;
+				text-align: middle;
+				color: #393939;
+			}
+			.access_conteiner_img{
+				display: inline-block;
+				position: relative;
+				width: 200px;
+				height: 200px;
+				line-height: 200px;
+			img{
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;				
+				}
+			}
+			.access_txt{
+				display: inline-block;
+				position: relative;
+				margin-top: 20px;
+				height: 170px;
+				width: 240px;
+				text-align: left;				
+				.access_info{
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 7px 0px 0px 45px;
+					background: url(../img/icon/info.png) no-repeat;
+				}
+				.access_price{
+					display: block;
+					position: absolute;
+					bottom: 15px;
+					height: 27px;
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 15pt;
+					color: $color_red;
+					padding: 3px 0px 0px 45px;
+					background: url(../img/icon/price.png) no-repeat;
+				}
+			}
+			.access_order{
+				display: inline-block;
+				position: relative;
+				top: 5px;
+				left: 0px;
+				margin: 0px 50px 0px 50px;
+				z-index: 100;
+				width: 149px;
+				height: 39px;
+				background: url(../img/btn_order.png) no-repeat;
+				background-position: 0px 0px;
+				padding: 0px;
+				z-index: 5;
+			}			
+			.access_order:hover{
+				background-position: 0px -68px;
+			}
+			.access_order:active{
+				background-position: 0px -136px;
+			}
+		}
+		.access_item:hover{
+			z-index: 3;
+			-moz-box-shadow: 0 0 7px #aaa; 
+			-webkit-box-shadow: 0 0 7px #aaa; 
+			box-shadow: 0 0 7px  #aaa; 
+		}
+		.accessitem1{			
+			top: 0px;
+			left:-1px;
+		}
+		.accessitem2{
+			display: block;
+			position: absolute;
+			top: 0px;
+			left:50%;
+		}
+		.accessitem3{
+			top: 509px;
+			right: -1px;
+		}
+		.accessitem4{
+			top: 509px;
+			left:-1px;
+		}
+		.accessitem5{
+			top: 1018px;
+			left: -1px;
+		}
+		.accessitem6{
+			top: 1018px;
+			left: 50%;
+		}
+	}
+/*   END accessories  page   */
 
 }

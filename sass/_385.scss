@@ -6,7 +6,7 @@ only screen  and (max-device-width: 550px) {
 
 body {	
 	width: 100%;
-	min-width: 385px;	
+	min-width: 320px;	
 	.header_chat2{
 		display: none;
 	}
@@ -14,9 +14,10 @@ body {
 .container_center{
 	display: inline-block;	
 	width: 100%;
-	min-width: 385px;
-	background-color: #fff;
+	min-width: 320px;
+	background-color: #f2f5f6;	
 	margin: 0;	
+	overflow: hidden;
  }
 
 .header{
@@ -24,7 +25,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 109px;
-	min-width: 385px;
+	min-width: 320px;
 	background-color: #f2f5f6;
 	padding: 0;	
 	z-index: 50;
@@ -59,28 +60,31 @@ body {
 		font-size: 14;
 		height: 42px;
 		padding: 0;
+		
 		li{
 			display: inline-block;
 			position: relative;
 			top: 12px;
-			font-size: 12pt;
-			margin-left: 13%;
+			font-size: 11pt;
+			margin-left: 7%;
 			padding: 0px;
 			background: none;
 		}
 		li:first-child{
 			margin-left: 0px;
+			background: none;
 		}
 		a{
-			color: #000;
+			color: #393939;
 			font-family: 'Conv_Helvetica_Bold';
 		}
 	}
 	img{
 		display: block;
 		position: absolute;
-		top: 55px;
-		left: 6%;
+		top: 60px;
+		left: 2%;
+		width: 135px;
 	}
 	.header_slogan{
 		display: none;
@@ -90,7 +94,7 @@ body {
 		display: block;
 		position: absolute;
 		top: 58px;
-		right: 6%;
+		right: 2%;
 		width: 168px;
 		padding-top: 8px;
 		height: 34px;
@@ -102,6 +106,9 @@ body {
 		letter-spacing: 0.1em;
 	}
 	.header_button2{
+		display: none;
+	}
+	.header_basket{
 		display: none;
 	}
 	.header_shadow{
@@ -134,7 +141,7 @@ body {
 			width: 100%;
 			height: 540px;
 			background: url("../img/screen1.png") no-repeat;
-			background-position: 36% 100%;
+			background-position: 39% 100%;
 			z-index: 2;
 		}
 		.screen1_coffe_machine{
@@ -142,7 +149,7 @@ body {
 			position: absolute;
 			height: 540px;
 			width: 394px;
-			left: -65px;
+			left: -110px;
 			background-position: 50% 100%;
 			top: 0px;		
 			background: url("../img/coffe_machine.png") no-repeat;			
@@ -155,10 +162,10 @@ body {
 			top: 560px;
 			left: 3%;
 			width: 350px;
-			font-size: 30pt;
+			font-size: 26pt;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
-			z-index: 10;
+			z-index: 10;			
 		}
 		.screen1_txt1{
 			display: block;
@@ -174,7 +181,7 @@ body {
 			top: 50px;
 			color: #000;
 			font-family: 'Conv_Futuris_Bold';
-			font-size: 30pt;
+			font-size: 26pt;
 			z-index: 10;
 		}
 		.screen1_txt3{
@@ -201,12 +208,13 @@ body {
 			display: block;
 			position: absolute;
 			top: 160px;
-			left: 258px;
+			left: 245px;
 			color: #000;
 			font-family: 'helvetica-4-light4-light';
 			font-weight: 100;
 			font-size: 13pt;
 			z-index: 10;
+			padding: 0;
 		}
 		.screen1_txt6{
 			display: block;
@@ -223,7 +231,7 @@ body {
 			display: block;
 			position: absolute;
 			top: 185px;
-			left: 170px;
+			left: 158px;
 			color: #000;
 			font-family: 'helvetica-4-light4-light';
 			font-weight: 100;
@@ -232,7 +240,7 @@ body {
 		}
 		.screen1_txt8{			
 			font-family: 'Conv_Helvetica_Bold';
-			font-size: 13pt;
+			font-size: 12pt;
 			z-index: 10;			
 		}
 		#scr1_property{
@@ -312,7 +320,7 @@ body {
 		margin-left: 3%;
 		color: #000;
 		font-family: 'Conv_Futuris_Bold';
-		font-size: 38pt;		
+		font-size: 30pt;		
 	}
 	.scr2_txt2	{
 		display: none;
@@ -327,6 +335,7 @@ body {
 		width: 100%;
 		text-align: left;
 		left: 0px;
+		z-index: 10;
 		.scr2_txt4{
 			display: inline-block;
 			position: relative;		
@@ -348,7 +357,7 @@ body {
 		}
 		.scr2_txt6{		
 			display: inline-block;
-			margin-left: 7px;
+			margin-left: 3%;	
 			color: $color_red;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 18pt;
@@ -365,7 +374,8 @@ body {
 			display: inline-block;
 			position: relative;		
 			top: 0px;
-			margin-right: 16%;			
+			margin-right: 0%;
+			margin-left: 3%;	
 			color: #2b2b2b;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 18pt;
@@ -379,6 +389,7 @@ body {
 		margin-left: 0px;
 		text-align: left;
 		left: 0px;
+		z-index: 10;
 		.scr2_txt9{
 			display: inline-block;
 			position: relative;		
@@ -392,7 +403,7 @@ body {
 			display: inline-block;
 			position: relative;
 			top: 0px;
-			margin-left: 7px;
+			margin-left: 4%;
 			color: #2b2b2b;
 			font-family: 'Conv_Helvetica_Bold';
 			font-size: 18pt;
@@ -462,7 +473,7 @@ body {
 		top: 610px;
 		height: 368px;
 		width: 233px;
-		left: 45%;
+		right: -40px;
 		background: url(../img/coffe_machine2.png) no-repeat;
 		background-position: center;
 		z-index: 6;
@@ -513,33 +524,34 @@ body {
 	background-position: center;
 	overflow: hidden;	
 	text-align: left;
+	background-color: #fff;
 	/*border-top: 1px solid #d8dee0;*/
 	.scr3_txt1{
 		display: inline-block;
 		position: relative;
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
-		font-size: 25pt;
+		font-size: 22pt;
 		margin-right: 10px;
 		margin-top: 45px;
-		left: 9%;
+		left: 4%;
 	}
 	.scr3_txt2{
 		display: inline-block;
 		position: relative;
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
-		font-size: 25pt;
-		left: 9%;
+		font-size: 22pt;
+		left: 4%;
 	}
 	.scr3_txt3{
 		display: block;
 		position: relative;
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
-		font-size: 25pt;
+		font-size: 22pt;
 		width: 100%;
-		padding-left: 9%;
+		padding-left: 4%;
 		background-color: #fff;
 	}
 	
@@ -554,11 +566,11 @@ body {
 		z-index: 5;
 	}
 	.scr3_property{
-		display: block;
+		display: inline-block;
 		position: absolute;
 		top: 513px;
-		left: 15%;
-		text-align: left;		
+		text-align: left;	
+		left: 4%;
 		li{
 			display: block;
 			position: relative;
@@ -593,7 +605,7 @@ body {
 		top: 745px;
 		height: 21px;
 		margin-left: 0px;
-		left: 13%;
+		left: 4%;
 		font-family: 'Conv_Helvetica_Bold';
 		font-size: 13pt;
 		background: url(../img/icon/scr3_i.png) no-repeat;
@@ -659,7 +671,7 @@ body {
 		width: 100%;
 		height: 733px;
 		background: url("../img/screen4_green.png") no-repeat;
-		background-size: 100%;
+		background-size: 100% 100%;
 		text-align: center;
 		.scr4_name{
 			display: block;
@@ -697,18 +709,18 @@ body {
 			font-size: 10pt;
 		}
 		ul{
-			display: block;
-			position: absolute;
+			display: inlne-block;
+			position: relative;
 			color: #fff;
 			font-size: 11pt;
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
-			top: 375px;
-			left: 28%;
+			top: 130px;
+			width: 224px;
 			padding: 0px;
+			margin: 0 auto;
 			li{
 				display: block;
-				margin-top: 17px;
 				padding-left: 48px;
 			}
 			.green1{
@@ -788,15 +800,17 @@ body {
 			left: 0px;
 		}		
 		ul{
-			display: block;
-			position: absolute;
-			color: #393939;
+			display: inlne-block;
+			position: relative;
+			color: #fff;
 			font-size: 11pt;
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
-			top: 375px;
-			left: 25.5%;
+			top: 135px;
+			width: 224px;
 			padding: 0px;
+			margin: 0 auto;
+			color: #393939;
 			li{
 				display: block;
 				margin-top: 17px;
@@ -855,7 +869,7 @@ body {
 		width: 100%;
 		height: 732px;
 		background: url("../img/screen4_red.png") no-repeat;
-		background-size: 100%;
+		background-size: 100% 100%;
 		.scr4_name{
 			display: block;
 			position: absolute;
@@ -880,15 +894,16 @@ body {
 			left: 0px;
 		}		
 		ul{
-			display: block;
-			position: absolute;
+			display: inlne-block;
+			position: relative;
 			color: #fff;
 			font-size: 11pt;
 			text-align: left;
 			font-family: 'Conv_Helvetica_Bold';
-			top: 373px;
-			left: 23%;
+			top: 130px;
+			width: 224px;
 			padding: 0px;
+			margin: 0 auto;
 			li{
 				display: block;
 				margin-top: 17px;
@@ -955,52 +970,52 @@ body {
 		display: block;
 		position: absolute; 
 		top: 48px;
-		left: 7%;
+		left: 4%;
 		font-family: 'Conv_Futuris_Bold';
 		color: #393939;
-		font-size: 34pt;
+		font-size: 28pt;
 		z-index: 5;
 	}
 	.scr5_txt2{
 		display: block;
 		position: absolute; 
 		top: 163px;
-		left: 8%;
+		left: 4%;
 		font-family: 'helvetica-4-light4-light';
 		font-weight: 100;	
 		color: #393939;
-		font-size: 28pt;
+		font-size: 24pt;
 		z-index: 5;
 	}
 	.scr5_txt3{
 		display: block;
 		position: absolute; 
 		top: 212px;
-		left: 8%;
+		left: 4%;
 		font-family: 'helvetica-4-light4-light';
 		font-weight: 100;	
 		color: #393939;
-		font-size: 29pt;
+		font-size: 24pt;
 		z-index: 5;
 	}
 	.scr5_txt4{
 		display: block;
 		position: absolute; 
 		top: 262px;
-		left: 7%;
+		left: 4%;
 		font-family: 'Conv_Futuris_Bold';
 		color: $color_red;
-		font-size: 39pt;
+		font-size: 36pt;
 		z-index: 5;
 	}
 	.scr5_txt5{
 		display: block;
 		position: absolute; 
 		top: 325px;
-		left: 7%;
+		left: 4%;
 		font-family: 'Conv_Futuris_Bold';
 		color: $color_green;
-		font-size: 39pt;
+		font-size: 36pt;
 		z-index: 5;
 	}
 	.scr5_txt6{
@@ -1008,7 +1023,7 @@ body {
 		position: absolute; 
 		top: 395px;
 		height: 60px;
-		left: 10%;
+		left: 4%;
 		font-family: 'helvetica_neue';
 		color: #393939;
 		font-size: 14pt;
@@ -1017,13 +1032,13 @@ body {
 		z-index: 5;
 		opacity: 1;
 	}
-	.scr5_btn{
+	.btn_order{
 		display: block;
 		position: absolute; 
 		top: 625px;
-		width: 42%;
+		width: 50%;
 		height: 39px;
-		left: 29%;
+		left: 25%;
 		font-family: 'Conv_Futuris_Bold';
 		color: #fff;
 		font-size: 12pt;
@@ -1033,10 +1048,10 @@ body {
 		z-index: 5;
 		cursor: pointer;
 	}
-	.scr5_btn:hover{
+	.btn_order:hover{
 		background-position: center -68px;
 	}
-	.scr5_btn:active{
+	.btn_order:active{
 		background-position: center -136px;
 	}
 	.scr5_coffes{
@@ -1064,7 +1079,7 @@ body {
 		display: block;
 		position: absolute; 
 		top: 455px;
-		left: 27%;
+		left: 17%;
 		width: 255px;
 		height: 31px;
 		background: url(../img/scr5_caps.png) no-repeat;
@@ -1159,6 +1174,197 @@ body {
 		}
 	}
 /*   END FOOTER    */
+/*   BEGIN accessories  page   */
+	h1{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 30pt;
+		margin: 0px;
+	}
+	h2{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 18pt;
+		margin: 0px;
+	}
+	h3{
+		font-family: 'Conv_Helvetica_Bold';
+		font-size: 13pt;
+		margin: 0px;
+	}
+	
+	.access_menu{
+		display: block;
+		position: relative;
+		margin-top: 130px;
+		height: 64px;
+		width: 100%;
+		padding: 0px;
+		text-align: center;
+		z-index: 3;
+		li{
+			display: inline-block;
+			position: relative;
+			border: 1px solid #d8dee0;
+			border-bottom: 0px;
+			width: 27.5%;
+			height: 52px;
+			color: #919a9d;
+			cursor: pointer;
+			padding-top: 12px;
+		}
+		li:first-child{
+			border-right: 0;
+			border-bottom: 0;
+			background-color: #fff;
+			height: 52px;
+			color: #393939;
+			cursor: default;
+		}
+		li:last-child{
+			border-left: 0;
+		}		
+		span{
+			display: block;
+		}
+	}
+	.caption{
+		display: block;
+		position: relative;
+		top: -1px;
+		border: 1px solid #d8dee0;
+		width: 100%;
+		height: 65px;
+		background-color: #fff;
+		margin: 0px;
+		padding-top: 13px;
+	}
+	.access_container_item{
+		display: block;
+		position: relative;
+		top: -2px;
+		width: 100%;
+		height: 3054px;
+		border: 1px solid #d8dee0;
+		color: #a02;
+		.access_item{
+			display: block;
+			position: absolute;
+			border: 1px solid #d8dee0;
+			border-top: 0px;
+			height: 508px;
+			width: 100%;
+			margin: 0;
+			background-color: #fff;
+			text-align: center;
+			.access_name_item{
+				display: block;
+				position: relative;
+				margin-top: 21px;
+				width: 80%;
+				left: 10%;
+				text-align: middle;
+				color: #393939;
+			}
+			.access_conteiner_img{
+				display: inline-block;
+				position: relative;
+				width: 200px;
+				height: 200px;
+				line-height: 200px;
+				margin: 0px 50px 0px 50px;
+			img{
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;						
+				}
+			}
+			.access_txt{
+				display: inline-block;
+				position: relative;
+				margin-top: 20px;
+				height: 170px;
+				width: 240px;
+				text-align: left;
+				margin: 0px 40px 0px 40px;				
+				.access_info{
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 7px 0px 0px 45px;
+					background: url(../img/icon/info.png) no-repeat;
+				}
+				.access_price{
+					display: block;
+					position: absolute;
+					bottom: 15px;
+					height: 27px;
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 15pt;
+					color: $color_red;
+					padding: 3px 0px 0px 45px;
+					background: url(../img/icon/price.png) no-repeat;
+				}
+			}
+			.access_order{
+				display: inline-block;
+				position: relative;
+				top: 5px;
+				left: 0px;
+				z-index: 100;
+				width: 149px;
+				height: 39px;
+				background: url(../img/btn_order.png) no-repeat;
+				background-position: 0px 0px;
+				padding: 0px;
+				z-index: 5;
+				margin: 0px 50px 0px 50px;
+			}			
+			.access_order:hover{
+				background-position: 0px -68px;
+			}
+			.access_order:active{
+				background-position: 0px -136px;
+			}
+		}
+		.access_item:hover{
+			z-index: 3;
+			-moz-box-shadow: 0 0 7px #aaa; 
+			-webkit-box-shadow: 0 0 7px #aaa; 
+			box-shadow: 0 0 7px  #aaa; 
+		}
+		.accessitem1{			
+			top: 0px;
+			left:0%;
+			width: 100%;
+		}
+		.accessitem2{
+			display: block;
+			position: absolute;
+			top: 509px;
+			left:0%;
+			width: 100%;
+		}
+		.accessitem3{
+			top: 1018px;
+			left:0%;
+			width: 100%;
+		}
+		.accessitem4{
+			top: 1527px;
+			left:0%;
+			width: 100%;
+		}
+		.accessitem5{
+			top: 2036px;
+			left:0%;
+			width: 100%;
+		}
+		.accessitem6{
+			top: 2545px;
+			left:0%;
+			width: 100%;
+		}
+	}
+/*   END accessories  page   */
 
 
 }

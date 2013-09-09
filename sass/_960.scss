@@ -137,9 +137,9 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			color: #000;
 			font-family: 'Conv_Helvetica_Bold';
 		}
-		li:first-child a{
+		/*li:first-child a{
 			color: $color_red;
-		}
+		} */
 	}
 	img{
 		display: block;
@@ -181,6 +181,21 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		height: 102px; 
 		background: url("../img/icon/basket.png") no-repeat;
 		cursor: pointer;
+		.header_basket_number{
+			display: block;			
+			position: absolute;
+			top: 10px;
+			left: 77px;
+			height: 23px;
+			width: 23px;
+			font-size: 11pt;
+			color: #fff;
+			font-family: 'Conv_Futuris_Bold';
+			
+			background: url("../img/icon/basket_number_fon.png") no-repeat;
+			padding-top: 2px;
+		}
+		
 	}	
 	.header_shadow{
 		display: block;
@@ -591,7 +606,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		top: 252px;
 		height: 368px;
 		width: 233px;
-		left: 140%;   /* def 80%   */
+		right: -140%;   /* def 80%   */
 		background: url(../img/coffe_machine2.png) no-repeat;
 		background-position: center;
 		z-index: 6;
@@ -1230,7 +1245,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		z-index: 5;
 		opacity: 0;
 	}
-	.scr5_btn{
+	.btn_order{
 		display: none;
 		position: absolute; 
 		top: 575px;
@@ -1245,10 +1260,11 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		padding: 0px;
 		z-index: 5;
 	}
-	.scr5_btn:hover{
+	
+	.btn_order:hover{
 		background-position: 0px -68px;
 	}
-	.scr5_btn:active{
+	.btn_order:active{
 		background-position: 0px -136px;
 	}
 	.scr5_coffes{
@@ -1452,22 +1468,98 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			img{
 					display: inline-block;
 					position: relative;
-					vertical-align: middle;
-				
+					vertical-align: middle;				
 				}
 			}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+			.access_txt{
+				display: inline-block;
+				position: relative;
+				margin-top: 20px;
+				height: 170px;
+				width: 240px;
+				text-align: left;				
+				.access_info{
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 7px 0px 0px 45px;
+					background: url(../img/icon/info.png) no-repeat;
+				}
+				.access_coffe_info{
+					display: block;
+					position: relative;
+					top: 8px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 6px 0px 0px 45px;
+					background: url(../img/icon/point_cap.png) no-repeat;
+				}
+				.access_coffe_info2{
+					display: block;
+					position: relative;
+					height: 27px;
+					top: 17px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 6px 0px 0px 45px;
+					background: url(../img/icon/point_coffe.png) no-repeat;
+					span{
+						font-weight: 900;
+						font-size: 10pt;
+					}
+					
+				}
+				.access_rating{
+					display: block;
+					position: relative;
+					top: 22px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					margin-left: 45px;
+					line-height: 19px;
+					img{
+						display: inline-block;
+						position: relative;
+						vertical-align: middle;
+					}
+					.access_rating_img1{
+						margin-left: 10px;
+					}
+				}
+				.access_price{
+					display: block;
+					position: absolute;
+					bottom: 15px;
+					height: 27px;
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 15pt;
+					color: $color_red;
+					padding: 3px 0px 0px 45px;
+					background: url(../img/icon/price.png) no-repeat;
+				}
+			}
+			.access_order{
+				display: inline-block;
+				position: relative;
+				top: 5px;
+				left: 0px;
+				z-index: 100;
+				width: 149px;
+				height: 39px;
+				background: url(../img/btn_order.png) no-repeat;
+				background-position: 0px 0px;
+				padding: 0px;
+				z-index: 5;
+			}			
+			.access_order:hover{
+				background-position: 0px -68px;
+			}
+			.access_order:active{
+				background-position: 0px -136px;
+			}
 		}
 		.access_item:hover{
 			z-index: 3;
@@ -1475,8 +1567,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			-webkit-box-shadow: 0 0 7px #aaa; 
 			box-shadow: 0 0 7px  #aaa; 
 		}
-		.accessitem1{
-			
+		.accessitem1{			
 			top: 0px;
 			left:-1px;
 		}
@@ -1506,5 +1597,28 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		}
 	}
 /*   END accessories  page   */
+/*  BEGIN BASKET BLANK */
+	.access_basket_blank{
+		display: block;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: url(../img/basket_fon.png);
+		z-index: 200;
+		.access_basket_body{
+			display: block;
+			position: absolute;
+			max-width: 516px;
+			max-height: 618px;
+			color: #fff;
+		}
+	}
+
+
+/*  END BASKET BLANK */
+
+
 
 }

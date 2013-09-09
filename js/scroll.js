@@ -199,7 +199,7 @@ function scr5_animation(){
 		document.getElementsByClassName("scr5_caps")[0].style.opacity=0+scr5_x;	*/
 	}
 	if(scr5_x > 120){
-		document.getElementsByClassName("scr5_btn")[0].style.display="block";	
+		document.getElementsByClassName("btn_order")[0].style.display="block";	
 		clearInterval(scr5_timet);
 		return 0; 
 	}
