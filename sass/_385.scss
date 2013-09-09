@@ -32,7 +32,11 @@ body {
 	.header_top{
 		display: none;		
 	}
-	
+	.tmp{
+		display: none;
+		position: absolute;
+		font-size: 30pt;
+	}
 	.header_chat{
 		display: none;
 	
@@ -721,6 +725,7 @@ body {
 			margin: 0 auto;
 			li{
 				display: block;
+				margin-top: 17px;
 				padding-left: 48px;
 			}
 			.green1{
