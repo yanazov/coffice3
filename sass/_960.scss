@@ -8,6 +8,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
  body{
 	background-color: #f2f5f6;	
 	text-align:  center;
+	font-size: 0pt;
 	.header_chat2{
 		display: block;
 		position: fixed;
@@ -17,6 +18,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		height: 156px;
 		background: url(../img/icon/chat_main.png) no-repeat;
 		z-index: 100;
+		cursor: pointer;
 	}
  }
  .container_center{
@@ -45,14 +47,14 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background-color: #fff;
 	}
 	.tmp{
-		display: block;
+		display: none;
 		position: absolute;
 		font-size: 30pt;
 	}
 	.header_chat{
 		display: none;		
 	}
-	.header_chat2{
+	/*.header_chat2{
 		display: block;
 		position: relative;
 		left: -10%;
@@ -60,7 +62,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		width: 37px;
 		height: 156px;
 		background: url(../img/icon/chat_main.png) no-repeat;
-	}
+		cursor: pointer;
+	} */
 	.header_menu{
 		display: block;
 		position: absolute;
@@ -123,15 +126,19 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			top: 12 px;
 			font-size: 12pt;
 			margin-left: 40px;
-			padding-left: 15px;
+			padding-left: 20px;
 			background: url("../img/icon/header_separ2.png") no-repeat;
 		}
 		li:first-child{
 			margin-left: 0;
+			background: url("../img/icon/header_separ2.png") no-repeat 0px -23px;			
 		}
 		a{
 			color: #000;
 			font-family: 'Conv_Helvetica_Bold';
+		}
+		li:first-child a{
+			color: $color_red;
 		}
 	}
 	img{
@@ -164,6 +171,16 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background: url("../img/icon/order_main.png") no-repeat;
 		font-size: 14pt;
 		color: #fff;
+	}	
+	.header_basket{
+		display: block;
+		position: absolute;
+		top: 130px;
+		right: -1.5%;
+		width: 102px;
+		height: 102px; 
+		background: url("../img/icon/basket.png") no-repeat;
+		cursor: pointer;
 	}	
 	.header_shadow{
 		display: block;
@@ -476,7 +493,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		width: 50%;
 		margin-left: 50%;
 		text-align: left;
-		left: 70%;
+		left: 70%;    /*   def 0% */
 		.scr2_txt9{
 			display: block;
 			position: relative;		
@@ -921,13 +938,19 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 60%;
 			left: 20%;
 			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 			font-size: 9pt;
 			padding-top: 10px;
-		}		
+		}
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
+		
 	}
 /*  BEGIN WHITE BLOCK */	
 	.scr4_white{
@@ -1012,13 +1035,18 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 60%;
 			left: 20%;
 			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 			font-size: 9pt;
 			padding-top: 10px;
 		}	
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
 	}
 /*  END WHITE BLOCK */
 /*  BEGIN RED BLOCK */
@@ -1027,7 +1055,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: absolute;
 		top: 0px;
 		left: 67%;
-		width: 33%;
+		width: 33.1%;
 		height: 703px;
 		background: url("../img/screen4_red.png") no-repeat;
 		background-position: right;
@@ -1102,13 +1130,18 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			width: 60%;
 			left: 20%;
 			height: 28px;
-			background: url(../img/scr4_btn.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 			font-size: 9pt;
 			padding-top: 10px;
 		}	
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
 	}
 /*  END RED BLOCK */	
 	
@@ -1119,7 +1152,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	display: block;
 	position: relative;	
 	max-width: 1000px;
-	width: 100%;
+	width: calc(100%-2px);
 	height: 700px;
 	background-color: #fff;
 	border: 1px solid #d8dee0;
@@ -1207,9 +1240,16 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		font-family: 'Conv_Futuris_Bold';
 		color: #fff;
 		font-size: 12pt;
-		background: url(../img/scr5_btn.png) no-repeat;
-		padding-top: 10px;
+		background: url(../img/btn_order.png) no-repeat;
+		background-position: 0px 0px;
+		padding: 0px;
 		z-index: 5;
+	}
+	.scr5_btn:hover{
+		background-position: 0px -68px;
+	}
+	.scr5_btn:active{
+		background-position: 0px -136px;
 	}
 	.scr5_coffes{
 		display: block;
@@ -1230,16 +1270,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		left: 49%;
 		background: url(../img/scr5_coffe_cap.png) no-repeat;
 		z-index: 2;
-	}
-	.scr5_table{
-		display: block;
-		position: absolute; 
-		bottom: 0px;
-		width: 100%;
-		height: 35px;
-		background: url(../img/scr5_table.png) no-repeat;
-		z-index: 1;
-	}
+	}	
 	.scr5_caps{
 		display: block;
 		position: absolute; 
@@ -1322,6 +1353,158 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		}
 	}
 /*   END FOOTER    */
-
+/*   BEGIN accessories  page   */
+	h1{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 30pt;
+		margin: 0px;
+	}
+	h2{
+		font-family: 'Conv_Futuris_Bold';
+		font-size: 18pt;
+		margin: 0px;
+	}
+	h3{
+		font-family: 'Conv_Helvetica_Bold';
+		font-size: 13pt;
+		margin: 0px;
+	}
+	
+	.access_menu{
+		display: block;
+		position: relative;
+		margin-top: 130px;
+		height: 64px;
+		width: 100%;
+		padding: 0px;
+		text-align: center;
+		z-index: 3;
+		li{
+			display: inline-block;
+			position: relative;
+			border: 1px solid #d8dee0;
+			border-bottom: 0px;
+			width: 17.5%;
+			height: 52px;
+			color: #919a9d;
+			cursor: pointer;
+			padding-top: 12px;
+		}
+		li:first-child{
+			border-right: 0;
+			border-bottom: 0;
+			background-color: #fff;
+			height: 52px;
+			color: #393939;
+			cursor: default;
+		}
+		li:last-child{
+			border-left: 0;
+		}		
+		span{
+			display: block;
+		}
+	}
+	.caption{
+		display: block;
+		position: relative;
+		top: -1px;
+		border: 1px solid #d8dee0;
+		width: 100%;
+		height: 65px;
+		background-color: #fff;
+		margin: 0px;
+		padding-top: 13px;
+	}
+	.access_container_item{
+		display: block;
+		position: relative;
+		top: -2px;
+		width: 100%;
+		height: 1016px;
+		border: 1px solid #d8dee0;
+		color: #a02;
+		.access_item{
+			display: block;
+			position: absolute;
+			border: 1px solid #d8dee0;
+			border-top: 0px;
+			height: 508px;
+			width: 33.3%;
+			margin: 0;
+			background-color: #fff;
+			text-align: center;
+			.access_name_item{
+				display: block;
+				position: relative;
+				margin-top: 21px;
+				width: 80%;
+				left: 10%;
+				text-align: middle;
+				color: #393939;
+			}
+			.access_conteiner_img{
+				display: inline-block;
+				position: relative;
+				width: 200px;
+				height: 200px;
+				line-height: 200px;
+			img{
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;
+				
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		.access_item:hover{
+			z-index: 3;
+			-moz-box-shadow: 0 0 7px #aaa; 
+			-webkit-box-shadow: 0 0 7px #aaa; 
+			box-shadow: 0 0 7px  #aaa; 
+		}
+		.accessitem1{
+			
+			top: 0px;
+			left:-1px;
+		}
+		.accessitem2{
+			display: block;
+			position: absolute;
+			top: 0px;
+			left:33.3%;
+			width: 33.4%;
+		}
+		.accessitem3{
+			top: 0px;
+			right: -1px;
+		}
+		.accessitem4{
+			top: 509px;
+			left:-1px;
+		}
+		.accessitem5{
+			top: 509px;
+			left:33.3%;
+			width: 33.4%;
+		}
+		.accessitem6{
+			top: 509px;
+			right: -1px;
+		}
+	}
+/*   END accessories  page   */
 
 }
