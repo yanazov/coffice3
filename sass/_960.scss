@@ -47,7 +47,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background-color: #fff;
 	}
 	.tmp{
-		display: block;
+		display: none;
 		position: absolute;
 		font-size: 30pt;
 	}
@@ -218,8 +218,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		max-width: 1002px;
 		width: 100%;
 		height: 626px;
-		background: url("../img/screen1.png") no-repeat;
-		background-position: center;
+		background: url("../img/screen1_all.jpg") 0% no-repeat;
+		/*background-position: center;*/
 		overflow: hidden;
 		.screen1_coffe_machine{
 			display: block;
@@ -407,7 +407,9 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			cursor: pointer;
 			background: url(../img/scr1_home.png) no-repeat;
 		}
-		
+		#scr1_btn_m{
+			display: none;
+		}
 		
 		
 		
