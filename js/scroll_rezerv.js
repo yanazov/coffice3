@@ -29,7 +29,6 @@ var mouse_wheel = function(event) {
 		tmp=96;  	
 /*	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
 	/*window.scrollBy(0, -direction*40);*/
-	tmp = -br.top/30;
 	$('html,body').animate ({scrollTop: tmp*30}, 30);
 	
 	event.returnValue = false;
@@ -39,8 +38,7 @@ var mouse_wheel = function(event) {
 
 window.onscroll = function fixed_menu(elem) {
 		var br=container.getBoundingClientRect()
-		document.getElementsByClassName("tmp")[0].innerHTML = -br.top;
-		
+		document.getElementsByClassName("tmp")[0].innerHTML = tmp;
 		if	(document.getElementsByClassName("container_center")[0].offsetWidth > 880){
 			/*document.getElementsByClassName("screen1_coffe_machine")[0].style.top=100+"px";	*/
 			if ((-br.top >  30) && (-br.top <  600))
@@ -92,14 +90,6 @@ window.onscroll = function fixed_menu(elem) {
 				if(-br.top > 950){
 					document.getElementsByClassName("scr3_property_li")[0].style.left=-300+(-br.top-950)*3+"px";
 					document.getElementsByClassName("scr3_italy")[0].style.right=-300+(-br.top-950)*3+"px";
-					
-					document.getElementsByClassName("scr3_coffe1")[0].style.top=262-(-br.top-950)*0.27+"px";	
-					document.getElementsByClassName("scr3_coffe2")[0].style.top=262+(-br.top-950)*0.27+"px";
-					if(-br.top > 1090){	
-						document.getElementsByClassName("scr3_coffe1")[0].style.top=224+"px";	
-						document.getElementsByClassName("scr3_coffe2")[0].style.top=300+"px";
-					}
-					
 					if(-300+(-br.top-950)*3 > 80)
 						document.getElementsByClassName("scr3_italy")[0].style.right=8+"%";
 					if(-300+(-br.top-950)*3 > 0)
@@ -118,12 +108,16 @@ window.onscroll = function fixed_menu(elem) {
 					document.getElementsByClassName("scr3_property_li")[2].style.left=-300+(-br.top-1090)*3+"px";	
 					document.getElementsByClassName("scr3_673")[0].style.right=-300+(-br.top-1090)*3.3+"px";
 					
-					
+					document.getElementsByClassName("scr3_coffe1")[0].style.top=262-(-br.top-1090)*0.17+"px";	
+					document.getElementsByClassName("scr3_coffe2")[0].style.top=262+(-br.top-1090)*0.17+"px";	
 					if(-br.top > 1190){	
 						document.getElementsByClassName("scr3_property_li")[2].style.left=0+"px";	
 						document.getElementsByClassName("scr3_673")[0].style.right=5+"%";
 					}
-					
+					if(-br.top > 1290){	
+						document.getElementsByClassName("scr3_coffe1")[0].style.top=224+"px";	
+						document.getElementsByClassName("scr3_coffe2")[0].style.top=300+"px";
+					}
 				}
 				/*   SCREEN 4  */
 				if(-br.top > 1500){	

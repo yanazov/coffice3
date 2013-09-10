@@ -47,7 +47,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background-color: #fff;
 	}
 	.tmp{
-		display: none;
+		display: block;
 		position: absolute;
 		font-size: 30pt;
 	}
@@ -115,7 +115,8 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: absolute;
 		top: 62px;
 		right: 0px;
-		width: 370px;
+		width:400px;
+		text-align: right;
 		margin: 0;
 		
 		font-size: 14;
