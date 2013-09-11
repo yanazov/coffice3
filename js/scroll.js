@@ -238,11 +238,11 @@ function home_slide(){
 
 function slider_timer(){
 	if(slider_revers  == 1){
-		slider_x +=2.5;
+		slider_x +=4;
 		document.getElementsByClassName("screen1")[0].style.backgroundPosition= slider_x+"%";		
 	}
 	else{
-		slider_x -=2.5;
+		slider_x -=4;
 		document.getElementsByClassName("screen1")[0].style.backgroundPosition= slider_x+"%";
 	}
 	

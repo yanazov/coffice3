@@ -48,13 +48,13 @@
 	</header>
 <!--  END HEADER -->
 	<ul class="access_menu">
-		<li class="access_menu_li" onclick="access_menu_click(this)"><h3>Чашки<span>и стаканы</h3></span>
-		</li><li class="access_menu_li" onclick="access_menu_click(this)"><h3>Ложки<span>и мешалки</h3></span>
-		</li><li class="access_menu_li" onclick="access_menu_click(this)"><h3>Сиропы<span>и сладости</h3></span></li>
+		<li class="access_menu_li" onclick="access_menu_click(this, 1)"><h3>Чашки<span>и стаканы</h3></span>
+		</li><li class="access_menu_li" onclick="access_menu_click(this, 2)"><h3>Ложки<span>и мешалки</h3></span>
+		</li><li class="access_menu_li" onclick="access_menu_click(this, 3)"><h3>Сиропы<span>и сладости</h3></span></li>
 	</ul>
 	<div class="caption"><h1>Чашки и стаканы</h1></div>
 <!-- BEGIN ITEM  -->
-	<div class="access_container_item">
+	<div class="access_container_item cont_status1">
 	<!-- BEGIN ITEM 1 -->
 		<div class="access_item accessitem1">
 			<div class="access_name_item"><h2>Чашка</h2></div>
@@ -70,7 +70,7 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 				
 		</div>
 	<!-- END ITEM 1 -->
@@ -89,7 +89,7 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 		</div>
 	<!-- END ITEM 2 -->
 	<!-- BEGIN ITEM 3 -->
@@ -107,7 +107,7 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 		</div>
 	<!-- END ITEM 3 -->
 	<!-- BEGIN ITEM 4 -->
@@ -125,7 +125,7 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 		</div>
 	<!-- END ITEM 4 -->
 	<!-- BEGIN ITEM 5 -->
@@ -143,7 +143,7 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 		</div>
 	<!-- END ITEM 5 -->
 	<!-- BEGIN ITEM 6 -->
@@ -161,11 +161,257 @@
 					25грн.
 				</div>
 			</div>
-			<div class="access_order"></div>	
+			<div class="access_order" onclick="open_basket()"></div>	
 		</div>
 	<!-- END ITEM 6 -->
 	</div>	
 <!-- END ITEM -->	
+
+
+
+<!-- BEGIN ITEM 2 -->
+	<div class="access_container_item cont_status2">
+	<!-- BEGIN ITEM 1 -->
+		<div class="access_item accessitem1">
+			<div class="access_name_item"><h2>Чашка космическая</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item4.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+				
+		</div>
+	<!-- END ITEM 1 -->
+	<!-- BEGIN ITEM 2 -->
+		<div class="access_item accessitem2">
+			<div class="access_name_item"><h2>Стакан illy</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item2.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 2 -->
+	<!-- BEGIN ITEM 3 -->
+		<div class="access_item accessitem3">
+			<div class="access_name_item"><h2>Delongi</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item3.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 3 -->
+	<!-- BEGIN ITEM 4 -->
+		<div class="access_item accessitem4">
+			<div class="access_name_item"><h2>Стакан GlassAir</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item4.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 4 -->
+	<!-- BEGIN ITEM 5 -->
+		<div class="access_item accessitem5">
+			<div class="access_name_item"><h2>Набор чашек</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item5.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 5 -->
+	<!-- BEGIN ITEM 6 -->
+		<div class="access_item accessitem6">
+			<div class="access_name_item"><h2>Стакан</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item6.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 6 -->
+	</div>	
+<!-- END ITEM 2 -->	
+
+
+<!-- BEGIN ITEM 3 -->
+	<div class="access_container_item cont_status3">
+	<!-- BEGIN ITEM 1 -->
+		<div class="access_item accessitem1">
+			<div class="access_name_item"><h2>Стакан космический</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item4.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					725грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+				
+		</div>
+	<!-- END ITEM 1 -->
+	<!-- BEGIN ITEM 2 -->
+		<div class="access_item accessitem2">
+			<div class="access_name_item"><h2>Стакан illy</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item2.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 2 -->
+	<!-- BEGIN ITEM 3 -->
+		<div class="access_item accessitem3">
+			<div class="access_name_item"><h2>Delongi</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item3.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 3 -->
+	<!-- BEGIN ITEM 4 -->
+		<div class="access_item accessitem4">
+			<div class="access_name_item"><h2>Стакан GlassAir</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item4.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 4 -->
+	<!-- BEGIN ITEM 5 -->
+		<div class="access_item accessitem5">
+			<div class="access_name_item"><h2>Набор чашек</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item5.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 5 -->
+	<!-- BEGIN ITEM 6 -->
+		<div class="access_item accessitem6">
+			<div class="access_name_item"><h2>Стакан</h2></div>
+			<div class="access_conteiner_img">
+				<img src="img/item6.png" alt="">
+			</div>	
+			<div class="access_txt">
+				<div class="access_info">
+					Добавить к основному сиропу 2 чайные ложки крепкого десертного вина и 
+					несколько капель ромовой эссенции или 1 ст. ложку рома.
+				</div>
+				<div class="access_price">
+					25грн.
+				</div>
+			</div>
+			<div class="access_order" onclick="open_basket()"></div>	
+		</div>
+	<!-- END ITEM 6 -->
+	</div>	
+<!-- END ITEM 3 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- BEGIN FOOTER -->	
 	<footer class="footer">
 		<ul class="footer_phone">
@@ -193,11 +439,54 @@
 <script type="text/javascript" src="js/modernizr-transitions.js"></script> <!-- подключаем плагин заставляющий работать css transitions в браузерах не поддерживающих css3 -->	
 
 	<div class="header_chat2"></div>
+	
 	<div class="access_basket_blank">
 		<div class="access_basket_body">
 			<div class="access_basket_header">
-				Ваша корзина
+				Ваша корзина				
+				<div class="basket_close" onclick="js_basket_close()"></div> 
 			</div>
+			<div class="basket_header_table">
+				<span class="basket_colum1">Название</span><span class="basket_colum2">Количество</span>
+			</div>
+			<div class="basket_item_info">
+				<img src="img/item-basket1.png" alt="">
+				<span class="basket_name_item">Кофейная чашка</span>
+				<span class="basket_price_item">25грн.</span>
+				<div class="basket_counter">
+					<input type="text" value="1">
+					<div class="basket_counter_up"></div>
+					<div class="basket_counter_dwn"></div>
+				</div>
+			
+			</div>
+			<div class="basket_item_info">
+				<img src="img/item-basket2.png" alt="">
+				<span class="basket_name_item">Стакан GlassAir</span>
+				<span class="basket_price_item">75грн.</span>
+				<div class="basket_counter">
+					<input type="text" value="1">
+					<div class="basket_counter_up"></div>
+					<div class="basket_counter_dwn"></div>
+				</div>
+			
+			</div>
+			<div class="basket_item_info">
+				<img src="img/item-basket3.png" alt="">
+				<span class="basket_name_item">Стакан</span>
+				<span class="basket_price_item">125грн.</span>
+				<div class="basket_counter">
+					<input type="text" value="1">
+					<div class="basket_counter_up"></div>
+					<div class="basket_counter_dwn"></div>
+				</div>
+				
+			</div>
+			<div class="basket_end_price">
+				Итого: <span>225грн.</span>
+			</div>
+			<div class="basket_issue_order"></div>
+			
 		</div>
 	</div>
 </body>
