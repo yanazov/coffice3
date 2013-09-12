@@ -32,13 +32,13 @@ window.onload = function() {
 			window.onmousewheel = document.onmousewheel = mouse_wheel;
 
 			
-document.addEventListener ("MozMousePixelScroll", 
-  function() { return false }, false);
-
-document.onkeydown = function(e) {
-  if (e.keyCode >= 33 && e.keyCode <= 40) return false;
-}
-			
+		document.addEventListener ("MozMousePixelScroll", function() { return false }, false);
+		
+		
+		document.onkeydown = function(e) {
+		  if (e.keyCode >= 33 && e.keyCode <= 40) return false;
+		}
+					
 		}
 	
 var mouse_wheel = function(event) {
@@ -79,6 +79,14 @@ function js_basket_close(){
 	status_basket=0;
 }
 
+function js_basket_item_close(number){
+	document.getElementsByClassName("basket_item_info")[number-1].style.display = "none";
+}
+
+function js_access_order_registr(){
+	document.getElementsByClassName("access_basket_body")[0].style.display = "none";
+	document.getElementsByClassName("access_order_registr")[0].style.display = "inline-block";
+}
 
 function scroll_basket(){
 	if(scroll_delta < 0){

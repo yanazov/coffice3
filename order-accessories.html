@@ -400,18 +400,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- BEGIN FOOTER -->	
 	<footer class="footer">
 		<ul class="footer_phone">
@@ -458,7 +446,7 @@
 					<div class="basket_counter_up"></div>
 					<div class="basket_counter_dwn"></div>
 				</div>
-			
+				<div class="basket_item_close" onclick="js_basket_item_close(1)"></div>
 			</div>
 			<div class="basket_item_info">
 				<img src="img/item-basket2.png" alt="">
@@ -469,7 +457,7 @@
 					<div class="basket_counter_up"></div>
 					<div class="basket_counter_dwn"></div>
 				</div>
-			
+				<div class="basket_item_close" onclick="js_basket_item_close(2)"></div>
 			</div>
 			<div class="basket_item_info">
 				<img src="img/item-basket3.png" alt="">
@@ -480,14 +468,69 @@
 					<div class="basket_counter_up"></div>
 					<div class="basket_counter_dwn"></div>
 				</div>
-				
+				<div class="basket_item_close" onclick="js_basket_item_close(3)"></div>
 			</div>
 			<div class="basket_end_price">
 				Итого: <span>225грн.</span>
 			</div>
-			<div class="basket_issue_order"></div>
+			<div class="basket_issue_order" onclick="js_access_order_registr()"></div>
 			
 		</div>
+<!--  Begin access_order_registr  -->		
+		<div class="access_order_registr">
+			<div class="access_basket_header">
+				Оформить заказ				
+				<div class="basket_close" onclick="js_basket_close()"></div> 
+			</div>
+			<span class="access_order_registr_fio">Фамилия Имя		
+				<input type="text" value="">
+			</span>	
+			<span class="access_order_registr_city">Выбрать город		
+				
+				 
+				 <div class="pseudo-select">
+					<div class="select">Выберите пункт</div>
+					<div class="options">
+						<div value="select1">Первый пункт</div>
+						<div value="select2" class="check">Второй пункт</div>
+						<div value="select3">Третий пункт</div>
+						<div value="select4">Четвертый пункт</div>
+						<div value="select5">4Четвертый пункт</div>
+						<div value="select6">Ч6етвертый пункт</div>
+					</div>
+					<input type="hidden" name="select" value="first">
+				</div>
+				 
+				 
+				 
+			</span>	
+			
+		</div>
+<script>
+		(function($){
+    $(document).ready(
+            function(){
+                $('.select').click(function(){
+                    $(this).parent().find('.options').fadeIn('fast');
+                });
+                $('.options').mouseleave(function(){
+                    $(this).fadeOut('fast');
+                });
+                $('.options > div').click(function(){
+                    $(this).closest('.pseudo-select').find('.select').html($(this).html());
+                    $(this).closest('.pseudo-select').find('input').attr('value', $(this).attr('value'));
+                    $.each($(this).parent().children('div.check'), function(){
+                        $(this).removeClass('check');
+                    });
+                    $(this).addClass('check');
+                    $(this).parent().fadeOut('fast');
+                });
+            }
+    );
+})(jQuery);
+		
+</script>		
+	<!--  Begin access_order_registr  -->
 	</div>
 </body>
 </html>
