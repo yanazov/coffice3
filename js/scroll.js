@@ -6,12 +6,29 @@ var slider_revers=0;
 var slider_x = 0;
 
 window.onload = function() {
+/*   *************************            для IE     ********************************               */
+	if(document.getElementsByClassName == undefined) { 
+	   document.getElementsByClassName = function(cl) { 
+		  var retnode = []; 
+		  var myclass = new RegExp('\\b'+cl+'\\b'); 
+		  var elem = this.getElementsByTagName('*'); 
+		  for (var i = 0; i < elem.length; i++) { 
+			 var classes = elem[i].className; 
+			 if (myclass.test(classes)) { 
+				retnode.push(elem[i]); 
+			 } 
+		  } 
+		  return retnode; 
+	   } 
+	}; 
+
+
 		if (window.addEventListener) window.addEventListener("DOMMouseScroll", mouse_wheel, false);
 			window.onmousewheel = document.onmousewheel = mouse_wheel;
 
 			
-document.addEventListener ("MozMousePixelScroll", 
-  function() { return false }, false);
+/*document.addEventListener ("MozMousePixelScroll", 
+  function() { return false }, false);    */
 
 document.onkeydown = function(e) {
   if (e.keyCode >= 33 && e.keyCode <= 40) return false;
@@ -31,7 +48,7 @@ var mouse_wheel = function(event) {
 		tmp=96;  	
 /*	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
 	/*window.scrollBy(0, -direction*40);*/
-	tmp = -br.top/30;
+	/*tmp = -br.top/30; */
 	$('html,body').animate ({scrollTop: tmp*30}, 30);
 	
 	event.returnValue = false;

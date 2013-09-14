@@ -4,6 +4,7 @@ $color_red: #d80101;
 
 
  body{
+	
 	background-color: #f2f5f6;	
 	text-align:  center;
 	font-size: 0pt;
@@ -17,6 +18,7 @@ $color_red: #d80101;
 		background: url(../img/icon/chat_main.png) no-repeat;
 		z-index: 100;
 		cursor: pointer;
+		
 	}
  }
  .container_center{
@@ -71,7 +73,7 @@ $color_red: #d80101;
 		a{
 			font-size: 9pt;
 			font-family: 'Conv_Helvetica_Bold';
-			font-weight: 900;
+			width: 313px;
 			color: #737373;
 			text-decoration: none;
 		}
@@ -113,7 +115,8 @@ $color_red: #d80101;
 		position: absolute;
 		top: 62px;
 		right: 0px;
-		width: 370px;
+		width:400px;
+		text-align: right;
 		margin: 0;
 		
 		font-size: 14;
@@ -129,15 +132,15 @@ $color_red: #d80101;
 		}
 		li:first-child{
 			margin-left: 0;
-			background: url("../img/icon/header_separ2.png") no-repeat 0px -23px;			
+			/*background: url("../img/icon/header_separ2.png") no-repeat 0px -23px;			*/
 		}
 		a{
 			color: #000;
 			font-family: 'Conv_Helvetica_Bold';
 		}
-		li:first-child a{
+		/*li:first-child a{
 			color: $color_red;
-		}
+		} */
 	}
 	img{
 		display: block;
@@ -169,6 +172,8 @@ $color_red: #d80101;
 		background: url("../img/icon/order_main.png") no-repeat;
 		font-size: 14pt;
 		color: #fff;
+		cursor: pointer;
+		z-index: 90;
 	}	
 	.header_basket{
 		display: block;
@@ -179,6 +184,21 @@ $color_red: #d80101;
 		height: 102px; 
 		background: url("../img/icon/basket.png") no-repeat;
 		cursor: pointer;
+		.header_basket_number{
+			display: block;			
+			position: absolute;
+			top: 10px;
+			left: 77px;
+			height: 23px;
+			width: 23px;
+			font-size: 11pt;
+			color: #fff;
+			font-family: 'Conv_Futuris_Bold';
+			
+			background: url("../img/icon/basket_number_fon.png") no-repeat;
+			padding-top: 2px;
+		}
+		
 	}	
 	.header_shadow{
 		display: block;
@@ -198,8 +218,8 @@ $color_red: #d80101;
 		max-width: 1002px;
 		width: 100%;
 		height: 626px;
-		background: url("../img/screen1.png") no-repeat;
-		background-position: center;
+		background: url("../img/screen1_all.jpg") 0% no-repeat;
+		/*background-position: center;*/
 		overflow: hidden;
 		.screen1_coffe_machine{
 			display: block;
@@ -387,7 +407,9 @@ $color_red: #d80101;
 			cursor: pointer;
 			background: url(../img/scr1_home.png) no-repeat;
 		}
-		
+		#scr1_btn_m{
+			display: none;
+		}
 		
 		
 		
@@ -589,7 +611,7 @@ $color_red: #d80101;
 		top: 252px;
 		height: 368px;
 		width: 233px;
-		left: 140%;   /* def 80%   */
+		right: -140%;   /* def 80%   */
 		background: url(../img/coffe_machine2.png) no-repeat;
 		background-position: center;
 		z-index: 6;
@@ -1372,6 +1394,7 @@ $color_red: #d80101;
 	.access_menu{
 		display: block;
 		position: relative;
+		
 		margin-top: 130px;
 		height: 64px;
 		width: 100%;
@@ -1415,9 +1438,22 @@ $color_red: #d80101;
 		margin: 0px;
 		padding-top: 13px;
 	}
-	.access_container_item{
+	.cont_status1{
 		display: block;
 		position: relative;
+	}
+	.cont_status2{
+		display: none;
+		position: relative;
+	}
+	.cont_status3{
+		display: none;
+		position: relative;
+	}
+	.access_container_item{
+		/*display: block;
+		position: relative;*/
+		
 		top: -2px;
 		width: 100%;
 		height: 1016px;
@@ -1426,6 +1462,7 @@ $color_red: #d80101;
 		.access_item{
 			display: block;
 			position: absolute;
+			
 			border: 1px solid #d8dee0;
 			border-top: 0px;
 			height: 508px;
@@ -1468,6 +1505,50 @@ $color_red: #d80101;
 					padding: 7px 0px 0px 45px;
 					background: url(../img/icon/info.png) no-repeat;
 				}
+				.access_coffe_info{
+					display: block;
+					position: relative;
+					top: 8px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 6px 0px 0px 45px;
+					background: url(../img/icon/point_cap.png) no-repeat;
+				}
+				.access_coffe_info2{
+					display: block;
+					position: relative;
+					height: 27px;
+					top: 17px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					padding: 6px 0px 0px 45px;
+					background: url(../img/icon/point_coffe.png) no-repeat;
+					span{
+						font-weight: 900;
+						font-size: 10pt;
+					}
+					
+				}
+				.access_rating{
+					display: block;
+					position: relative;
+					top: 22px;
+					font-family: 'helvetica_neue';
+					font-size: 11pt;
+					color: #393939;
+					margin-left: 45px;
+					line-height: 19px;
+					img{
+						display: inline-block;
+						position: relative;
+						vertical-align: middle;
+					}
+					.access_rating_img1{
+						margin-left: 10px;
+					}
+				}
 				.access_price{
 					display: block;
 					position: absolute;
@@ -1492,11 +1573,12 @@ $color_red: #d80101;
 				background-position: 0px 0px;
 				padding: 0px;
 				z-index: 5;
+				cursor: pointer;
 			}			
-			.btn_order:hover{
+			.access_order:hover{
 				background-position: 0px -68px;
 			}
-			.btn_order:active{
+			.access_order:active{
 				background-position: 0px -136px;
 			}
 		}
@@ -1506,8 +1588,7 @@ $color_red: #d80101;
 			-webkit-box-shadow: 0 0 7px #aaa; 
 			box-shadow: 0 0 7px  #aaa; 
 		}
-		.accessitem1{
-			
+		.accessitem1{			
 			top: 0px;
 			left:-1px;
 		}
@@ -1537,3 +1618,593 @@ $color_red: #d80101;
 		}
 	}
 /*   END accessories  page   */
+/*  BEGIN BASKET BLANK */
+	.access_basket_blank{
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 150%;
+		line-height: 100%;
+		background: url(../img/basket_fon.png);
+		text-align: center;
+		z-index: 200;
+		.access_basket_body{
+			display: inline-block;
+			position: relative;
+			max-width: 515px;	
+			margin-top: 100px;
+			width: 60%;
+			background: url("../img/basket_fon_coffe.png") no-repeat;
+			background-color: #fff;
+			
+			background-position: 50% 100%;
+			.access_basket_header{
+				display: block;
+				position: relative;
+				max-height: 54px;
+				height: 100px;
+				width: 100%;
+				color: #fff;
+				font-size: 30pt;
+				background: url("../img/order_header.png");
+				font-family: 'Conv_Futuris_Bold';
+				padding-top: 9%;
+				.basket_close{
+					display: block;
+					position: absolute;
+					right: 15px;
+					top: 15px;
+					height: 15px;
+					width: 15px;
+					background: url(../img/icon/close.png) no-repeat;
+					cursor: pointer;
+				}
+			}
+			.basket_header_table{
+				display: block;
+				position: relative;
+				height: 23px;
+				width: 90%;
+				left: 5%;
+				border-bottom: 1px solid #d8dee0;
+				color: #545454;
+				text-align: left;
+				font-family: 'helvetica_neue';
+				font-size: 9pt;
+				padding-top: 25px;
+				.basket_colum1{
+					display: inline-block;
+					position: relative;
+					left: 140px;
+				}
+				.basket_colum2{
+					display: inline-block;
+					position: relative;
+					left: 290px;
+				}
+			}
+			.basket_item_info:hover{
+				z-index: 3;
+				-moz-box-shadow: 0 0 7px #aaa; 
+				-webkit-box-shadow: 0 0 7px #aaa; 
+				box-shadow: 0 0 7px  #aaa; 
+		}
+			.basket_item_info{
+				display: block;
+				position: relative;				
+				width: 90%;
+				left: 5%;
+				height: 100px;
+				line-height: 100px;
+				border-bottom: 1px solid #d8dee0;
+				text-align: left;
+				img{
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;
+					left: 5px;
+				}
+				.basket_name_item{
+					display: block;
+					position: absolute;
+					top: 28px;
+					left: 120px;
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 14pt;
+					line-height: 15pt;
+					color: #393939;
+				}
+				.basket_price_item{
+					display: block;
+					position: absolute;
+					top: 55px;
+					left: 120px;
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 15pt;
+					line-height: 15pt;
+					color: $color_red;
+				}				
+				.basket_counter{
+					display: block;
+					position: absolute;
+					top: 30px;
+					right: 3%;
+					width: 98px;
+					height: 45px;
+					background: url(../img/basket_counter_fon.png) no-repeat;
+					input{
+						display: block;
+						position: absolute;
+						width: 30px;
+						top: 11px;
+						left: 15px;
+						border: none;
+						font-family: 'Conv_Helvetica_Bold';
+						font-size: 13pt;
+						
+					}
+					textarea:focus, input:focus{
+						outline: none;
+					}
+					.basket_counter_up{
+						display: block;
+						position: absolute;
+						top: 9px;
+						left: 69px;
+						width: 12px;
+						height: 7px;
+						background: url(../img/icon/up.png) no-repeat;
+						cursor: pointer;
+					}
+					.basket_counter_dwn{
+						display: block;
+						position: absolute;
+						top: 25px;
+						left: 69px;
+						width: 12px;
+						height: 7px;
+						background: url(../img/icon/dwn.png) no-repeat;
+						cursor: pointer;
+					}
+				}
+				.basket_item_close{
+					display: block;
+					position: absolute;
+					right: 5px;
+					top: 5px;
+					width: 12px;
+					height: 12px;
+					background: url(../img/icon/basket_item_close.png) no-repeat;
+					cursor: pointer;
+				}
+				
+				
+			}
+			.basket_end_price{
+				display: block;
+				position: relative;
+				width: 85%;
+				height: 30px;
+				left: 5%;
+				background-color: #f2f5f6;
+				color: #393939;
+				font-family: 'Conv_Futuris_Bold';
+				font-size: 12pt;
+				text-align: left;
+				padding: 30px 0px 0px 5%;
+				span{
+					font-family: 'Conv_Futuris_Bold';
+					font-size: 20pt;
+					color: $color_red;
+					margin-left: 37px;
+			}
+				
+			}
+			
+			
+			.basket_issue_order{
+				display: block;
+				position: relative;
+				margin: 35px 10% 35px 10%;
+				width: 80%;				
+				height: 40px;
+				background: url(../img/issue.png) no-repeat;
+				background-position: 50% 0px;
+			}
+			.basket_issue_order:hover{
+				background-position: 50% -58px;	
+			}
+			.basket_issue_order:active{
+				background-position: 50% -116px;	
+			}
+		}
+		
+		
+		
+		
+		.access_order_registr{
+			/*display: inline-block;*//**********************************************************/
+			display: none;
+			position: relative;
+			max-width: 515px;	
+			margin-top: 100px;
+			width: 60%;
+			height: 648px;
+			background: url("../img/basket_fon_coffe.png") no-repeat;
+			background-color: #fff;
+			text-align: center;
+			background-position: 50% 100%;
+			.access_basket_header{
+				display: block;
+				position: relative;
+				max-height: 54px;
+				height: 100px;
+				width: 100%;
+				color: #fff;
+				font-size: 30pt;
+				background: url("../img/order_header.png");
+				font-family: 'Conv_Futuris_Bold';
+				padding-top: 9%;
+				.basket_close{
+					display: block;
+					position: absolute;
+					right: 15px;
+					top: 15px;
+					height: 15px;
+					width: 15px;
+					background: url(../img/icon/close.png) no-repeat;
+					cursor: pointer;
+				}
+			}
+			.access_order_registr_fio{
+				display: inline-block;
+				position: relative;
+				margin-top: 40px;
+				font-size: 10pt;
+				text-align: left;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				input{
+					display: block;
+					position: relative;
+					top: 10px;
+					border: none;
+					font-family: 'Conv_Helvetica_Bold';
+					font-size: 13pt;
+					height: 43px;
+					width: 313px;
+					color: #393939;
+					background: url(../img/icon/txt_fon.png) no-repeat;
+					padding: 0px 20px 0px 20px;
+					outline: none;
+		
+				}
+			}
+			.access_order_registr_city{
+				display: inline-block;
+				position: relative;
+				margin-top: 40px;
+				font-size: 10pt;
+				text-align: left;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				select{
+					display: block;
+					position: relative;
+					top: 10px;
+					border: none;
+					font-family: 'Conv_Helvetica_Bold';
+					font-size: 13pt;
+					height: 43px;
+					width: 313px;
+					color: #393939;
+					background: url(../img/icon/txt_fon.png) no-repeat;
+					padding: 0px 20px 0px 20px;
+				}
+/* **********************************************************************/						
+	.pseudo-select {
+        display: block;
+		position: relative;		
+        font-size: 18px;
+        font-family: verdana;
+		height: 43px;
+		width: 352px;
+		border: none;
+		margin-top: 10px;
+		background: url("../img/icon/select_fon.png") no-repeat;
+    }
+    .pseudo-select .select {
+        color: #555;
+        cursor: pointer;
+        /*border: 1px solid #BBB;*/
+        padding: 19px 2px 3px 20px;
+        width: 353px;
+		height: 40px;
+        
+    }
+    .pseudo-select .select:hover, .pseudo-select .options:hover {
+        /*border: 1px solid #c6c6c6;*/
+        color: #333;
+    }
+    .pseudo-select .options {
+		display: block;
+        position: absolute;
+        top: 41px;
+        left: 0;
+        width: 349px;
+		height: 88px;
+        border: 1px solid #BBB;
+        background: #fff;
+        z-index: 10;
+        display: none;
+		overflow-y: scroll;
+		
+    }
+    .pseudo-select .options > div {
+		height: 9px;
+        padding: 10px 2px 3px 8px;
+        cursor: pointer;
+    }
+    .pseudo-select .options > div:hover {
+		padding: 10px 2px 3px 8px;
+        background: #eee;
+    }
+    .pseudo-select .options > div.check {
+        background: #e1e1e1;
+		padding: 10px 2px 3px 8px;
+    }
+/* **********************************************************************/						
+				
+			}
+			.access_order_deliver{
+				display: inline-block;
+				position: relativel;
+				width: 100%;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				margin-top: 40px;
+				width: 353px;
+				text-align: left;
+				ul{
+					display: inline-block;
+					padding-left: 0px;
+				}	
+				li{
+					display: inline-block;
+					font-family: 'Conv_Helvetica_Bold';
+					font-weight: 900;
+					font-size: 11pt;
+					margin-left: 20px;
+				}
+/* ====================== стилизаци радио кнопки ============================================== */				
+				input[type="radio"] {
+					display:none;
+				}
+				input[type="radio"] + label span {
+					display:inline-block;
+					width:22px;
+					height:22px;
+					margin:-1px 4px 0 0;
+					vertical-align:middle;
+					background:url(../img/icon/radio_off.png) no-repeat;
+					cursor:pointer;
+				}
+				input[type="radio"]:checked + label span {
+					background:url(../img/icon/radio_on.png) no-repeat;
+				}
+/* ==================================================================== */				
+			}
+			.access_order_coments{
+				display: inline-block;
+				position: relativel;
+				width: 100%;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				margin-top: 11px;
+				width: 353px;
+				text-align: left;
+			}
+			.access_order_coments_fill{
+				display: inline-block;
+				position: relative;
+				margin-top: 12px;
+				width: 333px;
+				padding: 5px 10px 5px 10px;
+				height: 103px;
+				outline: none;
+				border: none;
+				background:url(../img/icon/txtarea_fon.jpg) no-repeat;				
+				wrap: soft;
+				resize: none;
+			}
+			.btn_registr{
+				display: inline-block;
+				position: relative;
+				width: 149px;
+				height: 39px;
+				background: url(../img/btn_order.png) no-repeat;
+				background-position: 0px 0px;
+				border: none;
+			}
+			.btn_registr:hover{
+				background-position: 0px -68px;
+			}
+			.btn_registr:active{
+				background-position: 0px -136px;
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+
+/*  END BASKET BLANK */
+/*BEGIN TXT    */
+	.blok1_first{
+		display: block; 
+		position: relative;
+		margin-top: 95px;
+		max-width: 1002px;
+		width: 86%;
+		background-color: #fff;
+		padding: 42px 7% 38px 7%;
+		text-align: left;
+		border: 1px solid #d8dee0;
+		p{
+			margin-top: 32px;
+			font-family: 'helvetica_neue';
+			font-size: 13pt;
+			color: #393939;
+			line-height: 1.2em;
+		}
+	}
+	.blok1{
+		display: block; 
+		position: relative;		
+		max-width: 1002px;
+		width: 86%;
+		background-color: #fff;
+		padding: 42px 7% 38px 7%;
+		text-align: left;
+		border: 1px solid #d8dee0;
+		border-top: none;
+		p{
+			margin-top: 32px;
+			font-family: 'helvetica_neue';
+			font-size: 13pt;
+			color: #393939;
+			line-height: 1.2em;
+		}
+		.img_left{
+			float: right;
+			margin-left: 10%;
+			width: 40%;
+		}
+	}
+	.blok3{
+		display: block; 
+		position: relative;		
+		max-width: 1002px;
+		width: 93%;
+		background-color: #fff;
+		padding: 1px 7% 38px 0%;
+		text-align: left;
+		border: 1px solid #d8dee0;
+		border-top: none;	
+		.txt_img_3{
+			float: left;
+			top: -42px;
+			left: -7%;
+			margin-right: 15%;
+			width: 43%;
+		}
+		h2{
+			
+			margin-top: 42px;
+		}
+			p{
+				margin-top: 32px;
+				font-family: 'helvetica_neue';
+				font-size: 13pt;
+				color: #393939;
+				line-height: 1.2em;
+			}
+		
+			#scr1_property{
+				display: inline-block;
+				position: relative;
+				top: 30px;
+				left: 0px;
+				padding: 0px;
+				z-index: 5;
+				margin-bottom: 50px;
+				li{
+					display: inline-block;
+					position: relative;
+					width: 68px;
+					height: 68px;
+					margin-left: 9px;
+					background: url(../img/icon/pro.png) no-repeat;
+					
+				}
+				li:first-child{
+					background: url(../img/icon/20bar.png) no-repeat;
+					margin-left: 0px;
+				}
+				li:last-child{
+					background: url(../img/icon/italy.png) no-repeat;
+				}
+			}
+		
+		.block100{
+			display: block;
+			position: relative;
+			width: 100%;
+			height: 1px;
+		}
+	}
+	.blok4{
+		display: block; 
+		position: relative;		
+		max-width: 1002px;
+		width: 86%;
+		background-color: #fff;
+		padding: 42px 7% 38px 7%;
+		text-align: left;
+		border: 1px solid #d8dee0;
+		border-top: none;	
+		.txt_img_4{
+			float: right;
+			top: -42px;
+			left: -7%;
+			margin-right: 2%;
+			margin-left: 12.5%;
+			width: 40%;
+		}
+		h2{
+			
+			margin-top: 20px;
+		}
+		p{
+			margin-top: 32px;
+			font-family: 'helvetica_neue';
+			font-size: 13pt;
+			color: #393939;
+			line-height: 1.2em;
+		}
+		.btn_order{
+			display: block;
+			position: relative; 
+			top: 5px;
+			width: 149px;
+			height: 39px;
+			margin-bottom: 25px;
+			left: 0%;
+			font-family: 'Conv_Futuris_Bold';
+			color: #fff;
+			font-size: 12pt;
+			background: url(../img/btn_order.png) no-repeat;
+			background-position: 0px 0px;
+			padding: 0px;
+			z-index: 5;
+		}
+		
+		.btn_order:hover{
+			background-position: 0px -68px;
+		}
+		.btn_order:active{
+			background-position: 0px -136px;
+		}
+	}
+/*   END TXT    */

@@ -428,7 +428,7 @@
 
 	<div class="header_chat2"></div>
 	
-	<div class="access_basket_blank">
+	<div class="access_basket_blank" onclick="js_basket_close_fon(event)">
 		<div class="access_basket_body">
 			<div class="access_basket_header">
 				Ваша корзина				
@@ -442,9 +442,9 @@
 				<span class="basket_name_item">Кофейная чашка</span>
 				<span class="basket_price_item">25грн.</span>
 				<div class="basket_counter">
-					<input type="text" value="1">
-					<div class="basket_counter_up"></div>
-					<div class="basket_counter_dwn"></div>
+					<input class="basket_counter_value" type="text" value="1">
+					<div class="basket_counter_up" onclick="js_counter_up(1)"></div>
+					<div class="basket_counter_dwn" onclick="js_counter_dwn(1)"></div>
 				</div>
 				<div class="basket_item_close" onclick="js_basket_item_close(1)"></div>
 			</div>
@@ -453,9 +453,9 @@
 				<span class="basket_name_item">Стакан GlassAir</span>
 				<span class="basket_price_item">75грн.</span>
 				<div class="basket_counter">
-					<input type="text" value="1">
-					<div class="basket_counter_up"></div>
-					<div class="basket_counter_dwn"></div>
+					<input class="basket_counter_value" type="text" value="1">
+					<div class="basket_counter_up" onclick="js_counter_up(2)"></div>
+					<div class="basket_counter_dwn" onclick="js_counter_dwn(2)"></div>
 				</div>
 				<div class="basket_item_close" onclick="js_basket_item_close(2)"></div>
 			</div>
@@ -464,9 +464,9 @@
 				<span class="basket_name_item">Стакан</span>
 				<span class="basket_price_item">125грн.</span>
 				<div class="basket_counter">
-					<input type="text" value="1">
-					<div class="basket_counter_up"></div>
-					<div class="basket_counter_dwn"></div>
+					<input class="basket_counter_value" type="text" value="1">
+					<div class="basket_counter_up" onclick="js_counter_up(3)"></div>
+					<div class="basket_counter_dwn" onclick="js_counter_dwn(3)"></div>
 				</div>
 				<div class="basket_item_close" onclick="js_basket_item_close(3)"></div>
 			</div>
@@ -485,25 +485,46 @@
 			<span class="access_order_registr_fio">Фамилия Имя		
 				<input type="text" value="">
 			</span>	
-			<span class="access_order_registr_city">Выбрать город		
-				
-				 
+			<span class="access_order_registr_city">Выбрать город	
 				 <div class="pseudo-select">
-					<div class="select">Выберите пункт</div>
+					<div class="select"></div>
 					<div class="options">
-						<div value="select1">Первый пункт</div>
-						<div value="select2" class="check">Второй пункт</div>
-						<div value="select3">Третий пункт</div>
-						<div value="select4">Четвертый пункт</div>
-						<div value="select5">4Четвертый пункт</div>
-						<div value="select6">Ч6етвертый пункт</div>
+						<div value="select1" class="option_select">Киев</div>
+						<div value="select2" class="option_select">Донецк</div>
+						<div value="select3" class="option_select">Днепропетровск</div>
+						<div value="select4" class="option_select">Запорожье</div>
+						<div value="select5" class="option_select">Львов</div>
+						<div value="select6" class="option_select">Черкассы</div>
+						<div value="select6" class="option_select">Харьков</div>
+						<div value="select7" class="option_select">Луганск</div>
+						<div value="select8" class="option_select">Житомир</div>
+						<div value="select9" class="option_select">Симферополь</div>
+						<div value="select10" class="option_select">Ялта</div>
 					</div>
 					<input type="hidden" name="select" value="first">
 				</div>
-				 
-				 
-				 
 			</span>	
+			
+			<span class="access_order_deliver">Доставка курьером по Киеву  
+				<ul>
+					<li><input id="r1" name="deliver" type="radio" value="yes">
+					<label for="r1"><span></span>Да</label></li>
+					<li><input id="r2" name="deliver" type="radio" value="no"> 
+					<label for="r2"><span></span>Нет</label></li>
+				</ul>
+			</span>
+			<br>
+			<span class="access_order_coments">Комментарии</span>
+			<br>
+			<textarea class="access_order_coments_fill"></textarea>
+			<br>
+			<span class="access_order_spam">
+				<input id="spam1" type="checkbox" checked>
+				<label for="spam1"><span></span>Подписатся на рассылку</label></li>
+				
+			</span>
+			<br>
+			<input class="btn_registr" value="" type="submit">
 			
 		</div>
 <script>

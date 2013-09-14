@@ -75,7 +75,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		a{
 			font-size: 9pt;
 			font-family: 'Conv_Helvetica_Bold';
-			font-weight: 900;
+			width: 313px;
 			color: #737373;
 			text-decoration: none;
 		}
@@ -1807,13 +1807,14 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 			
 			
 			.basket_issue_order{
-				display: block;
+				display: inline-block;
 				position: relative;
 				margin: 35px 10% 35px 10%;
-				width: 80%;				
+				width: 194px;				
 				height: 40px;
 				background: url(../img/issue.png) no-repeat;
 				background-position: 50% 0px;
+				cursor: pointer;
 			}
 			.basket_issue_order:hover{
 				background-position: 50% -58px;	
@@ -1913,6 +1914,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		position: relative;		
         font-size: 18px;
         font-family: verdana;
+		padding-top: 8px;
 		height: 43px;
 		width: 352px;
 		border: none;
@@ -1942,27 +1944,146 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
         border: 1px solid #BBB;
         background: #fff;
         z-index: 10;
-        display: none;
+        display: none;   
 		overflow-y: scroll;
 		
     }
     .pseudo-select .options > div {
-		height: 9px;
-        padding: 10px 2px 3px 8px;
+		height: 1px;
+        padding: 16px 2px 3px 8px;
         cursor: pointer;
     }
     .pseudo-select .options > div:hover {
-		padding: 10px 2px 3px 8px;
+		padding: 16px 2px 3px 8px;
         background: #eee;
     }
     .pseudo-select .options > div.check {
         background: #e1e1e1;
-		padding: 10px 2px 3px 8px;
+		padding: 16px 2px 3px 8px;
     }
 /* **********************************************************************/						
-				
+	.city123{
+		
+		margin-top: 20px;
+		background: url(../img/icon/select_fon.png) no-repeat;
+
+	}
 			}
+			.access_order_deliver{
+				display: inline-block;
+				position: relativel;
+				width: 100%;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				margin-top: 0px;
+				width: 353px;
+				text-align: left;
+				ul{
+					display: inline-block;
+					padding-left: 0px;
+				}	
+				li{
+					display: inline-block;
+					font-family: 'Conv_Helvetica_Bold';
+					font-weight: 900;
+					font-size: 11pt;
+					margin-left: 20px;
+				}
+/* ====================== стилизаци радио кнопки ============================================== */				
+				input[type="radio"] {
+					display:none;
+				}
+				input[type="radio"] + label span {
+					display:inline-block;
+					width:22px;
+					height:22px;
+					margin:-1px 4px 0 0;
+					vertical-align:middle;
+					background:url(../img/icon/radio_off.png) no-repeat;
+					cursor:pointer;
+				}
+				input[type="radio"]:checked + label span {
+					background:url(../img/icon/radio_on.png) no-repeat;
+				}
+/* ==================================================================== */	
+			}
+
+			.access_order_spam{
+				display: inline-block;
+				position: relative;
+				margin-top: 20px;
+				left: 15%;
+				text-align: left;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				width: 100%;
+/* ====================== стилизаци чекбокса ============================================== */				
+				input[type="checkbox"] {
+					display: none;
+				}
+				input[type="checkbox"] + label span {
+					display:inline-block;
+					width:22px;
+					height:22px;
+					margin:-1px 4px 0 0;
+					vertical-align:middle;
+					background:url(../img/icon/checkbox_off.jpg) no-repeat;
+					cursor:pointer;
+				}
+				input[type="checkbox"]:checked + label span {
+					background:url(../img/icon/checkbox_on.png) no-repeat;
+				}
+/* ==================================================================== */	
+			
+			}
+			.access_order_coments{
+				display: inline-block;
+				position: relativel;
+				width: 100%;
+				font-family: 'helvetica_neue';
+				font-size: 10pt;
+				color: #545454;
+				margin-top: 11px;
+				width: 353px;
+				text-align: left;
+				margin-top: 15px;
+			}
+			.access_order_coments_fill{
+				display: inline-block;
+				position: relative;
+				margin-top: 12px;
+				width: 333px;
+				padding: 5px 10px 5px 10px;
+				height: 103px;
+				outline: none;
+				border: none;
+				background:url(../img/icon/txtarea_fon.jpg) no-repeat;				
+				wrap: soft;
+				resize: none;
+			}
+			.btn_registr{
+				display: inline-block;
+				position: relative;
+				margin-top: 35px;
+				width: 149px;
+				height: 39px;
+				background: url(../img/btn_order.png) no-repeat;
+				background-position: 0px 0px;
+				border: none;
+			}
+			.btn_registr:hover{
+				background-position: 0px -68px;
+			}
+			.btn_registr:active{
+				background-position: 0px -136px;
+			}
+			
+			
 		}
+		
+		
 		
 		
 		
