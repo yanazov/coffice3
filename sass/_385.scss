@@ -101,19 +101,40 @@ body {
 		width: 168px;
 		padding-top: 8px;
 		height: 34px;
-		background: url("../img/order2.png") no-repeat;
-		font-size: 10pt;
-		color: #fff;
-		font-family: 'Conv_Futuris_Bold';
+			background: url("../img/btn.png") -229px 0px no-repeat;
 		cursor: pointer;
-		letter-spacing: 0.1em;
+	}	
+	.header_button:hover{
+		background-position: -229px -80px;
+	}
+	.header_button:active{
+		background-position: -229px -158px;
 	}
 	.header_button2{
 		display: none;
 	}
+	
+	
 	.header_basket{
-		display: none;
+		display: block;
+		position: absolute;
+		top: 58px;
+		right: 2%;
+		width: 168px;
+		height: 35px; 
+		background: url("../img/btn.png") 0px 0px no-repeat;
+		cursor: pointer;
+		.header_basket_number{
+			display: none;		
+		}		
+	}	
+	.header_basket:hover{
+		background-position: 0px -79px;
 	}
+	.header_basket:active{
+		background-position: 0px -157px;
+	}
+	
 	.header_shadow{
 		display: block;
 		position: absolute;
