@@ -1271,6 +1271,7 @@ body {
 			font-size: 22pt;
 		}
 	}
+	
 	.access_container_item{
 		display: block;
 		position: relative;
@@ -1280,8 +1281,8 @@ body {
 		border: 1px solid #d8dee0;
 		color: #a02;
 		.access_item{
-			display: block;
-			position: absolute;
+			display: inline-block;
+			position: relative;
 			border: 1px solid #d8dee0;
 			border-top: 0px;
 			height: 508px;
@@ -1291,7 +1292,7 @@ body {
 			text-align: center;
 			.access_name_item{
 				display: block;
-				position: relative;
+				position: absolute;
 				margin-top: 21px;
 				width: 80%;
 				left: 10%;
@@ -1304,7 +1305,7 @@ body {
 				width: 200px;
 				height: 200px;
 				line-height: 200px;
-				margin: 0px 50px 0px 50px;
+				margin: 60px 50px 0px 50px;
 			img{
 					display: inline-block;
 					position: relative;
@@ -1365,38 +1366,36 @@ body {
 			-webkit-box-shadow: 0 0 7px #aaa; 
 			box-shadow: 0 0 7px  #aaa; 
 		}
-		.accessitem1{			
-			top: 0px;
-			left:0%;
+		.accessitem1{
 			width: 100%;
 		}
-		.accessitem2{
-			display: block;
-			position: absolute;
-			top: 509px;
-			left:0%;
+		.accessitem2{			
 			width: 100%;
 		}
-		.accessitem3{
-			top: 1018px;
-			left:0%;
+		.accessitem3{			
 			width: 100%;
 		}
-		.accessitem4{
-			top: 1527px;
-			left:0%;
+		.accessitem4{			
 			width: 100%;
 		}
-		.accessitem5{
-			top: 2036px;
-			left:0%;
+		.accessitem5{			
 			width: 100%;
 		}
-		.accessitem6{
-			top: 2545px;
-			left:0%;
+		.accessitem6{			
 			width: 100%;
 		}
+	}
+	.cont_status1{
+		display: block;
+		position: relative;
+	}
+	.cont_status2{
+		display: none;
+		position: relative;
+	}
+	.cont_status3{
+		display: none;
+		position: relative;
 	}
 /*   END accessories  page   */
 /*  BEGIN BASKET BLANK */
@@ -1705,7 +1704,7 @@ body {
         /*border: 1px solid #BBB;*/
         padding: 19px 2px 3px 20px;
         width: 290px;
-		height: 40px;
+		height: 21px;
         
     }
     .pseudo-select .select:hover, .pseudo-select .options:hover {

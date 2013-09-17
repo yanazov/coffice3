@@ -4,6 +4,8 @@ var scr5_x = 0;
 var home_status = 0;
 var slider_revers=0;
 var slider_x = 0;
+var br_top = 0;
+var scroll_delta = 0;
 
 window.onload = function() {
 /*   *************************            для IE     ********************************               */
@@ -21,48 +23,70 @@ window.onload = function() {
 		  return retnode; 
 	   } 
 	}; 
+	$('html,body').animate ({scrollTop: 0}, 10);
+	document.getElementById('scr1_coffe').style.top=492+"px";
+	document.getElementById('scr1_coffe_shadow').style.opacity = 1;	
+	document.getElementsByClassName("screen1_coffe_machine")[0].style.left=0+"px";	
+	tmp = 0;
+	if (window.addEventListener) window.addEventListener("DOMMouseScroll", mouse_wheel, false);
+		window.onmousewheel = document.onmousewheel = mouse_wheel;
 
+				
+	/*document.addEventListener ("MozMousePixelScroll", 
+	  function() { return false }, false);    */
 
-		if (window.addEventListener) window.addEventListener("DOMMouseScroll", mouse_wheel, false);
-			window.onmousewheel = document.onmousewheel = mouse_wheel;
-
+	document.onkeydown = function(e) {
+	  if (e.keyCode >= 33 && e.keyCode <= 40) return false;
+	}
 			
-/*document.addEventListener ("MozMousePixelScroll", 
-  function() { return false }, false);    */
-
-document.onkeydown = function(e) {
-  if (e.keyCode >= 33 && e.keyCode <= 40) return false;
 }
-			
-		}
 	
 var mouse_wheel = function(event) {
-
+	
     if (false == !!event) event = window.event;
     var direction = ((event.wheelDelta) ? event.wheelDelta/120 : event.detail/-3) || false;    
 	
 	tmp -= direction/2;
 	if (tmp < 0)
 		tmp=0;
-	if (tmp > 96 && document.getElementsByClassName("container_center")[0].offsetWidth > 880)
-		tmp=96;  	
-/*	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
+/*	if (tmp > 115 && document.getElementsByClassName("container_center")[0].offsetWidth > 880)
+		tmp=115;  	
+	document.getElementsByClassName("screen1")[0].style.top = tmp*20+"px";     */
 	/*window.scrollBy(0, -direction*40);*/
-	/*tmp = -br.top/30; */
-	$('html,body').animate ({scrollTop: tmp*30}, 30);
 	
+	/*$('html,body').animate ({scrollTop: tmp*30}, 30);
+	/*window.scrollTo(0, 450);*/
+	scroll_delta = 30;
+	scroll_timer=setTimeout(function() {js_main_scroll(direction)}, 10);
 	event.returnValue = false;
-			if(direction < 0)
-				$('body').top = 626;	
+			/*if(direction < 0)
+				$('body').top = 626;*/
 } 	
+
+function js_main_scroll(scroll_flag){
+	if(scroll_flag > 0 && scroll_delta > 0){
+		window.scrollTo(0, window.pageYOffset - 5);
+		scroll_delta -= 2;
+	}
+	if(scroll_flag < 0 && scroll_delta > 0){
+		window.scrollTo(0, window.pageYOffset + 5);
+		scroll_delta -= 2;
+	}
+	clearInterval(scroll_timer);
+	if (scroll_delta != 0)
+		scroll_timer=setTimeout(function() {js_main_scroll(scroll_flag)}, 10);
+	
+	return 0; 
+}
 
 window.onscroll = function fixed_menu(elem) {
 		var br=container.getBoundingClientRect()
+		
 		document.getElementsByClassName("tmp")[0].innerHTML = -br.top;
 		
 		if	(document.getElementsByClassName("container_center")[0].offsetWidth > 880){
 			/*document.getElementsByClassName("screen1_coffe_machine")[0].style.top=100+"px";	*/
-			if ((-br.top >  30) && (-br.top <  600))
+			if ((-br.top >  30) && (-br.top <  700))
 			{
 				if(-br.top > 30)
 				{
@@ -72,7 +96,7 @@ window.onscroll = function fixed_menu(elem) {
 				{
 					document.getElementById('scr1_coffe').style.top=(br.top+70)*2+492+"px";
 					document.getElementById('scr1_coffe_shadow').style.opacity = 1 - (-br.top-70)/100;			
-					document.getElementsByClassName("scr2_coffe")[0].style.top=-20+(-br.top-7)/20+"%";	
+					document.getElementsByClassName("scr2_coffe")[0].style.top=-20+(-br.top-7)/25+"%";	
 				}
 				if(-br.top < 70)
 				{
@@ -105,7 +129,22 @@ window.onscroll = function fixed_menu(elem) {
 					document.getElementById("scr2_coffe3_shadow").style.left=-74-(br.top+430)/2+"%";
 					
 					
-				}			
+				}	
+				if(-br.top > 600){
+					document.getElementsByClassName("scr2_txt12")[0].style.opacity= 170/150;
+					document.getElementsByClassName("scr2_txt13")[0].style.opacity= 170/150;
+					document.getElementsByClassName("scr2_txt14")[0].style.opacity= 170/150;
+					document.getElementsByClassName("scr2_arrow")[0].style.opacity= 170/150;
+					
+					document.getElementsByClassName("scr2_coffe_machine2")[0].style.left=136+(-600+430)/3+"%";
+					document.getElementsByClassName("scr2_coffe_machine2_shadow")[0].style.left=136+(-600+430)/3+"%";
+					document.getElementById("scr2_coffe2").style.left=-42-(-600+430)/3+"%";
+					document.getElementById("scr2_coffe3").style.left=-74.5-(-600+430)/2+"%";
+					document.getElementById("scr2_coffe2_shadow").style.left= 17+"%";
+					document.getElementById("scr2_coffe3_shadow").style.left=-74-(-600+430)/2+"%";
+					
+					
+				}	
 			}	
 			/* SCREEN 3 UL*/			
 				if(-br.top > 950){
@@ -210,7 +249,8 @@ window.onscroll = function fixed_menu(elem) {
 			if(-br.top > current_scroll)
 				current_scroll = -br.top;
 
-		}		
+		}
+	
 }
 
 function scr5_animation(){
