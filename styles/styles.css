@@ -2149,8 +2149,8 @@
     cursor: pointer;
     /*border: 1px solid #BBB;*/
     padding: 19px 2px 3px 20px;
-    width: 353px;
-    height: 40px;
+    width: 330px;
+    height: 21px;
   }
   /* line 1933, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select:hover, .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options:hover {

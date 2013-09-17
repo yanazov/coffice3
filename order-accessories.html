@@ -47,9 +47,9 @@
 	</header>
 <!--  END HEADER -->
 	<ul class="access_menu">
-		<li class="access_menu_li" onclick="access_menu_click(this, 1)"><h3>Чашки<span>и стаканы</h3></span>
-		</li><li class="access_menu_li" onclick="access_menu_click(this, 2)"><h3>Ложки<span>и мешалки</h3></span>
-		</li><li class="access_menu_li" onclick="access_menu_click(this, 3)"><h3>Сиропы<span>и сладости</h3></span></li>
+		<li class="access_menu_li" onclick="access_menu_click(this, 1)"><h3>Чашки<span>и стаканы</span></h3>
+		</li><li class="access_menu_li" onclick="access_menu_click(this, 2)"><h3>Ложки<span>и мешалки</span></h3>
+		</li><li class="access_menu_li" onclick="access_menu_click(this, 3)"><h3>Сиропы<span>и сладости</span></h3></li>
 	</ul>
 	<div class="caption"><h1>Чашки и стаканы</h1></div>
 <!-- BEGIN ITEM  -->
@@ -484,34 +484,34 @@
 			<span class="access_order_registr_fio">Фамилия Имя		
 				<input type="text" value="">
 			</span>	
-			<span class="access_order_registr_city">Выбрать город	
+			<div class="access_order_registr_city">Выбрать город	
 				 <div class="pseudo-select">
 					<div class="select"></div>
 					<div class="options">
-						<div value="select1" class="option_select">Киев</div>
-						<div value="select2" class="option_select">Донецк</div>
-						<div value="select3" class="option_select">Днепропетровск</div>
-						<div value="select4" class="option_select">Запорожье</div>
-						<div value="select5" class="option_select">Львов</div>
-						<div value="select6" class="option_select">Черкассы</div>
-						<div value="select6" class="option_select">Харьков</div>
-						<div value="select7" class="option_select">Луганск</div>
-						<div value="select8" class="option_select">Житомир</div>
-						<div value="select9" class="option_select">Симферополь</div>
-						<div value="select10" class="option_select">Ялта</div>
+						<div class="option_select">Киев</div>
+						<div class="option_select">Дoнецк</div>
+						<div class="option_select">Днепропетровск</div>
+						<div class="option_select">Запорожье</div>
+						<div class="option_select">Львов</div>
+						<div class="option_select">Черкассы</div>
+						<div class="option_select">Харьков</div>
+						<div class="option_select">Луганск</div>
+						<div class="option_select">Житомир</div>
+						<div class="option_select">Симферополь</div>
+						<div class="option_select">Ялта</div>
 					</div>
 					<input type="hidden" name="select" value="first">
 				</div>
-			</span>	
+			</div>	
 			
-			<span class="access_order_deliver">Доставка курьером по Киеву  
+			<div class="access_order_deliver">Доставка курьером по Киеву  
 				<ul>
 					<li><input id="r1" name="deliver" type="radio" value="yes">
 					<label for="r1"><span></span>Да</label></li>
 					<li><input id="r2" name="deliver" type="radio" value="no"> 
 					<label for="r2"><span></span>Нет</label></li>
 				</ul>
-			</span>
+			</div>
 			<br>
 			<span class="access_order_coments">Комментарии</span>
 			<br>
@@ -519,7 +519,7 @@
 			<br>
 			<span class="access_order_spam">
 				<input id="spam1" type="checkbox" checked>
-				<label for="spam1"><span></span>Подписатся на рассылку</label></li>
+				<label for="spam1"><span></span>Подписатся на рассылку</label>
 				
 			</span>
 			<br>
