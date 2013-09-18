@@ -9,18 +9,24 @@ function access_menu_click(current_this, number){
 	for(i=0; i<3; i++ )	{
 		document.getElementsByClassName("access_menu_li")[i].style.color = "#919a9d";
 		document.getElementsByClassName("access_menu_li")[i].style.background = "none";
+		document.getElementsByClassName("access_menu_li")[i].style.cursor = "pointer";
+		
 	}	
 	current_this.style.color = "#393939";
 	current_this.style.background = "#fff";
+	current_this.style.cursor = "default";
+	
 	if(number == 1){	
 		document.getElementsByClassName("cont_status1")[0].style.display = "block";
 		document.getElementsByClassName("cont_status2")[0].style.display = "none";
-		document.getElementsByClassName("cont_status3")[0].style.display = "none";		
+		document.getElementsByClassName("cont_status3")[0].style.display = "none";	
+		
 	}
 	if(number == 2){	
-		document.getElementsByClassName("cont_status1")[0].style.display = "none";
+		document.getElementsByClassName("cont_status1")[0].style.display = "none";      
 		document.getElementsByClassName("cont_status2")[0].style.display = "block";
-		document.getElementsByClassName("cont_status3")[0].style.display = "none";		
+		document.getElementsByClassName("cont_status3")[0].style.display = "none";
+		
 	}
 	if(number == 3){	
 		document.getElementsByClassName("cont_status1")[0].style.display = "none";

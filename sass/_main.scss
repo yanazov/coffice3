@@ -117,17 +117,25 @@ only screen  and (min-device-width: 711px) and (max-device-width: 879px){
 			top: 14px;
 			right: 200px;
 			width: 147px;
-			height: 34px; 		
+			height: 20px; 		
 			font-size: 10pt;
 			color: #fff;
-			background: url("../img/chat.png") no-repeat;
+			background: url("../img/chat.png") 0px 0px no-repeat;
 			font-family: 'Conv_Futuris_Bold';
 			font-family: 'futuriscyrillic';
 			text-align: center;
 			font-weight: 900;
 			padding-top: 3px;
-			cursor: pointer;
+			padding-left: 6px;
+			text-decoration: none;			
 		}
+		.header_chat:hover{
+			background-position: 0px -49px;
+		}
+		.header_chat:active{
+			background-position: 0px -99px;
+		}
+		
 		.header_menu{
 			display: block;
 			position: absolute;

@@ -99,10 +99,14 @@ body {
 		top: 58px;
 		right: 2%;
 		width: 168px;
-		padding-top: 8px;
-		height: 34px;
-			background: url("../img/btn.png") -229px 0px no-repeat;
-		cursor: pointer;
+		height: 28px; 
+		font-size: 11pt;
+		font-family: 'Conv_Helvetica_Bold';
+		text-decoration: none;
+		text-align: center;
+		color: #fff;
+		background: url("../img/btn.png") -229px 0px no-repeat;
+		padding-top: 6px;
 	}	
 	.header_button:hover{
 		background-position: -229px -80px;
@@ -123,6 +127,8 @@ body {
 		width: 168px;
 		height: 35px; 
 		background: url("../img/btn.png") 0px 0px no-repeat;
+		padding-top: 6px;
+		text-align: center;
 		cursor: pointer;
 		.header_basket_number{
 			display: none;		
@@ -709,6 +715,10 @@ body {
 			top: 27px;
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
+			a{
+				color: #fff;
+				text-decoration: none;
+			}
 		}
 		.img_1000{
 			display: inline-block;
@@ -779,19 +789,24 @@ body {
 			}			
 		}
 		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 650px;
-			width: 60%;
-			left: 20%;
+			display: inline-block;
+			position: relative;
+			top: 180px;
+			width: 140px;
 			height: 28px;
-			background: url(../img/deliver.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
-		}		
+			font-family: 'Conv_Helvetica_Bold';
+			font-size: 10pt;
+			padding-top: 6px;			
+			text-decoration: none;	
+		}	
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
 	}
 /*  BEGIN WHITE BLOCK */	
 	.scr4_white{
@@ -814,6 +829,10 @@ body {
 			top: 23px;
 			color: #393939;
 			font-family: 'Conv_Futuris_Bold';
+			a{
+				color: #393939;
+				text-decoration: none;
+			}
 		}
 		.img_white_m{		
 			display: none;
@@ -873,19 +892,24 @@ body {
 			}			
 		}
 		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 650px;
-			width: 60%;
-			left: 20%;
+			display: inline-block;
+			position: relative;
+			top: 180px;
+			width: 140px;
 			height: 28px;
-			background: url(../img/deliver.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
+			font-family: 'Conv_Helvetica_Bold';
+			font-size: 10pt;
+			padding-top: 6px;			
+			text-decoration: none;	
 		}	
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
 	}
 /*  END WHITE BLOCK */
 /*  BEGIN RED BLOCK */
@@ -908,6 +932,10 @@ body {
 			color: #fff;
 			font-family: 'Conv_Futuris_Bold';
 			text-align: center;
+			a{
+				color: #fff;
+				text-decoration: none;
+			}
 		}
 		.img_red_m{
 			display: none;
@@ -965,19 +993,24 @@ body {
 			}			
 		}
 		.scr4_green_btn{
-			display: block;
-			position: absolute;
-			top: 650px;
-			width: 60%;
-			left: 20%;
+			display: inline-block;
+			position: relative;
+			top: 180px;
+			width: 140px;
 			height: 28px;
-			background: url(../img/deliver.png) no-repeat;
-			background-position: center;
+			background: url(../img/deliver.png) no-repeat 50% 0px;
 			color: #fff;
-			font-family: 'Conv_Futuris_Bold';
-			font-size: 9pt;
-			padding-top: 10px;
+			font-family: 'Conv_Helvetica_Bold';
+			font-size: 10pt;
+			padding-top: 6px;			
+			text-decoration: none;	
 		}	
+		.scr4_green_btn:hover{
+			background-position: 50% -48px;
+		}
+		.scr4_green_btn:active{
+			background-position: 50% -96px;
+		}
 	}
 /*  END RED BLOCK */	
 }		
@@ -1061,20 +1094,21 @@ body {
 		opacity: 1;
 	}
 	.btn_order{
-		display: block;
-		position: absolute; 
+		display: inline-block;
+		position: relative; 
 		top: 625px;
 		width: 50%;
 		height: 39px;
-		left: 25%;
-		font-family: 'Conv_Futuris_Bold';
+		font-family: 'Conv_Helvetica_Bold';
 		color: #fff;
 		font-size: 12pt;
+		left: 25%;
 		background: url(../img/btn_order.png) no-repeat;
 		background-position: 50% 0px;
-		padding: 0px;
+		padding-top: 9px;
 		z-index: 5;
-		cursor: pointer;
+		text-decoration: none;
+		text-align: center;
 	}
 	.btn_order:hover{
 		background-position: center -68px;

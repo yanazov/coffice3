@@ -114,11 +114,14 @@ body{
 		top: 7px;
 		right: 15px;
 		width: 168px;
-		height: 34px; 		
+		height: 28px; 		
 		font-size: 11pt;
+		font-family: 'Conv_Helvetica_Bold';
+		text-decoration: none;
+		text-align: center;
 		color: #fff;
 		background: url("../img/btn.png") -229px 0px no-repeat;
-		cursor: pointer;
+		padding-top: 6px;
 	}	
 	.header_button:hover{
 		background-position: -229px -80px;
@@ -138,6 +141,8 @@ body{
 		width: 168px;
 		height: 35px; 
 		background: url("../img/btn.png") 0px 0px no-repeat;
+		padding-top: 6px;
+		text-align: center;
 		cursor: pointer;
 		.header_basket_number{
 			display: none;		
@@ -845,6 +850,10 @@ body{
 				color: #fff;
 				font-family: 'Conv_Futuris_Bold';
 				text-align: left;
+				a{
+					color: #fff;
+					text-decoration: none;
+				}
 			}
 			ul{
 				display: block;
@@ -892,16 +901,22 @@ body{
 				display: block;
 				position: absolute;
 				top: 435px;
-				width: 200px;
+				width: 140px;
 				left: 45px;
 				height: 28px;
-				background: url(../img/deliver.png) no-repeat;
-				background-position: left;
+				background: url(../img/deliver.png) no-repeat 50% 0px;
 				color: #fff;
-				font-family: 'Conv_Futuris_Bold';
-				font-size: 9pt;
-				padding-top: 10px;
-			}		
+				font-family: 'Conv_Helvetica_Bold';
+				font-size: 10pt;
+				padding-top: 6px;			
+				text-decoration: none;	
+			}
+			.scr4_green_btn:hover{
+			background-position: 50% -48px;
+			}
+			.scr4_green_btn:active{
+				background-position: 50% -96px;
+			}
 		}
 	}
 /*  BEGIN WHITE BLOCK */	
@@ -942,7 +957,11 @@ body{
 				left: 0%;
 				top: 85px;
 				color: #393939;
-				font-family: 'Conv_Futuris_Bold';				
+				font-family: 'Conv_Futuris_Bold';	
+				a{
+					color: #393939;
+					text-decoration: none;
+				}
 			}
 			
 			ul{
@@ -992,16 +1011,22 @@ body{
 				display: block;
 				position: absolute;
 				top: 435px;
-				width: 200px;;
+				width: 140;
 				left: 45px;
 				height: 28px;
-				background: url(../img/deliver.png) no-repeat;
-				background-position: left;
+				background: url(../img/deliver.png) no-repeat 50% 0px;
 				color: #fff;
-				font-family: 'Conv_Futuris_Bold';
-				font-size: 9pt;
-				padding-top: 10px;
-			}	
+				font-family: 'Conv_Helvetica_Bold';
+				font-size: 10pt;
+				padding-top: 6px;			
+				text-decoration: none;	
+			}
+			.scr4_green_btn:hover{
+			background-position: 50% -48px;
+			}
+			.scr4_green_btn:active{
+				background-position: 50% -96px;
+			}
 		}
 	}
 /*  END WHITE BLOCK */
@@ -1044,6 +1069,10 @@ body{
 				top: 80px;
 				color: #fff;
 				font-family: 'Conv_Futuris_Bold';
+				a{
+					color: #fff;
+					text-decoration: none;
+				}
 			}
 			
 			ul{
@@ -1092,16 +1121,22 @@ body{
 				display: block;
 				position: absolute;
 				top: 435px;
-				width: 150px;
+				width: 140px;
 				left: 45px;
 				height: 28px;
-				background: url(../img/deliver.png) no-repeat;
-				background-position: left;
+				background: url(../img/deliver.png) no-repeat 50% 0px;
 				color: #fff;
-				font-family: 'Conv_Futuris_Bold';
-				font-size: 9pt;
-				padding-top: 10px;
-			}	
+				font-family: 'Conv_Helvetica_Bold';
+				font-size: 10pt;
+				padding-top: 6px;			
+				text-decoration: none;	
+			}
+			.scr4_green_btn:hover{
+			background-position: 50% -48px;
+			}
+			.scr4_green_btn:active{
+				background-position: 50% -96px;
+			}
 		}
 	}
 /*  END RED BLOCK */	
@@ -1197,12 +1232,14 @@ body{
 		width: 149px;
 		height: 39px;
 		left: 8%;
-		font-family: 'Conv_Futuris_Bold';
+		font-family: 'Conv_Helvetica_Bold';
 		color: #fff;
 		font-size: 12pt;
 		background: url(../img/btn_order.png) no-repeat;
-		padding: 0px;
+		padding-top: 9px;
 		z-index: 5;
+		text-decoration: none;
+		text-align: center;
 	}
 	.btn_order:hover{
 		background-position: 0px -68px;
