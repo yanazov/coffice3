@@ -2,7 +2,7 @@ var tmp = 0;
 var current_scroll=0;
 var scr5_x = 0;
 var home_status = 0;
-var slider_revers=0;
+var slider_revers=1;
 var slider_x = 0;
 var br_top = 0;
 var scroll_delta = 0;
@@ -23,6 +23,7 @@ window.onload = function() {
 		  return retnode; 
 	   } 
 	}; 
+	slider_timet=setTimeout(function() {slider_timer()}, 1000);
 	$('html,body').animate ({scrollTop: 0}, 10);
 	document.getElementById('scr1_coffe').style.top=492+"px";
 	document.getElementById('scr1_coffe_shadow').style.opacity = 1;	
@@ -272,8 +273,8 @@ function scr5_animation(){
 
 function office_slide(){	
 	/*document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1.png)";*/
-	if(slider_revers == 1){
-		slider_revers = 0;
+	clearInterval(slider_timet);
+	if(slider_revers == 0){
 		slider_timet=setTimeout(function() {slider_timer()}, 40);
 		document.getElementById("scr1_btn_home").style.backgroundImage= "url(img/scr1_home.png)";
 		document.getElementById("scr1_btn_office").style.backgroundImage= "none";
@@ -283,8 +284,8 @@ function office_slide(){
 
 function home_slide(){
 	/*document.getElementsByClassName("screen1")[0].style.backgroundImage= "url(img/screen1_1.png)";*/
-	if(slider_revers == 0){
-		slider_revers = 1;
+	clearInterval(slider_timet);
+	if(slider_revers == 1){
 		slider_timet=setTimeout(function() {slider_timer()}, 40);
 		document.getElementById("scr1_btn_office").style.backgroundImage= "url(img/scr1_office.png)";
 		document.getElementById("scr1_btn_home").style.backgroundImage= "none";
@@ -305,10 +306,20 @@ function slider_timer(){
 	
 	if(slider_x == 100){
 		clearInterval(slider_timet);
+		slider_revers  = 0;
+		document.getElementById("scr1_btn_office").style.backgroundImage= "url(img/scr1_office.png)";
+		document.getElementById("scr1_btn_home").style.backgroundImage= "none";
+		document.getElementsByClassName("screen1_txt3")[0].innerHTML = "у Вас дома!";
+		slider_timet=setTimeout(function() {slider_timer()}, 5000);
 		return 0;
 	}
 	if(slider_x == 0){
 		clearInterval(slider_timet);
+		slider_revers  = 1;
+		document.getElementById("scr1_btn_home").style.backgroundImage= "url(img/scr1_home.png)";
+		document.getElementById("scr1_btn_office").style.backgroundImage= "none";
+		document.getElementsByClassName("screen1_txt3")[0].innerHTML = "в Вашем офисе!";
+		slider_timet=setTimeout(function() {slider_timer()}, 5000);
 		return 0;
 		
 	}

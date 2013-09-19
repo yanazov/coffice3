@@ -1454,10 +1454,12 @@ body{
 				margin: 0px 50px 0px 50px;
 				z-index: 100;
 				width: 149px;
-				height: 39px;
+				height: 30px;
+				font-family: 'Conv_Helvetica_Bold';
+				font-size: 12pt;
+				padding-top: 9px;	
 				background: url(../img/btn_order.png) no-repeat;
-				background-position: 0px 0px;
-				padding: 0px;
+				background-position: 0px 0px;				
 				z-index: 5;
 			}			
 			.access_order:hover{
@@ -1474,18 +1476,24 @@ body{
 			box-shadow: 0 0 7px  #aaa; 
 		}
 		.accessitem1{
+			border-right: 1px solid #d8dee0;
+			border-bottom: 1px solid #d8dee0;
 		}
 		.accessitem2{
 			border-right: none;
+			border-left: none;
+			border-bottom: 1px solid #d8dee0;
 		}
 		.accessitem3{
 			border-right: 1px solid #d8dee0;
+			border-bottom: 1px solid #d8dee0;			
 		}
 		.accessitem4{
-			;
+			border-bottom: 1px solid #d8dee0;		
 		}
 		.accessitem5{
 			border-left: none;
+			border-right: 1px solid #d8dee0;
 		}
 		.accessitem6{
 			
@@ -1507,8 +1515,8 @@ body{
 /*  BEGIN BASKET BLANK */
 	.access_basket_blank{
 		display: none;
-		position: fixed;
-		top: 0px;
+		position: absolute;
+		top: 100px;
 		left: 0px;
 		width: 100%;
 		height: 150%;

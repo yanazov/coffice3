@@ -138,7 +138,7 @@ function js_access_order_registr(){
 }
 
 function scroll_basket(){
-	if(scroll_delta < 0){
+	if(scroll_delta < 0 && document.getElementsByClassName("container_center")[0].offsetWidth > 880){
 		basket_y -= 4;
 		scroll_delta += 4;			
 		if(scroll_delta == 0 || document.getElementsByClassName("access_basket_body")[0].offsetHeight - window.innerHeight + basket_y < -200){
@@ -148,7 +148,7 @@ function scroll_basket(){
 		}
 		document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";
 	}	
-	if(scroll_delta > 0){
+	if(scroll_delta > 0 && document.getElementsByClassName("container_center")[0].offsetWidth > 880){
 		basket_y += 4;
 		scroll_delta -= 4;
 		
