@@ -109,6 +109,7 @@ function open_basket(){
 function js_basket_close(){
 	document.getElementsByClassName("access_basket_blank")[0].style.display = "none";
 	status_basket=0;
+	status_registr=0;
 	basket_y = 0;
 	document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";
 	document.getElementsByClassName("access_basket_body")[0].style.display = "none";
