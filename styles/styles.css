@@ -6579,9 +6579,10 @@
     display: inline-block;
     position: relative;
     margin-top: 100px;
-    width: 96%;
+    width: 100%;
     background: url("../img/basket_fon_coffe.png") no-repeat;
     background-color: #fff;
+    overflow: hidden;
     background-position: 50% 100%;
   }
   /* line 1468, ../sass/_385.scss */
