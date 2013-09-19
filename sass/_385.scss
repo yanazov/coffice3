@@ -129,6 +129,10 @@ body {
 		background: url("../img/btn.png") 0px 0px no-repeat;
 		padding-top: 6px;
 		text-align: center;
+		font-family: 'Conv_Helvetica_Bold';
+		color: #fff;
+		font-size: 12pt;
+		text-align: center;
 		cursor: pointer;
 		.header_basket_number{
 			display: none;		
@@ -635,7 +639,7 @@ body {
 	.scr3_txt9{
 		display: inline-block;
 		position: relative;
-		top: 460px;
+		top: 445px;
 		height: 21px;
 		margin-left: 0px;
 		left: 4%;
@@ -1246,6 +1250,10 @@ body {
 		font-family: 'Conv_Futuris_Bold';
 		font-size: 18pt;
 		margin: 0px;
+		a{
+			color: #393939;
+			text-decoration: none;
+		}
 	}
 	h3{
 		font-family: 'Conv_Helvetica_Bold';
@@ -1386,6 +1394,10 @@ body {
 				padding: 0px;
 				z-index: 5;
 				margin: 0px 50px 0px 50px;
+				font-family: 'Conv_Helvetica_Bold';
+				font-size: 12pt;
+				padding-top: 9px;	
+				color: #fff;
 			}			
 			.access_order:hover{
 				background-position: 0px -68px;
@@ -1435,7 +1447,7 @@ body {
 /*  BEGIN BASKET BLANK */
 	.access_basket_blank{
 		display: none;
-		position: fixed;
+		position: absolute;
 		top: 0px;
 		left: 0px;
 		width: 100%;
