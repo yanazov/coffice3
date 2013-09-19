@@ -1662,6 +1662,7 @@ body {
 			background-color: #fff;
 			text-align: center;
 			background-position: 50% 100%;
+			overflow: hidden;
 			.access_basket_header{
 				display: block;
 				position: relative;
@@ -1673,6 +1674,7 @@ body {
 				background: url("../img/order_header.png");
 				font-family: 'Conv_Futuris_Bold';
 				padding-top: 45px;
+				
 				.basket_close{
 					display: block;
 					position: absolute;
@@ -1792,11 +1794,11 @@ body {
 			.access_order_deliver{
 				display: inline-block;
 				position: relativel;
-				width: 100%;
+				width: 105%;
 				font-family: 'helvetica_neue';
 				font-size: 10pt;
 				color: #545454;
-				margin-top: 0px;
+				margin-top: 10px;
 				width: 294px;
 				text-align: left;
 				margin-left: 0px;
@@ -1896,6 +1898,9 @@ body {
 				background: url(../img/btn_order.png) no-repeat;
 				background-position: 0px 0px;
 				border: none;
+				font-family: 'Conv_Helvetica_Bold';
+				color: #fff;
+				font-size: 12pt;
 			}
 			.btn_registr:hover{
 				background-position: 0px -68px;
