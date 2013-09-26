@@ -23,7 +23,8 @@ window.onload = function() {
 		  return retnode; 
 	   } 
 	}; 
-	slider_timet=setTimeout(function() {slider_timer()}, 1000);
+	if	(document.getElementsByClassName("container_center")[0].offsetWidth > 880)
+		slider_timet=setTimeout(function() {slider_timer()}, 1000);
 	$('html,body').animate ({scrollTop: 0}, 10);
 	document.getElementById('scr1_coffe').style.top=492+"px";
 	document.getElementById('scr1_coffe_shadow').style.opacity = 1;	
@@ -65,18 +66,18 @@ var mouse_wheel = function(event) {
 } 	
 
 function js_main_scroll(scroll_flag){
+	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 	if(scroll_flag > 0 && scroll_delta > 0){
-		window.scrollTo(0, window.pageYOffset - 5);
+		window.scrollTo(0, scrollTop - 5);
 		scroll_delta -= 2;
 	}
 	if(scroll_flag < 0 && scroll_delta > 0){
-		window.scrollTo(0, window.pageYOffset + 5);
+		window.scrollTo(0, scrollTop + 5);
 		scroll_delta -= 2;
 	}
 	clearInterval(scroll_timer);
 	if (scroll_delta != 0)
-		scroll_timer=setTimeout(function() {js_main_scroll(scroll_flag)}, 10);
-	
+		scroll_timer=setTimeout(function() {js_main_scroll(scroll_flag)}, 10);	
 	return 0; 
 }
 
@@ -310,7 +311,8 @@ function slider_timer(){
 		document.getElementById("scr1_btn_office").style.backgroundImage= "url(img/scr1_office.png)";
 		document.getElementById("scr1_btn_home").style.backgroundImage= "none";
 		document.getElementsByClassName("screen1_txt3")[0].innerHTML = "у Вас дома!";
-		slider_timet=setTimeout(function() {slider_timer()}, 5000);
+		if	(document.getElementsByClassName("container_center")[0].offsetWidth > 880)
+			slider_timet=setTimeout(function() {slider_timer()}, 5000);
 		return 0;
 	}
 	if(slider_x == 0){
@@ -319,7 +321,8 @@ function slider_timer(){
 		document.getElementById("scr1_btn_home").style.backgroundImage= "url(img/scr1_home.png)";
 		document.getElementById("scr1_btn_office").style.backgroundImage= "none";
 		document.getElementsByClassName("screen1_txt3")[0].innerHTML = "в Вашем офисе!";
-		slider_timet=setTimeout(function() {slider_timer()}, 5000);
+		if	(document.getElementsByClassName("container_center")[0].offsetWidth > 880)
+			slider_timet=setTimeout(function() {slider_timer()}, 5000);
 		return 0;
 		
 	}

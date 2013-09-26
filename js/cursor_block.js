@@ -3,6 +3,7 @@ var status_registr = 0;
 var basket_y = 0;
 var scroll_delta = 0;
 var scroll_delta2 = 0;
+var number_city= 7;  /* количество городов минус количество городов в выпадающем списке */
 
 /*   анимация меню        */ 
 function access_menu_click(current_this, number){
@@ -51,9 +52,11 @@ window.onload = function() {
 	
 var mouse_wheel = function(event) {
 	event = event || window.event;
+	var t = event.target || event.srcElement;
+	var direction = ((event.wheelDelta) ? event.wheelDelta/120 : event.detail/-3) || false; 
 	if(status_basket == 1){
 		if (false == !!event) event = window.event;
-		var direction = ((event.wheelDelta) ? event.wheelDelta/120 : event.detail/-3) || false;    
+		   
 		
 		if(direction > 0)
 			scroll_delta += 40;
@@ -62,26 +65,25 @@ var mouse_wheel = function(event) {
 		timer_scroll = setTimeout(function() {scroll_basket()}, 40);
 		event.returnValue = false;
 	}	
-	if(status_registr == 1){
-		if (false == !!event) event = window.event;
-		var direction = ((event.wheelDelta) ? event.wheelDelta/120 : event.detail/-3) || false;    
-		
+	if(status_registr == 1 && t.className != "option_select" && t.className != "option_select check"){
+		if (false == !!event) event = window.event;		
 		if(direction > 0)
 			scroll_delta2 += 40;
 		if(direction < 0)
 			scroll_delta2 -= 40;
 		timer_scroll = setTimeout(function() {scroll_registr()}, 40);
 		event.returnValue = false;
-	}	
-/*  ============================ скрол селекта  ==========================================  */		
-	var t = event.target || event.srcElement;
-		if((t.className == "option_select" || t.className == "option_select check") && direction < 0)
-			document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)+20;
-		if((t.className == "option_select" || t.className == "option_select check") && direction > 0)
-			document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)-20;
-		
-		
-	
+	}		
+/*  ============================ скрол селекта  ==========================================  */			
+		if((t.className == "option_select" || t.className == "option_select check") && direction < 0){
+			if(parseInt(document.getElementsByClassName("options")[0].scrollTop) > 20*number_city)
+				event.returnValue = false;
+		}
+		if((t.className == "option_select" || t.className == "option_select check") && direction > 0){
+			if(document.getElementsByClassName("options")[0].scrollTop == 0)
+				event.returnValue = false;
+			/*document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)-20;*/
+		}	
 } 	
 
 /* затемнение корзины */
