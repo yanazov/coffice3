@@ -63,12 +63,14 @@ var mouse_wheel = function(event) {
 
 function js_main_scroll(scroll_flag){
 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	scroll_speed = 1;
+	
 	if(scroll_flag > 0 && scroll_delta > 0){
-		window.scrollTo(0, scrollTop - 5);
+		window.scrollTo(0, scrollTop - scroll_speed);
 		scroll_delta -= 2;
 	}
 	if(scroll_flag < 0 && scroll_delta > 0){
-		window.scrollTo(0, scrollTop + 5);
+		window.scrollTo(0, scrollTop + scroll_speed);
 		scroll_delta -= 2;
 	}
 	clearInterval(scroll_timer);
