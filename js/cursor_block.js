@@ -74,14 +74,28 @@ var mouse_wheel = function(event) {
 		timer_scroll = setTimeout(function() {scroll_registr()}, 40);
 		event.returnValue = false;
 	}		
-/*  ============================ скрол селекта  ==========================================  */			
+/*  ============================ скрол селекта  ==========================================  */	
+		var t = event.target || event.srcElement;
+		if((t.className == "option_select" || t.className == "option_select check") && direction < 0){
+			document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)+10;
+			event.returnValue = false;
+		}
+		if((t.className == "option_select" || t.className == "option_select check") && direction > 0)
+		{
+			document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)-10;
+			event.returnValue = false;
+		}
+		
 		if((t.className == "option_select" || t.className == "option_select check") && direction < 0){
 			if(parseInt(document.getElementsByClassName("options")[0].scrollTop) > 20*number_city)
 				event.returnValue = false;
+			
 		}
 		if((t.className == "option_select" || t.className == "option_select check") && direction > 0){
 			if(document.getElementsByClassName("options")[0].scrollTop == 0)
 				event.returnValue = false;
+			
+				
 			/*document.getElementsByClassName("options")[0].scrollTop = parseInt(document.getElementsByClassName("options")[0].scrollTop)-20;*/
 		}	
 } 	
@@ -140,19 +154,21 @@ function js_access_order_registr(){
 	basket_y = 0;
 }
 
-function scroll_basket(){
+function scroll_basket(){                /*   access_basket_blank    */
+	basket_y= parseInt(document.getElementsByClassName("access_basket_blank")[0].scrollTop)
 	if(scroll_delta < 0 && document.getElementsByClassName("container_center")[0].offsetWidth > 880){
-		basket_y -= 4;
+		basket_y += 2;
 		scroll_delta += 4;			
 		if(scroll_delta == 0 || document.getElementsByClassName("access_basket_body")[0].offsetHeight - window.innerHeight + basket_y < -200){
 			clearInterval(timer_scroll);
 			scroll_delta = 0;
 			return 0;			
 		}
-		document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";
+		/*document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";*/
+		document.getElementsByClassName("access_basket_blank")[0].scrollTop = basket_y;
 	}	
 	if(scroll_delta > 0 && document.getElementsByClassName("container_center")[0].offsetWidth > 880){
-		basket_y += 4;
+		basket_y -= 2;
 		scroll_delta -= 4;
 		
 		if(scroll_delta == 0 || document.getElementsByClassName("access_basket_body")[0].offsetTop > 100){
@@ -160,8 +176,8 @@ function scroll_basket(){
 			scroll_delta = 0;
 			return 0;
 		}
-		document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";
-	
+		/*document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";*/
+		document.getElementsByClassName("access_basket_blank")[0].scrollTop = basket_y;
 	}
 	clearInterval(timer_scroll);
 	timer_scroll = setTimeout(function() {scroll_basket()}, 10);
