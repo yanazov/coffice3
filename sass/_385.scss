@@ -1447,14 +1447,16 @@ body {
 /*  BEGIN BASKET BLANK */
 	.access_basket_blank{
 		display: none;
-		position: absolute;
+		position: fixed;
 		top: 0px;
 		left: 0px;
 		width: 100%;
-		height: 850%;
+		height: 100%;
 		line-height: 100%;
 		background: url(../img/basket_fon.png);
 		text-align: center;
+		padding-right: 200px;
+		overflow-y: scroll;
 		z-index: 200;
 		.access_basket_body{
 			display: inline-block;

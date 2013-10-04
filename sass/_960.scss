@@ -1679,6 +1679,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 	}
 /*   END accessories  page   */
 /*  BEGIN BASKET BLANK */
+	
 	.access_basket_blank{
 		display: none;
 		position: fixed;
@@ -1690,6 +1691,7 @@ only screen  and (min-device-width: 880px) and (max-device-width: 3960px){
 		background: url(../img/basket_fon.png);
 		text-align: center;
 		z-index: 200;
+		padding-right: 200px;
 		overflow-y: scroll;
 		.access_basket_body{
 			display: inline-block;

@@ -1888,7 +1888,7 @@
 
   /*   END accessories  page   */
   /*  BEGIN BASKET BLANK */
-  /* line 1682, ../sass/_960.scss */
+  /* line 1683, ../sass/_960.scss */
   .access_basket_blank {
     display: none;
     position: fixed;
@@ -1900,9 +1900,10 @@
     background: url(../img/basket_fon.png);
     text-align: center;
     z-index: 200;
+    padding-right: 200px;
     overflow-y: scroll;
   }
-  /* line 1694, ../sass/_960.scss */
+  /* line 1696, ../sass/_960.scss */
   .access_basket_blank .access_basket_body {
     display: inline-block;
     position: relative;
@@ -1914,7 +1915,7 @@
     background-color: #fff;
     background-position: 50% 100%;
   }
-  /* line 1705, ../sass/_960.scss */
+  /* line 1707, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .access_basket_header {
     display: block;
     position: relative;
@@ -1927,7 +1928,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 9%;
   }
-  /* line 1716, ../sass/_960.scss */
+  /* line 1718, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -1938,7 +1939,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1727, ../sass/_960.scss */
+  /* line 1729, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_header_table {
     display: block;
     position: relative;
@@ -1952,26 +1953,26 @@
     font-size: 9pt;
     padding-top: 25px;
   }
-  /* line 1739, ../sass/_960.scss */
+  /* line 1741, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum1 {
     display: inline-block;
     position: relative;
     left: 140px;
   }
-  /* line 1744, ../sass/_960.scss */
+  /* line 1746, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum2 {
     display: inline-block;
     position: relative;
     left: 290px;
   }
-  /* line 1750, ../sass/_960.scss */
+  /* line 1752, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info:hover {
     z-index: 3;
     -moz-box-shadow: 0 0 7px #aaa;
     -webkit-box-shadow: 0 0 7px #aaa;
     box-shadow: 0 0 7px  #aaa;
   }
-  /* line 1756, ../sass/_960.scss */
+  /* line 1758, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info {
     display: block;
     position: relative;
@@ -1982,14 +1983,14 @@
     border-bottom: 1px solid #d8dee0;
     text-align: left;
   }
-  /* line 1765, ../sass/_960.scss */
+  /* line 1767, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info img {
     display: inline-block;
     position: relative;
     vertical-align: middle;
     left: 5px;
   }
-  /* line 1771, ../sass/_960.scss */
+  /* line 1773, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_name_item {
     display: block;
     position: absolute;
@@ -2000,7 +2001,7 @@
     line-height: 15pt;
     color: #393939;
   }
-  /* line 1781, ../sass/_960.scss */
+  /* line 1783, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_price_item {
     display: block;
     position: absolute;
@@ -2011,7 +2012,7 @@
     line-height: 15pt;
     color: #d80101;
   }
-  /* line 1791, ../sass/_960.scss */
+  /* line 1793, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter {
     display: block;
     position: absolute;
@@ -2021,7 +2022,7 @@
     height: 45px;
     background: url(../img/basket_counter_fon.png) no-repeat;
   }
-  /* line 1799, ../sass/_960.scss */
+  /* line 1801, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter input {
     display: block;
     position: absolute;
@@ -2032,11 +2033,11 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
   }
-  /* line 1810, ../sass/_960.scss */
+  /* line 1812, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter textarea:focus, .access_basket_blank .access_basket_body .basket_item_info .basket_counter input:focus {
     outline: none;
   }
-  /* line 1813, ../sass/_960.scss */
+  /* line 1815, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_up {
     display: block;
     position: absolute;
@@ -2047,7 +2048,7 @@
     background: url(../img/icon/up.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1823, ../sass/_960.scss */
+  /* line 1825, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_dwn {
     display: block;
     position: absolute;
@@ -2058,7 +2059,7 @@
     background: url(../img/icon/dwn.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1834, ../sass/_960.scss */
+  /* line 1836, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_item_close {
     display: block;
     position: absolute;
@@ -2069,7 +2070,7 @@
     background: url(../img/icon/basket_item_close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1847, ../sass/_960.scss */
+  /* line 1849, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_end_price {
     display: block;
     position: relative;
@@ -2083,14 +2084,14 @@
     text-align: left;
     padding: 30px 0px 0px 5%;
   }
-  /* line 1859, ../sass/_960.scss */
+  /* line 1861, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_end_price span {
     font-family: 'Conv_Futuris_Bold';
     font-size: 20pt;
     color: #d80101;
     margin-left: 37px;
   }
-  /* line 1869, ../sass/_960.scss */
+  /* line 1871, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_issue_order {
     display: inline-block;
     position: relative;
@@ -2101,15 +2102,15 @@
     background-position: 50% 0px;
     cursor: pointer;
   }
-  /* line 1879, ../sass/_960.scss */
+  /* line 1881, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:hover {
     background-position: 50% -58px;
   }
-  /* line 1882, ../sass/_960.scss */
+  /* line 1884, ../sass/_960.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:active {
     background-position: 50% -116px;
   }
-  /* line 1890, ../sass/_960.scss */
+  /* line 1892, ../sass/_960.scss */
   .access_basket_blank .access_order_registr {
     /*display: inline-block;*/
     /**********************************************************/
@@ -2124,7 +2125,7 @@
     text-align: center;
     background-position: 50% 100%;
   }
-  /* line 1902, ../sass/_960.scss */
+  /* line 1904, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_basket_header {
     display: block;
     position: relative;
@@ -2137,7 +2138,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 9%;
   }
-  /* line 1913, ../sass/_960.scss */
+  /* line 1915, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -2148,7 +2149,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1924, ../sass/_960.scss */
+  /* line 1926, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio {
     display: inline-block;
     position: relative;
@@ -2159,7 +2160,7 @@
     font-size: 10pt;
     color: #545454;
   }
-  /* line 1933, ../sass/_960.scss */
+  /* line 1935, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio input {
     display: block;
     position: relative;
@@ -2174,7 +2175,7 @@
     padding: 0px 20px 0px 20px;
     outline: none;
   }
-  /* line 1949, ../sass/_960.scss */
+  /* line 1951, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city {
     display: inline-block;
     position: relative;
@@ -2187,7 +2188,7 @@
     /* **********************************************************************/
     /* **********************************************************************/
   }
-  /* line 1958, ../sass/_960.scss */
+  /* line 1960, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city select {
     display: block;
     position: relative;
@@ -2201,7 +2202,7 @@
     background: url(../img/icon/txt_fon.png) no-repeat;
     padding: 0px 20px 0px 20px;
   }
-  /* line 1972, ../sass/_960.scss */
+  /* line 1974, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select {
     display: block;
     position: relative;
@@ -2214,7 +2215,7 @@
     margin-top: 10px;
     background: url("../img/icon/select_fon.png") no-repeat;
   }
-  /* line 1984, ../sass/_960.scss */
+  /* line 1986, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select {
     color: #555;
     cursor: pointer;
@@ -2223,11 +2224,11 @@
     width: 330px;
     height: 21px;
   }
-  /* line 1993, ../sass/_960.scss */
+  /* line 1995, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select:hover, .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options:hover {
     color: #333;
   }
-  /* line 1996, ../sass/_960.scss */
+  /* line 1998, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options {
     display: block;
     position: absolute;
@@ -2241,30 +2242,30 @@
     display: none;
     overflow-y: scroll;
   }
-  /* line 2010, ../sass/_960.scss */
+  /* line 2012, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div {
     height: 10px;
     padding: 10px 2px 3px 8px;
     cursor: pointer;
   }
-  /* line 2015, ../sass/_960.scss */
+  /* line 2017, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div:hover {
     height: 10px;
     padding: 10px 2px 3px 8px;
     background: #eee;
   }
-  /* line 2020, ../sass/_960.scss */
+  /* line 2022, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div.check {
     height: 10px;
     background: #e1e1e1;
     padding: 10px 2px 3px 8px;
   }
-  /* line 2026, ../sass/_960.scss */
+  /* line 2028, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .city123 {
     margin-top: 20px;
     background: url(../img/icon/select_fon.png) no-repeat;
   }
-  /* line 2033, ../sass/_960.scss */
+  /* line 2035, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver {
     display: inline-block;
     position: relativel;
@@ -2278,12 +2279,12 @@
     /* ====================== стилизаци радио кнопки ============================================== */
     /* ==================================================================== */
   }
-  /* line 2043, ../sass/_960.scss */
+  /* line 2045, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver ul {
     display: inline-block;
     padding-left: 0px;
   }
-  /* line 2047, ../sass/_960.scss */
+  /* line 2049, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver li {
     display: inline-block;
     font-family: 'Conv_Helvetica_Bold';
@@ -2291,11 +2292,11 @@
     font-size: 11pt;
     margin-left: 20px;
   }
-  /* line 2055, ../sass/_960.scss */
+  /* line 2057, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] {
     display: none;
   }
-  /* line 2058, ../sass/_960.scss */
+  /* line 2060, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] + label span {
     display: inline-block;
     width: 22px;
@@ -2305,11 +2306,11 @@
     background: url(../img/icon/radio_off.png) no-repeat;
     cursor: pointer;
   }
-  /* line 2067, ../sass/_960.scss */
+  /* line 2069, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"]:checked + label span {
     background: url(../img/icon/radio_on.png) no-repeat;
   }
-  /* line 2073, ../sass/_960.scss */
+  /* line 2075, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_spam {
     display: inline-block;
     position: relative;
@@ -2324,11 +2325,11 @@
     /* ====================== стилизаци чекбокса ============================================== */
     /* ==================================================================== */
   }
-  /* line 2085, ../sass/_960.scss */
+  /* line 2087, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] {
     display: none;
   }
-  /* line 2088, ../sass/_960.scss */
+  /* line 2090, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] + label span {
     display: inline-block;
     width: 22px;
@@ -2338,11 +2339,11 @@
     background: url(../img/icon/checkbox_off.jpg) no-repeat;
     cursor: pointer;
   }
-  /* line 2097, ../sass/_960.scss */
+  /* line 2099, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"]:checked + label span {
     background: url(../img/icon/checkbox_on.png) no-repeat;
   }
-  /* line 2103, ../sass/_960.scss */
+  /* line 2105, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_coments {
     display: inline-block;
     position: relativel;
@@ -2355,7 +2356,7 @@
     text-align: left;
     margin-top: 15px;
   }
-  /* line 2115, ../sass/_960.scss */
+  /* line 2117, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .access_order_coments_fill {
     display: inline-block;
     position: relative;
@@ -2371,7 +2372,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
   }
-  /* line 2130, ../sass/_960.scss */
+  /* line 2132, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .btn_registr {
     display: inline-block;
     position: relative;
@@ -2385,18 +2386,18 @@
     color: #fff;
     font-size: 12pt;
   }
-  /* line 2143, ../sass/_960.scss */
+  /* line 2145, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .btn_registr:hover {
     background-position: 0px -68px;
   }
-  /* line 2146, ../sass/_960.scss */
+  /* line 2148, ../sass/_960.scss */
   .access_basket_blank .access_order_registr .btn_registr:active {
     background-position: 0px -136px;
   }
 
   /*  END BASKET BLANK */
   /*BEGIN TXT    */
-  /* line 2162, ../sass/_960.scss */
+  /* line 2164, ../sass/_960.scss */
   .blok1_first {
     display: block;
     position: relative;
@@ -2408,7 +2409,7 @@
     text-align: left;
     border: 1px solid #d8dee0;
   }
-  /* line 2172, ../sass/_960.scss */
+  /* line 2174, ../sass/_960.scss */
   .blok1_first p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -2417,7 +2418,7 @@
     line-height: 1.2em;
   }
 
-  /* line 2180, ../sass/_960.scss */
+  /* line 2182, ../sass/_960.scss */
   .blok1 {
     display: block;
     position: relative;
@@ -2429,7 +2430,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2190, ../sass/_960.scss */
+  /* line 2192, ../sass/_960.scss */
   .blok1 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -2437,14 +2438,14 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2197, ../sass/_960.scss */
+  /* line 2199, ../sass/_960.scss */
   .blok1 .img_left {
     float: right;
     margin-left: 10%;
     width: 40%;
   }
 
-  /* line 2203, ../sass/_960.scss */
+  /* line 2205, ../sass/_960.scss */
   .blok3 {
     display: block;
     position: relative;
@@ -2456,7 +2457,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2213, ../sass/_960.scss */
+  /* line 2215, ../sass/_960.scss */
   .blok3 .txt_img_3 {
     float: left;
     top: -42px;
@@ -2464,11 +2465,11 @@
     margin-right: 15%;
     width: 43%;
   }
-  /* line 2220, ../sass/_960.scss */
+  /* line 2222, ../sass/_960.scss */
   .blok3 h2 {
     margin-top: 42px;
   }
-  /* line 2224, ../sass/_960.scss */
+  /* line 2226, ../sass/_960.scss */
   .blok3 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -2476,7 +2477,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2232, ../sass/_960.scss */
+  /* line 2234, ../sass/_960.scss */
   .blok3 #scr1_property {
     display: inline-block;
     position: relative;
@@ -2486,7 +2487,7 @@
     z-index: 5;
     margin-bottom: 50px;
   }
-  /* line 2240, ../sass/_960.scss */
+  /* line 2242, ../sass/_960.scss */
   .blok3 #scr1_property li {
     display: inline-block;
     position: relative;
@@ -2495,16 +2496,16 @@
     margin-left: 9px;
     background: url(../img/icon/pro.png) no-repeat;
   }
-  /* line 2249, ../sass/_960.scss */
+  /* line 2251, ../sass/_960.scss */
   .blok3 #scr1_property li:first-child {
     background: url(../img/icon/20bar.png) no-repeat;
     margin-left: 0px;
   }
-  /* line 2253, ../sass/_960.scss */
+  /* line 2255, ../sass/_960.scss */
   .blok3 #scr1_property li:last-child {
     background: url(../img/icon/italy.png) no-repeat;
   }
-  /* line 2258, ../sass/_960.scss */
+  /* line 2260, ../sass/_960.scss */
   .blok3 .block100 {
     display: block;
     position: relative;
@@ -2512,7 +2513,7 @@
     height: 1px;
   }
 
-  /* line 2265, ../sass/_960.scss */
+  /* line 2267, ../sass/_960.scss */
   .blok4 {
     display: block;
     position: relative;
@@ -2524,7 +2525,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2275, ../sass/_960.scss */
+  /* line 2277, ../sass/_960.scss */
   .blok4 .txt_img_4 {
     float: right;
     top: -42px;
@@ -2533,11 +2534,11 @@
     margin-left: 12.5%;
     width: 40%;
   }
-  /* line 2283, ../sass/_960.scss */
+  /* line 2285, ../sass/_960.scss */
   .blok4 h2 {
     margin-top: 20px;
   }
-  /* line 2287, ../sass/_960.scss */
+  /* line 2289, ../sass/_960.scss */
   .blok4 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -2545,7 +2546,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2294, ../sass/_960.scss */
+  /* line 2296, ../sass/_960.scss */
   .blok4 .btn_order {
     display: block;
     position: relative;
@@ -2562,11 +2563,11 @@
     padding: 0px;
     z-index: 5;
   }
-  /* line 2311, ../sass/_960.scss */
+  /* line 2313, ../sass/_960.scss */
   .blok4 .btn_order:hover {
     background-position: 0px -68px;
   }
-  /* line 2314, ../sass/_960.scss */
+  /* line 2316, ../sass/_960.scss */
   .blok4 .btn_order:active {
     background-position: 0px -136px;
   }
@@ -4275,7 +4276,7 @@
   /* line 1526, ../sass/_748.scss */
   .access_basket_blank {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -4283,9 +4284,11 @@
     line-height: 100%;
     background: url(../img/basket_fon.png);
     text-align: center;
+    padding-right: 200px;
+    overflow-y: scroll;
     z-index: 200;
   }
-  /* line 1537, ../sass/_748.scss */
+  /* line 1539, ../sass/_748.scss */
   .access_basket_blank .access_basket_body {
     display: inline-block;
     position: relative;
@@ -4295,7 +4298,7 @@
     background-color: #fff;
     background-position: 50% 100%;
   }
-  /* line 1546, ../sass/_748.scss */
+  /* line 1548, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .access_basket_header {
     display: block;
     position: relative;
@@ -4308,7 +4311,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 9%;
   }
-  /* line 1557, ../sass/_748.scss */
+  /* line 1559, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -4319,7 +4322,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1568, ../sass/_748.scss */
+  /* line 1570, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_header_table {
     display: block;
     position: relative;
@@ -4333,26 +4336,26 @@
     font-size: 9pt;
     padding-top: 25px;
   }
-  /* line 1580, ../sass/_748.scss */
+  /* line 1582, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum1 {
     display: inline-block;
     position: relative;
     left: 140px;
   }
-  /* line 1585, ../sass/_748.scss */
+  /* line 1587, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum2 {
     display: inline-block;
     position: relative;
     left: 290px;
   }
-  /* line 1591, ../sass/_748.scss */
+  /* line 1593, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info:hover {
     z-index: 3;
     -moz-box-shadow: 0 0 7px #aaa;
     -webkit-box-shadow: 0 0 7px #aaa;
     box-shadow: 0 0 7px  #aaa;
   }
-  /* line 1597, ../sass/_748.scss */
+  /* line 1599, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info {
     display: block;
     position: relative;
@@ -4363,14 +4366,14 @@
     border-bottom: 1px solid #d8dee0;
     text-align: left;
   }
-  /* line 1606, ../sass/_748.scss */
+  /* line 1608, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info img {
     display: inline-block;
     position: relative;
     vertical-align: middle;
     left: 5px;
   }
-  /* line 1612, ../sass/_748.scss */
+  /* line 1614, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_name_item {
     display: block;
     position: absolute;
@@ -4381,7 +4384,7 @@
     line-height: 15pt;
     color: #393939;
   }
-  /* line 1622, ../sass/_748.scss */
+  /* line 1624, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_price_item {
     display: block;
     position: absolute;
@@ -4392,7 +4395,7 @@
     line-height: 15pt;
     color: #d80101;
   }
-  /* line 1632, ../sass/_748.scss */
+  /* line 1634, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter {
     display: block;
     position: absolute;
@@ -4402,7 +4405,7 @@
     height: 45px;
     background: url(../img/basket_counter_fon.png) no-repeat;
   }
-  /* line 1640, ../sass/_748.scss */
+  /* line 1642, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter input {
     display: block;
     position: absolute;
@@ -4413,11 +4416,11 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
   }
-  /* line 1651, ../sass/_748.scss */
+  /* line 1653, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter textarea:focus, .access_basket_blank .access_basket_body .basket_item_info .basket_counter input:focus {
     outline: none;
   }
-  /* line 1654, ../sass/_748.scss */
+  /* line 1656, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_up {
     display: block;
     position: absolute;
@@ -4428,7 +4431,7 @@
     background: url(../img/icon/up.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1664, ../sass/_748.scss */
+  /* line 1666, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_dwn {
     display: block;
     position: absolute;
@@ -4439,7 +4442,7 @@
     background: url(../img/icon/dwn.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1675, ../sass/_748.scss */
+  /* line 1677, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_item_close {
     display: block;
     position: absolute;
@@ -4450,7 +4453,7 @@
     background: url(../img/icon/basket_item_close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1688, ../sass/_748.scss */
+  /* line 1690, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_end_price {
     display: block;
     position: relative;
@@ -4464,14 +4467,14 @@
     text-align: left;
     padding: 30px 0px 0px 5%;
   }
-  /* line 1700, ../sass/_748.scss */
+  /* line 1702, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_end_price span {
     font-family: 'Conv_Futuris_Bold';
     font-size: 20pt;
     color: #d80101;
     margin-left: 37px;
   }
-  /* line 1710, ../sass/_748.scss */
+  /* line 1712, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_issue_order {
     display: inline-block;
     position: relative;
@@ -4482,15 +4485,15 @@
     background-position: 50% 0px;
     cursor: pointer;
   }
-  /* line 1720, ../sass/_748.scss */
+  /* line 1722, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:hover {
     background-position: 50% -58px;
   }
-  /* line 1723, ../sass/_748.scss */
+  /* line 1725, ../sass/_748.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:active {
     background-position: 50% -116px;
   }
-  /* line 1731, ../sass/_748.scss */
+  /* line 1733, ../sass/_748.scss */
   .access_basket_blank .access_order_registr {
     /*display: inline-block;*/
     /**********************************************************/
@@ -4505,7 +4508,7 @@
     text-align: center;
     background-position: 50% 100%;
   }
-  /* line 1743, ../sass/_748.scss */
+  /* line 1745, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_basket_header {
     display: block;
     position: relative;
@@ -4518,7 +4521,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 9%;
   }
-  /* line 1754, ../sass/_748.scss */
+  /* line 1756, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -4529,7 +4532,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1765, ../sass/_748.scss */
+  /* line 1767, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio {
     display: inline-block;
     position: relative;
@@ -4540,7 +4543,7 @@
     font-size: 10pt;
     color: #545454;
   }
-  /* line 1774, ../sass/_748.scss */
+  /* line 1776, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio input {
     display: block;
     position: relative;
@@ -4555,7 +4558,7 @@
     padding: 0px 20px 0px 20px;
     outline: none;
   }
-  /* line 1790, ../sass/_748.scss */
+  /* line 1792, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city {
     display: inline-block;
     position: relative;
@@ -4568,7 +4571,7 @@
     /* **********************************************************************/
     /* **********************************************************************/
   }
-  /* line 1799, ../sass/_748.scss */
+  /* line 1801, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city select {
     display: block;
     position: relative;
@@ -4582,7 +4585,7 @@
     background: url(../img/icon/txt_fon.png) no-repeat;
     padding: 0px 20px 0px 20px;
   }
-  /* line 1813, ../sass/_748.scss */
+  /* line 1815, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select {
     display: block;
     position: relative;
@@ -4595,7 +4598,7 @@
     margin-top: 10px;
     background: url("../img/icon/select_fon.png") no-repeat;
   }
-  /* line 1825, ../sass/_748.scss */
+  /* line 1827, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select {
     color: #555;
     cursor: pointer;
@@ -4604,12 +4607,12 @@
     width: 353px;
     height: 21px;
   }
-  /* line 1834, ../sass/_748.scss */
+  /* line 1836, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select:hover, .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options:hover {
     /*border: 1px solid #c6c6c6;*/
     color: #333;
   }
-  /* line 1838, ../sass/_748.scss */
+  /* line 1840, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options {
     display: block;
     position: absolute;
@@ -4623,30 +4626,30 @@
     display: none;
     overflow-y: scroll;
   }
-  /* line 1852, ../sass/_748.scss */
+  /* line 1854, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div {
     height: 10px;
     padding: 10px 2px 3px 8px;
     cursor: pointer;
   }
-  /* line 1857, ../sass/_748.scss */
+  /* line 1859, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div:hover {
     height: 10px;
     padding: 10px 2px 3px 8px;
     background: #eee;
   }
-  /* line 1862, ../sass/_748.scss */
+  /* line 1864, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div.check {
     height: 10px;
     background: #e1e1e1;
     padding: 10px 2px 3px 8px;
   }
-  /* line 1868, ../sass/_748.scss */
+  /* line 1870, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .city123 {
     margin-top: 20px;
     background: url(../img/icon/select_fon.png) no-repeat;
   }
-  /* line 1875, ../sass/_748.scss */
+  /* line 1877, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver {
     display: inline-block;
     position: relativel;
@@ -4660,12 +4663,12 @@
     /* ====================== стилизаци радио кнопки ============================================== */
     /* ==================================================================== */
   }
-  /* line 1885, ../sass/_748.scss */
+  /* line 1887, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver ul {
     display: inline-block;
     padding-left: 0px;
   }
-  /* line 1889, ../sass/_748.scss */
+  /* line 1891, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver li {
     display: inline-block;
     font-family: 'Conv_Helvetica_Bold';
@@ -4673,11 +4676,11 @@
     font-size: 11pt;
     margin-left: 20px;
   }
-  /* line 1897, ../sass/_748.scss */
+  /* line 1899, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] {
     display: none;
   }
-  /* line 1900, ../sass/_748.scss */
+  /* line 1902, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] + label span {
     display: inline-block;
     width: 22px;
@@ -4687,11 +4690,11 @@
     background: url(../img/icon/radio_off.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1909, ../sass/_748.scss */
+  /* line 1911, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"]:checked + label span {
     background: url(../img/icon/radio_on.png) no-repeat;
   }
-  /* line 1915, ../sass/_748.scss */
+  /* line 1917, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_spam {
     display: inline-block;
     position: relative;
@@ -4706,11 +4709,11 @@
     /* ====================== стилизаци чекбокса ============================================== */
     /* ==================================================================== */
   }
-  /* line 1927, ../sass/_748.scss */
+  /* line 1929, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] {
     display: none;
   }
-  /* line 1930, ../sass/_748.scss */
+  /* line 1932, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] + label span {
     display: inline-block;
     width: 22px;
@@ -4720,11 +4723,11 @@
     background: url(../img/icon/checkbox_off.jpg) no-repeat;
     cursor: pointer;
   }
-  /* line 1939, ../sass/_748.scss */
+  /* line 1941, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"]:checked + label span {
     background: url(../img/icon/checkbox_on.png) no-repeat;
   }
-  /* line 1945, ../sass/_748.scss */
+  /* line 1947, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_coments {
     display: inline-block;
     position: relativel;
@@ -4737,7 +4740,7 @@
     text-align: left;
     margin-top: 15px;
   }
-  /* line 1957, ../sass/_748.scss */
+  /* line 1959, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .access_order_coments_fill {
     display: inline-block;
     position: relative;
@@ -4753,7 +4756,7 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
   }
-  /* line 1972, ../sass/_748.scss */
+  /* line 1974, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .btn_registr {
     display: inline-block;
     position: relative;
@@ -4767,18 +4770,18 @@
     color: #fff;
     font-size: 12pt;
   }
-  /* line 1985, ../sass/_748.scss */
+  /* line 1987, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .btn_registr:hover {
     background-position: 0px -68px;
   }
-  /* line 1988, ../sass/_748.scss */
+  /* line 1990, ../sass/_748.scss */
   .access_basket_blank .access_order_registr .btn_registr:active {
     background-position: 0px -136px;
   }
 
   /*  END BASKET BLANK */
   /*BEGIN TXT    */
-  /* line 2004, ../sass/_748.scss */
+  /* line 2006, ../sass/_748.scss */
   .blok1_first {
     display: block;
     position: relative;
@@ -4790,7 +4793,7 @@
     text-align: left;
     border: 1px solid #d8dee0;
   }
-  /* line 2014, ../sass/_748.scss */
+  /* line 2016, ../sass/_748.scss */
   .blok1_first p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -4799,7 +4802,7 @@
     line-height: 1.2em;
   }
 
-  /* line 2022, ../sass/_748.scss */
+  /* line 2024, ../sass/_748.scss */
   .blok1 {
     display: block;
     position: relative;
@@ -4811,7 +4814,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2032, ../sass/_748.scss */
+  /* line 2034, ../sass/_748.scss */
   .blok1 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -4819,14 +4822,14 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2039, ../sass/_748.scss */
+  /* line 2041, ../sass/_748.scss */
   .blok1 .img_left {
     float: right;
     margin-left: 10%;
     width: 40%;
   }
 
-  /* line 2045, ../sass/_748.scss */
+  /* line 2047, ../sass/_748.scss */
   .blok3 {
     display: block;
     position: relative;
@@ -4838,7 +4841,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2055, ../sass/_748.scss */
+  /* line 2057, ../sass/_748.scss */
   .blok3 .txt_img_3 {
     float: left;
     top: -42px;
@@ -4846,11 +4849,11 @@
     margin-right: 15%;
     width: 43%;
   }
-  /* line 2062, ../sass/_748.scss */
+  /* line 2064, ../sass/_748.scss */
   .blok3 h2 {
     margin-top: 42px;
   }
-  /* line 2066, ../sass/_748.scss */
+  /* line 2068, ../sass/_748.scss */
   .blok3 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -4858,7 +4861,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2074, ../sass/_748.scss */
+  /* line 2076, ../sass/_748.scss */
   .blok3 #scr1_property {
     display: inline-block;
     position: relative;
@@ -4868,7 +4871,7 @@
     z-index: 5;
     margin-bottom: 50px;
   }
-  /* line 2082, ../sass/_748.scss */
+  /* line 2084, ../sass/_748.scss */
   .blok3 #scr1_property li {
     display: inline-block;
     position: relative;
@@ -4877,16 +4880,16 @@
     margin-left: 9px;
     background: url(../img/icon/pro.png) no-repeat;
   }
-  /* line 2091, ../sass/_748.scss */
+  /* line 2093, ../sass/_748.scss */
   .blok3 #scr1_property li:first-child {
     background: url(../img/icon/20bar.png) no-repeat;
     margin-left: 0px;
   }
-  /* line 2095, ../sass/_748.scss */
+  /* line 2097, ../sass/_748.scss */
   .blok3 #scr1_property li:last-child {
     background: url(../img/icon/italy.png) no-repeat;
   }
-  /* line 2100, ../sass/_748.scss */
+  /* line 2102, ../sass/_748.scss */
   .blok3 .block100 {
     display: block;
     position: relative;
@@ -4894,7 +4897,7 @@
     height: 1px;
   }
 
-  /* line 2107, ../sass/_748.scss */
+  /* line 2109, ../sass/_748.scss */
   .blok4 {
     display: block;
     position: relative;
@@ -4906,7 +4909,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2117, ../sass/_748.scss */
+  /* line 2119, ../sass/_748.scss */
   .blok4 .txt_img_4 {
     float: right;
     top: -42px;
@@ -4915,11 +4918,11 @@
     margin-left: 12.5%;
     width: 40%;
   }
-  /* line 2125, ../sass/_748.scss */
+  /* line 2127, ../sass/_748.scss */
   .blok4 h2 {
     margin-top: 20px;
   }
-  /* line 2129, ../sass/_748.scss */
+  /* line 2131, ../sass/_748.scss */
   .blok4 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -4927,7 +4930,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2136, ../sass/_748.scss */
+  /* line 2138, ../sass/_748.scss */
   .blok4 .btn_order {
     display: block;
     position: relative;
@@ -4944,11 +4947,11 @@
     padding: 0px;
     z-index: 5;
   }
-  /* line 2153, ../sass/_748.scss */
+  /* line 2155, ../sass/_748.scss */
   .blok4 .btn_order:hover {
     background-position: 0px -68px;
   }
-  /* line 2156, ../sass/_748.scss */
+  /* line 2158, ../sass/_748.scss */
   .blok4 .btn_order:active {
     background-position: 0px -136px;
   }
@@ -6597,17 +6600,19 @@
   /* line 1448, ../sass/_385.scss */
   .access_basket_blank {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 850%;
+    height: 100%;
     line-height: 100%;
     background: url(../img/basket_fon.png);
     text-align: center;
+    padding-right: 200px;
+    overflow-y: scroll;
     z-index: 200;
   }
-  /* line 1459, ../sass/_385.scss */
+  /* line 1461, ../sass/_385.scss */
   .access_basket_blank .access_basket_body {
     display: inline-block;
     position: relative;
@@ -6618,7 +6623,7 @@
     overflow: hidden;
     background-position: 50% 100%;
   }
-  /* line 1468, ../sass/_385.scss */
+  /* line 1470, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .access_basket_header {
     display: block;
     position: relative;
@@ -6631,7 +6636,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 45px;
   }
-  /* line 1479, ../sass/_385.scss */
+  /* line 1481, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -6642,7 +6647,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1490, ../sass/_385.scss */
+  /* line 1492, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_header_table {
     display: block;
     position: relative;
@@ -6656,26 +6661,26 @@
     font-size: 9pt;
     padding-top: 25px;
   }
-  /* line 1502, ../sass/_385.scss */
+  /* line 1504, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum1 {
     display: inline-block;
     position: relative;
     left: 10px;
   }
-  /* line 1507, ../sass/_385.scss */
+  /* line 1509, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_header_table .basket_colum2 {
     display: inline-block;
     position: relative;
     left: 60%;
   }
-  /* line 1513, ../sass/_385.scss */
+  /* line 1515, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info:hover {
     z-index: 3;
     -moz-box-shadow: 0 0 7px #aaa;
     -webkit-box-shadow: 0 0 7px #aaa;
     box-shadow: 0 0 7px  #aaa;
   }
-  /* line 1519, ../sass/_385.scss */
+  /* line 1521, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info {
     display: block;
     position: relative;
@@ -6686,14 +6691,14 @@
     border-bottom: 1px solid #d8dee0;
     text-align: left;
   }
-  /* line 1528, ../sass/_385.scss */
+  /* line 1530, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info img {
     display: none;
     position: relative;
     vertical-align: middle;
     left: 5px;
   }
-  /* line 1534, ../sass/_385.scss */
+  /* line 1536, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_name_item {
     display: block;
     position: absolute;
@@ -6704,7 +6709,7 @@
     line-height: 15pt;
     color: #393939;
   }
-  /* line 1544, ../sass/_385.scss */
+  /* line 1546, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_price_item {
     display: block;
     position: absolute;
@@ -6715,7 +6720,7 @@
     line-height: 15pt;
     color: #d80101;
   }
-  /* line 1554, ../sass/_385.scss */
+  /* line 1556, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter {
     display: block;
     position: absolute;
@@ -6725,7 +6730,7 @@
     height: 45px;
     background: url(../img/basket_counter_fon.png) no-repeat;
   }
-  /* line 1562, ../sass/_385.scss */
+  /* line 1564, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter input {
     display: block;
     position: absolute;
@@ -6736,11 +6741,11 @@
     font-family: 'Conv_Helvetica_Bold';
     font-size: 13pt;
   }
-  /* line 1573, ../sass/_385.scss */
+  /* line 1575, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter textarea:focus, .access_basket_blank .access_basket_body .basket_item_info .basket_counter input:focus {
     outline: none;
   }
-  /* line 1576, ../sass/_385.scss */
+  /* line 1578, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_up {
     display: block;
     position: absolute;
@@ -6751,7 +6756,7 @@
     background: url(../img/icon/up.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1586, ../sass/_385.scss */
+  /* line 1588, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_counter .basket_counter_dwn {
     display: block;
     position: absolute;
@@ -6762,7 +6767,7 @@
     background: url(../img/icon/dwn.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1597, ../sass/_385.scss */
+  /* line 1599, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_item_info .basket_item_close {
     display: block;
     position: absolute;
@@ -6773,7 +6778,7 @@
     background: url(../img/icon/basket_item_close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1610, ../sass/_385.scss */
+  /* line 1612, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_end_price {
     display: block;
     position: relative;
@@ -6787,14 +6792,14 @@
     text-align: left;
     padding: 30px 0px 0px 0px;
   }
-  /* line 1622, ../sass/_385.scss */
+  /* line 1624, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_end_price span {
     font-family: 'Conv_Futuris_Bold';
     font-size: 20pt;
     color: #d80101;
     margin-left: 37px;
   }
-  /* line 1632, ../sass/_385.scss */
+  /* line 1634, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_issue_order {
     display: inline-block;
     position: relative;
@@ -6805,15 +6810,15 @@
     background-position: 50% 0px;
     cursor: pointer;
   }
-  /* line 1642, ../sass/_385.scss */
+  /* line 1644, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:hover {
     background-position: 50% -58px;
   }
-  /* line 1645, ../sass/_385.scss */
+  /* line 1647, ../sass/_385.scss */
   .access_basket_blank .access_basket_body .basket_issue_order:active {
     background-position: 50% -116px;
   }
-  /* line 1653, ../sass/_385.scss */
+  /* line 1655, ../sass/_385.scss */
   .access_basket_blank .access_order_registr {
     /*display: inline-block;*/
     /**********************************************************/
@@ -6829,7 +6834,7 @@
     background-position: 50% 100%;
     overflow: hidden;
   }
-  /* line 1666, ../sass/_385.scss */
+  /* line 1668, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_basket_header {
     display: block;
     position: relative;
@@ -6842,7 +6847,7 @@
     font-family: 'Conv_Futuris_Bold';
     padding-top: 45px;
   }
-  /* line 1678, ../sass/_385.scss */
+  /* line 1680, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_basket_header .basket_close {
     display: block;
     position: absolute;
@@ -6853,7 +6858,7 @@
     background: url(../img/icon/close.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1689, ../sass/_385.scss */
+  /* line 1691, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio {
     display: inline-block;
     position: relative;
@@ -6865,7 +6870,7 @@
     color: #545454;
     left: 0px;
   }
-  /* line 1699, ../sass/_385.scss */
+  /* line 1701, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_fio input {
     display: block;
     position: relative;
@@ -6880,7 +6885,7 @@
     padding: 0px 20px 0px 20px;
     outline: none;
   }
-  /* line 1715, ../sass/_385.scss */
+  /* line 1717, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city {
     display: inline-block;
     position: relative;
@@ -6893,7 +6898,7 @@
     /* **********************************************************************/
     /* **********************************************************************/
   }
-  /* line 1724, ../sass/_385.scss */
+  /* line 1726, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city select {
     display: block;
     position: relative;
@@ -6906,7 +6911,7 @@
     color: #393939;
     padding: 0px 20px 0px 20px;
   }
-  /* line 1737, ../sass/_385.scss */
+  /* line 1739, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select {
     display: block;
     position: relative;
@@ -6919,7 +6924,7 @@
     margin-top: 10px;
     background: url("../img/icon/select_fon_s.jpg") no-repeat;
   }
-  /* line 1749, ../sass/_385.scss */
+  /* line 1751, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select {
     color: #555;
     cursor: pointer;
@@ -6928,12 +6933,12 @@
     width: 290px;
     height: 21px;
   }
-  /* line 1758, ../sass/_385.scss */
+  /* line 1760, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .select:hover, .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options:hover {
     /*border: 1px solid #c6c6c6;*/
     color: #333;
   }
-  /* line 1762, ../sass/_385.scss */
+  /* line 1764, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options {
     display: block;
     position: absolute;
@@ -6947,25 +6952,25 @@
     display: none;
     overflow-y: scroll;
   }
-  /* line 1776, ../sass/_385.scss */
+  /* line 1778, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div {
     height: 10px;
     padding: 10px 2px 3px 8px;
     cursor: pointer;
   }
-  /* line 1781, ../sass/_385.scss */
+  /* line 1783, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div:hover {
     height: 10px;
     padding: 10px 2px 3px 8px;
     background: #eee;
   }
-  /* line 1786, ../sass/_385.scss */
+  /* line 1788, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_registr_city .pseudo-select .options > div.check {
     height: 10px;
     background: #e1e1e1;
     padding: 10px 2px 3px 8px;
   }
-  /* line 1794, ../sass/_385.scss */
+  /* line 1796, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver {
     display: inline-block;
     position: relativel;
@@ -6980,12 +6985,12 @@
     /* ====================== стилизаци радио кнопки ============================================== */
     /* ==================================================================== */
   }
-  /* line 1805, ../sass/_385.scss */
+  /* line 1807, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver ul {
     display: inline-block;
     padding-left: 0px;
   }
-  /* line 1809, ../sass/_385.scss */
+  /* line 1811, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver li {
     display: inline-block;
     font-family: 'Conv_Helvetica_Bold';
@@ -6993,11 +6998,11 @@
     font-size: 11pt;
     margin-left: 3px;
   }
-  /* line 1817, ../sass/_385.scss */
+  /* line 1819, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] {
     display: none;
   }
-  /* line 1820, ../sass/_385.scss */
+  /* line 1822, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"] + label span {
     display: inline-block;
     width: 22px;
@@ -7007,11 +7012,11 @@
     background: url(../img/icon/radio_off.png) no-repeat;
     cursor: pointer;
   }
-  /* line 1829, ../sass/_385.scss */
+  /* line 1831, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_deliver input[type="radio"]:checked + label span {
     background: url(../img/icon/radio_on.png) no-repeat;
   }
-  /* line 1835, ../sass/_385.scss */
+  /* line 1837, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_spam {
     display: inline-block;
     position: relative;
@@ -7025,11 +7030,11 @@
     /* ====================== стилизаци чекбокса ============================================== */
     /* ==================================================================== */
   }
-  /* line 1846, ../sass/_385.scss */
+  /* line 1848, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] {
     display: none;
   }
-  /* line 1849, ../sass/_385.scss */
+  /* line 1851, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"] + label span {
     display: inline-block;
     width: 22px;
@@ -7039,11 +7044,11 @@
     background: url(../img/icon/checkbox_off.jpg) no-repeat;
     cursor: pointer;
   }
-  /* line 1858, ../sass/_385.scss */
+  /* line 1860, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_spam input[type="checkbox"]:checked + label span {
     background: url(../img/icon/checkbox_on.png) no-repeat;
   }
-  /* line 1864, ../sass/_385.scss */
+  /* line 1866, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_coments {
     display: inline-block;
     position: relativel;
@@ -7056,7 +7061,7 @@
     margin-top: 15px;
     margin-left: 0px;
   }
-  /* line 1876, ../sass/_385.scss */
+  /* line 1878, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .access_order_coments_fill {
     display: inline-block;
     position: relative;
@@ -7073,7 +7078,7 @@
     font-size: 13pt;
     left: 0px;
   }
-  /* line 1892, ../sass/_385.scss */
+  /* line 1894, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .btn_registr {
     display: inline-block;
     position: relative;
@@ -7087,18 +7092,18 @@
     color: #fff;
     font-size: 12pt;
   }
-  /* line 1905, ../sass/_385.scss */
+  /* line 1907, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .btn_registr:hover {
     background-position: 0px -68px;
   }
-  /* line 1908, ../sass/_385.scss */
+  /* line 1910, ../sass/_385.scss */
   .access_basket_blank .access_order_registr .btn_registr:active {
     background-position: 0px -136px;
   }
 
   /*  END BASKET BLANK */
   /*BEGIN TXT    */
-  /* line 1924, ../sass/_385.scss */
+  /* line 1926, ../sass/_385.scss */
   .blok1_first {
     display: block;
     position: relative;
@@ -7110,7 +7115,7 @@
     text-align: left;
     border: 1px solid #d8dee0;
   }
-  /* line 1934, ../sass/_385.scss */
+  /* line 1936, ../sass/_385.scss */
   .blok1_first p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -7119,7 +7124,7 @@
     line-height: 1.2em;
   }
 
-  /* line 1942, ../sass/_385.scss */
+  /* line 1944, ../sass/_385.scss */
   .blok1 {
     display: block;
     position: relative;
@@ -7131,7 +7136,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 1952, ../sass/_385.scss */
+  /* line 1954, ../sass/_385.scss */
   .blok1 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -7139,14 +7144,14 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 1959, ../sass/_385.scss */
+  /* line 1961, ../sass/_385.scss */
   .blok1 .img_left {
     float: right;
     margin-left: 10%;
     width: 40%;
   }
 
-  /* line 1965, ../sass/_385.scss */
+  /* line 1967, ../sass/_385.scss */
   .blok3 {
     display: block;
     position: relative;
@@ -7158,7 +7163,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 1975, ../sass/_385.scss */
+  /* line 1977, ../sass/_385.scss */
   .blok3 .txt_img_3 {
     float: left;
     top: -42px;
@@ -7166,11 +7171,11 @@
     margin-right: 15%;
     width: 43%;
   }
-  /* line 1982, ../sass/_385.scss */
+  /* line 1984, ../sass/_385.scss */
   .blok3 h2 {
     margin-top: 42px;
   }
-  /* line 1986, ../sass/_385.scss */
+  /* line 1988, ../sass/_385.scss */
   .blok3 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -7178,7 +7183,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 1994, ../sass/_385.scss */
+  /* line 1996, ../sass/_385.scss */
   .blok3 #scr1_property {
     display: inline-block;
     position: relative;
@@ -7188,7 +7193,7 @@
     z-index: 5;
     margin-bottom: 50px;
   }
-  /* line 2002, ../sass/_385.scss */
+  /* line 2004, ../sass/_385.scss */
   .blok3 #scr1_property li {
     display: inline-block;
     position: relative;
@@ -7197,16 +7202,16 @@
     margin-left: 9px;
     background: url(../img/icon/pro.png) no-repeat;
   }
-  /* line 2011, ../sass/_385.scss */
+  /* line 2013, ../sass/_385.scss */
   .blok3 #scr1_property li:first-child {
     background: url(../img/icon/20bar.png) no-repeat;
     margin-left: 0px;
   }
-  /* line 2015, ../sass/_385.scss */
+  /* line 2017, ../sass/_385.scss */
   .blok3 #scr1_property li:last-child {
     background: url(../img/icon/italy.png) no-repeat;
   }
-  /* line 2020, ../sass/_385.scss */
+  /* line 2022, ../sass/_385.scss */
   .blok3 .block100 {
     display: block;
     position: relative;
@@ -7214,7 +7219,7 @@
     height: 1px;
   }
 
-  /* line 2027, ../sass/_385.scss */
+  /* line 2029, ../sass/_385.scss */
   .blok4 {
     display: block;
     position: relative;
@@ -7226,7 +7231,7 @@
     border: 1px solid #d8dee0;
     border-top: none;
   }
-  /* line 2037, ../sass/_385.scss */
+  /* line 2039, ../sass/_385.scss */
   .blok4 .txt_img_4 {
     float: right;
     top: -42px;
@@ -7235,11 +7240,11 @@
     margin-left: 12.5%;
     width: 40%;
   }
-  /* line 2045, ../sass/_385.scss */
+  /* line 2047, ../sass/_385.scss */
   .blok4 h2 {
     margin-top: 20px;
   }
-  /* line 2049, ../sass/_385.scss */
+  /* line 2051, ../sass/_385.scss */
   .blok4 p {
     margin-top: 32px;
     font-family: 'helvetica_neue';
@@ -7247,7 +7252,7 @@
     color: #393939;
     line-height: 1.2em;
   }
-  /* line 2056, ../sass/_385.scss */
+  /* line 2058, ../sass/_385.scss */
   .blok4 .btn_order {
     display: block;
     position: relative;
@@ -7264,11 +7269,11 @@
     padding: 0px;
     z-index: 5;
   }
-  /* line 2073, ../sass/_385.scss */
+  /* line 2075, ../sass/_385.scss */
   .blok4 .btn_order:hover {
     background-position: 0px -68px;
   }
-  /* line 2076, ../sass/_385.scss */
+  /* line 2078, ../sass/_385.scss */
   .blok4 .btn_order:active {
     background-position: 0px -136px;
   }
