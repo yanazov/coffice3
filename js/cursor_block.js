@@ -71,6 +71,7 @@ var mouse_wheel = function(event) {
 			scroll_delta2 += 40;
 		if(direction < 0)
 			scroll_delta2 -= 40;
+		/*document.getElementsByClassName("access_basket_blank")[0].scrollTop = 0;*/
 		timer_scroll = setTimeout(function() {scroll_registr()}, 40);
 		event.returnValue = false;
 	}		
@@ -119,6 +120,7 @@ function open_basket(){
 	}; 
 	document.getElementsByClassName("access_basket_blank")[0].style.display = "block";
 	document.getElementsByClassName("access_basket_body")[0].style.display = "inline-block";
+	document.getElementsByTagName('body')[0].style.overflow = "hidden";
 	status_basket=1;
 }
 
@@ -130,6 +132,7 @@ function js_basket_close(){
 	document.getElementsByClassName("access_basket_body")[0].style.top=basket_y+"px";
 	document.getElementsByClassName("access_basket_body")[0].style.display = "none";
 	document.getElementsByClassName("access_order_registr")[0].style.display = "none";
+	document.getElementsByTagName('body')[0].style.overflow = "auto";
 }
 
 function js_basket_item_close(number){
@@ -148,13 +151,17 @@ function js_basket_close_fon(event) {
 function js_access_order_registr(){
 	document.getElementsByClassName("access_basket_body")[0].style.display = "none";
 	document.getElementsByClassName("access_order_registr")[0].style.display = "inline-block";
+	document.getElementsByClassName("access_basket_blank")[0].scrollTop = 0;
 	status_registr = 1;
 	status_basket=0;
 	clearInterval(timer_scroll);
 	basket_y = 0;
+	document.getElementsByTagName('body')[0].style.overflow = "hidden";
 }
 
 function scroll_basket(){                /*   access_basket_blank    */
+	
+
 	basket_y= parseInt(document.getElementsByClassName("access_basket_blank")[0].scrollTop)
 	if(scroll_delta > 0 && document.getElementsByClassName("container_center")[0].offsetWidth > 880){
 		basket_y -= 3;
@@ -187,18 +194,20 @@ function scroll_basket(){                /*   access_basket_blank    */
 }
 
 function scroll_registr(){
+	basket_y= parseInt(document.getElementsByClassName("access_basket_blank")[0].scrollTop);
 	if(scroll_delta2 < 0){
-		basket_y -= 4;
+		basket_y += 2;
 		scroll_delta2 += 4;			
 		if(scroll_delta2 == 0 || document.getElementsByClassName("access_order_registr")[0].offsetHeight - window.innerHeight + basket_y < -200){
 			clearInterval(timer_scroll);
 			scroll_delta2 = 0;
 			return 0;			
 		}
-		document.getElementsByClassName("access_order_registr")[0].style.top=basket_y+"px";
+		/*document.getElementsByClassName("access_order_registr")[0].style.top=basket_y+"px";*/
+		document.getElementsByClassName("access_basket_blank")[0].scrollTop = basket_y;
 	}	
 	if(scroll_delta2 > 0){
-		basket_y += 4;
+		basket_y -= 2;
 		scroll_delta2 -= 4;
 		
 		if(scroll_delta2 == 0 || document.getElementsByClassName("access_order_registr")[0].offsetTop > 100){
@@ -206,7 +215,8 @@ function scroll_registr(){
 			scroll_delta2 = 0;
 			return 0;
 		}
-		document.getElementsByClassName("access_order_registr")[0].style.top=basket_y+"px";
+		/*document.getElementsByClassName("access_order_registr")[0].style.top=basket_y+"px";*/
+		document.getElementsByClassName("access_basket_blank")[0].scrollTop = basket_y;
 	
 	}
 	clearInterval(timer_scroll);
